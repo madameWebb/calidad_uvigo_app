@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from gestion.views import lista_indicadores_publica
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('indicadores/', lista_indicadores_publica, name='lista_publica'),  # La nueva URL pública
 ]
