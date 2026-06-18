@@ -24,3 +24,18 @@ class Indicadores(models.Model):
     
     def __str__(self):
         return self.denominacion
+    
+class IRPD(models.Model):
+    # Un campo de texto para el nombre (máximo 100 caracteres)
+    codigo = models.CharField(max_length=20, unique=True)
+    denominacion = models.CharField(max_length=255)
+    
+
+    # Guarda la fecha y hora EXACTA cuando se crea el registro por primera vez
+    creacion = models.DateTimeField(auto_now_add=True)
+    
+    # Guarda la fecha y hora EXACTA cada vez que se edite o modifique el registro
+    actualizacion = models.DateTimeField(auto_now=True)
+    
+    def __str__(self):
+        return self.denominacion
