@@ -1,90 +1,201 @@
 from django.conf import settings
 from django.db import models
 from simple_history.models import HistoricalRecords
+from datetime import date
+
+def generar_curso_choices():
+    año_actual = date.today().year
+    choices = []
+    for i in range(-3, 3):  # desde 3 años atrás hasta 2 años por delante
+        inicio = año_actual + i
+        choices.append((
+            f"{str(inicio)[-2:]}/{str(inicio+1)[-2:]}",
+            f"{str(inicio)[-2:]}/{str(inicio+1)[-2:]}"
+        ))
+    return choices
+
+def get_responsable_por_defecto():
+    responsable, creado = Responsables.objects.get_or_create(
+        denominacion="Coordinador de calidade"
+    )
+    return responsable.pk
 
 
 # Create your models here.
-class IRPD(models.Model):
-    # Códigos fijos del 1 al 7
-    criterio = models.CharField(max_length=20, unique=True)
-    denominacion = models.CharField(max_length=255)
-
+class ModeloBase(models.Model):
     # Guarda la fecha y hora EXACTA cuando se crea el registro por primera vez
     creacion = models.DateTimeField(auto_now_add=True)
-
+    
     # Guarda la fecha y hora EXACTA cada vez que se edite o modifique el registro
     actualizacion = models.DateTimeField(auto_now=True)
-
+    
     # Usuario que creó el registro (obligatorio)
     creado_por = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.PROTECT,
-        related_name='irpd_creados'
+        related_name='%(class)s_creados'
     )
-
+    
     # Usuario que modificó el registro por última vez (solo cuando se edite)
     modificado_por = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.PROTECT,
-        related_name='irpd_modificados',
+        related_name='%(class)s_modificados',
         null=True,
         blank=True
     )
 
-    history = HistoricalRecords()
+    history = HistoricalRecords(inherit=True)
 
-    def __str__(self):
-        return self.denominacion
+    class Meta:
+        abstract = True  # ← esta línea es la clave: dice "esto no es una tabla real"
+
+class IRPD(ModeloBase):
+    criterio = models.CharField(max_length=20, unique=True)
+    denominacion = models.CharField(max_length=255)
+    descricion = models.TextField(blank=True, null=True)
+
     class Meta:
         verbose_name = "IRPD"
         verbose_name_plural = "IRPDs"
 
+    def __str__(self):
+        return self.denominacion
 
-class Indicadores(models.Model):
-    # Un campo de texto para el código (máximo 100 caracteres)
-    codigo = models.CharField(max_length=100)
-    denominacion_indicador = models.CharField(max_length=255)
-    denominacion = models.CharField(max_length=500, blank=True, null=True)
-
-    # Un campo de texto más largo para la descripción
-    descripcion = models.TextField(blank=True, null=True)
-
-    # Enlace web
-    fuente = models.URLField(max_length=500, blank=True, null=True)
-
-    # Relación con IRPD (obligatoria: cada indicador debe llevar un IRPD)
-    irpd = models.ForeignKey(
-        IRPD,
-        on_delete=models.PROTECT,
-        related_name='indicadores'
-    )
-
-    # Guarda la fecha y hora EXACTA cuando se crea el registro por primera vez
-    creacion = models.DateTimeField(auto_now_add=True)
-
-    # Guarda la fecha y hora EXACTA cada vez que se edite o modifique el registro
-    actualizacion = models.DateTimeField(auto_now=True)
-
-    # Usuario que creó el registro (obligatorio)
-    creado_por = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.PROTECT,
-        related_name='indicadores_creados'
-    )
-
-    # Usuario que modificó el registro por última vez (solo cuando se edite)
-    modificado_por = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.PROTECT,
-        related_name='indicadores_modificados',
-        null=True,
-        blank=True
-    )
-
-    history = HistoricalRecords()
+class Responsables(ModeloBase):
+    denominacion = models.CharField(max_length=255)
+    
+    class Meta:
+        verbose_name = "Responsable"
+        verbose_name_plural = "responsables"
 
     def __str__(self):
         return self.denominacion
+
+class Indicadores(ModeloBase):
+    codigo = models.CharField(max_length=50)
+    denominacion_indicador = models.CharField(max_length=255)
+    denominacion = models.CharField(max_length=255)
+    descricion = models.TextField(blank=True, null=True)
+    fonte = models.URLField(max_length=500, blank=True, null=True)
+    irpd = models.ForeignKey(IRPD, on_delete=models.PROTECT, related_name='indicadores')
+    responsable = models.ForeignKey(Responsables, on_delete=models.PROTECT, related_name='indicadores', default=get_responsable_por_defecto)
+    SENTIDO_CHOICES = [
+    ('positivo', 'A más, mejor'),      # ej: matriculados
+    ('negativo', 'A menos, mejor'),    # ej: tasa de abandono
+    ]
+    sentido = models.CharField(max_length=10, choices=SENTIDO_CHOICES)
+
+
     class Meta:
         verbose_name = "Indicador"
         verbose_name_plural = "Indicadores"
+
+    def __str__(self):
+        return self.denominacion
+    
+class Localizadores(ModeloBase):
+    codigo = models.CharField(max_length=50)
+    campus = models.CharField(max_length=255)
+    
+    class Meta:
+        verbose_name = "Localizador"
+        verbose_name_plural = "Localizadores"
+
+    def __str__(self):
+        return self.campus
+    
+class Centros(ModeloBase):
+    codigo_localizador = models.ForeignKey(Localizadores, on_delete=models.PROTECT, related_name='centros')
+    codigo = models.CharField(max_length=50)
+    denominacion= models.CharField(max_length=255)
+    direccion_webb = models.URLField(max_length=500, blank=True, null=True)
+    
+    class Meta:
+        verbose_name = "Centro"
+        verbose_name_plural = "Centros"
+
+    def __str__(self):
+        return self.denominacion
+    
+class Seguimentos(ModeloBase):
+    
+    centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='seguimentos')
+    indicador = models.ForeignKey(Indicadores, on_delete=models.PROTECT, related_name='seguimentos')
+    curso_academico = models.CharField(
+        max_length=100,
+        help_text="Curso académico o que pertencen os datos (non o curso no que se introducen)",
+        choices=generar_curso_choices
+    )
+    meta = models.DecimalField(max_digits=10, decimal_places=2)
+
+    TIPO_META_CHOICES = [
+        ('numero', 'Número'),
+        ('porcentaje', 'Porcentaje'),
+    ]
+    tipo_meta = models.CharField(max_length=10, choices=TIPO_META_CHOICES)
+    resultado = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
+    data_limite = models.DateField(
+        help_text="Calculada automaticamente: 31 de decembro, dous anos despois do inicio do curso",
+        blank=True
+    )
+    valoracion_final = models.BooleanField(null=True, blank=True)  #Só se enche ao peche
+    observacions = models.TextField(blank=True, null=True)
+
+    class Meta:
+        verbose_name = "Seguimento"
+        verbose_name_plural = "Seguimentos"
+
+    def save(self, *args, **kwargs):
+        if not self.data_limite:
+            año_inicio = int(self.curso_academico.split('/')[0])
+            self.data_limite = date(2000 + año_inicio + 2, 12, 31)
+        super().save(*args, **kwargs)
+
+    @property
+    def valoracion(self):
+        """Calcula sobre a marcha, en todo momento (provisional antes do peche, definitivo despois)"""
+        if self.resultado is None:
+            return None
+        if self.indicador.sentido == 'positivo':
+            return self.resultado >= self.meta
+        else:
+            return self.resultado <= self.meta
+
+    def pechar_se_corresponde(self):
+        """Se o prazo rematou e aínda non se pechou, garda a avaliación permanentemente."""
+        if self.valoracion_final is None and date.today() >= self.data_limite:
+            self.valoracion_final = self.valoracion  # usa a property de arriba
+            self.save(update_fields=['valoracion_final'])
+        return self.valoracion_final
+
+    def __str__(self):
+        return f"{self.indicador} - {self.curso_academico}"
+    
+class Titulos(ModeloBase):
+    centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='titulos')
+    TIPO_CHOICES = [('grado', 'Grado'), ('master', 'Máster'),]
+    tipo = models.CharField(max_length=10, choices=TIPO_CHOICES)
+    denominacion = models.CharField(max_length=255)
+    
+    class Meta:
+        verbose_name = "Título"
+        verbose_name_plural = "Títulos"
+
+    def __str__(self):
+        return self.denominacion
+
+class Codigos(ModeloBase):
+    titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='codigos')
+    plan_sigma = models.CharField(max_length=20, unique=True)
+    estudio_sigma = models.CharField(max_length=20, unique=True)
+    xescampus = models.CharField(max_length=20, unique=True)
+    mec = models.CharField(max_length=20, unique=True)
+    ruct = models.CharField(max_length=20, unique=True)
+
+    class Meta:
+        verbose_name = "Código"
+        verbose_name_plural = "Códigos"
+
+    def __str__(self):
+        return self.plan_sigma

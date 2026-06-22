@@ -1,0 +1,24 @@
+{% extends 'gestion/base.html' %}
+
+{% block titulo %}Inicio — Calidade UVIGO{% endblock %}
+
+{% block contido %}
+<h2>Táboas públicas</h2>
+<p>Consulta a información dispoñible sobre os indicadores de calidade.</p>
+
+<div class="tarxeta">
+    <ul style="list-style: none; padding: 0; margin: 0;">
+        {% for tabla in tablas %}
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'listado' modelo=tabla.slug %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                {{ tabla.nome }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<p style="margin-top: 2rem;">
+    <a href="/admin/" style="color: #00407a;">→ Acceder á área de xestión</a>
+</p>
+{% endblock %}

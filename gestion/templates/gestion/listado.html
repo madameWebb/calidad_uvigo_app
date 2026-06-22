@@ -1,0 +1,27 @@
+{% extends 'gestion/base.html' %}
+
+{% block titulo %}{{ nome_tabla }} — Calidade UVIGO{% endblock %}
+
+{% block contido %}
+<a href="{% url 'index' %}" class="boton-volver">← Volver ao inicio</a>
+<h2>{{ nome_tabla }}</h2>
+
+<table>
+    <thead>
+        <tr>
+            {% for columna in columnas %}
+            <th>{{ columna }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for fila in filas %}
+        <tr>
+            {% for valor in fila %}
+            <td>{{ valor }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
