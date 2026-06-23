@@ -18,7 +18,7 @@ class BaseAdmin(admin.ModelAdmin):
         super().save_model(request, obj, form, change)
 
 class IndicadoresAdmin(BaseAdmin):
-    pass
+    filter_horizontal = ('centros', 'titulos')
     
 
 class IRPDAdmin(BaseAdmin):

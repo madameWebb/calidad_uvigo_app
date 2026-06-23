@@ -67,33 +67,11 @@ class Responsables(ModeloBase):
     
     class Meta:
         verbose_name = "Responsable"
-        verbose_name_plural = "responsables"
+        verbose_name_plural = "Responsables"
 
     def __str__(self):
         return self.denominacion
 
-class Indicadores(ModeloBase):
-    codigo = models.CharField(max_length=50)
-    denominacion_indicador = models.CharField(max_length=255)
-    denominacion = models.CharField(max_length=255)
-    descricion = models.TextField(blank=True, null=True)
-    fonte = models.URLField(max_length=500, blank=True, null=True)
-    irpd = models.ForeignKey(IRPD, on_delete=models.PROTECT, related_name='indicadores')
-    responsable = models.ForeignKey(Responsables, on_delete=models.PROTECT, related_name='indicadores', default=get_responsable_por_defecto)
-    SENTIDO_CHOICES = [
-    ('positivo', 'A más, mejor'),      # ej: matriculados
-    ('negativo', 'A menos, mejor'),    # ej: tasa de abandono
-    ]
-    sentido = models.CharField(max_length=10, choices=SENTIDO_CHOICES)
-
-
-    class Meta:
-        verbose_name = "Indicador"
-        verbose_name_plural = "Indicadores"
-
-    def __str__(self):
-        return self.denominacion
-    
 class Localizadores(ModeloBase):
     codigo = models.CharField(max_length=50)
     campus = models.CharField(max_length=255)
@@ -117,61 +95,7 @@ class Centros(ModeloBase):
 
     def __str__(self):
         return self.denominacion
-    
-class Seguimentos(ModeloBase):
-    
-    centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='seguimentos')
-    indicador = models.ForeignKey(Indicadores, on_delete=models.PROTECT, related_name='seguimentos')
-    curso_academico = models.CharField(
-        max_length=100,
-        help_text="Curso académico o que pertencen os datos (non o curso no que se introducen)",
-        choices=generar_curso_choices
-    )
-    meta = models.DecimalField(max_digits=10, decimal_places=2)
 
-    TIPO_META_CHOICES = [
-        ('numero', 'Número'),
-        ('porcentaje', 'Porcentaje'),
-    ]
-    tipo_meta = models.CharField(max_length=10, choices=TIPO_META_CHOICES)
-    resultado = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
-    data_limite = models.DateField(
-        help_text="Calculada automaticamente: 31 de decembro, dous anos despois do inicio do curso",
-        blank=True
-    )
-    valoracion_final = models.BooleanField(null=True, blank=True)  #Só se enche ao peche
-    observacions = models.TextField(blank=True, null=True)
-
-    class Meta:
-        verbose_name = "Seguimento"
-        verbose_name_plural = "Seguimentos"
-
-    def save(self, *args, **kwargs):
-        if not self.data_limite:
-            año_inicio = int(self.curso_academico.split('/')[0])
-            self.data_limite = date(2000 + año_inicio + 2, 12, 31)
-        super().save(*args, **kwargs)
-
-    @property
-    def valoracion(self):
-        """Calcula sobre a marcha, en todo momento (provisional antes do peche, definitivo despois)"""
-        if self.resultado is None:
-            return None
-        if self.indicador.sentido == 'positivo':
-            return self.resultado >= self.meta
-        else:
-            return self.resultado <= self.meta
-
-    def pechar_se_corresponde(self):
-        """Se o prazo rematou e aínda non se pechou, garda a avaliación permanentemente."""
-        if self.valoracion_final is None and date.today() >= self.data_limite:
-            self.valoracion_final = self.valoracion  # usa a property de arriba
-            self.save(update_fields=['valoracion_final'])
-        return self.valoracion_final
-
-    def __str__(self):
-        return f"{self.indicador} - {self.curso_academico}"
-    
 class Titulos(ModeloBase):
     centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='titulos')
     TIPO_CHOICES = [('grado', 'Grado'), ('master', 'Máster'),]
@@ -199,3 +123,96 @@ class Codigos(ModeloBase):
 
     def __str__(self):
         return self.plan_sigma
+
+class Indicadores(ModeloBase):
+    codigo = models.CharField(max_length=50)
+    denominacion_indicador = models.CharField(max_length=255)
+    denominacion = models.CharField(max_length=255)
+    descricion = models.TextField(blank=True, null=True)
+    fonte = models.URLField(max_length=500, blank=True, null=True)
+    irpd = models.ForeignKey(IRPD, on_delete=models.PROTECT, related_name='indicadores')
+    responsable = models.ForeignKey(Responsables, on_delete=models.PROTECT, related_name='indicadores', default=get_responsable_por_defecto)
+    SENTIDO_CHOICES = [
+    ('positivo', 'A más, mejor'),      # ej: matriculados
+    ('negativo', 'A menos, mejor'),    # ej: tasa de abandono
+    ]
+    sentido = models.CharField(max_length=10, choices=SENTIDO_CHOICES)
+    # Define a qué centros/títulos aplica este indicador (sin datos extra, solo el vínculo)
+    centros = models.ManyToManyField(Centros, related_name='indicadores', blank=True)
+    titulos = models.ManyToManyField(Titulos, related_name='indicadores', blank=True)
+
+
+    class Meta:
+        verbose_name = "Indicador"
+        verbose_name_plural = "Indicadores"
+
+    def __str__(self):
+        return self.denominacion
+    
+class SeguimentoBase(ModeloBase):
+    """Campos y lógica comunes a los seguimientos de centro y de título."""
+    indicador = models.ForeignKey(Indicadores, on_delete=models.PROTECT, related_name='%(class)ss')
+    curso_academico = models.CharField(
+        max_length=10,
+        choices=generar_curso_choices,
+        help_text="Curso académico ao que pertencen os datos (non o curso no que se introducen)"
+    )
+    meta = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
+
+    TIPO_META_CHOICES = [
+        ('numero', 'Número'),
+        ('porcentaje', 'Porcentaje'),
+    ]
+    tipo_meta = models.CharField(max_length=10, choices=TIPO_META_CHOICES)
+    resultado = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
+    data_limite = models.DateField(
+        help_text="Calculada automaticamente: 31 de decembro, dous anos despois do inicio do curso",
+        blank=True
+    )
+    valoracion_final = models.BooleanField(null=True, blank=True)
+    observacions = models.TextField(blank=True, null=True)
+
+    class Meta:
+        abstract = True
+
+    def save(self, *args, **kwargs):
+        if not self.data_limite:
+            año_inicio = int(self.curso_academico.split('/')[0])
+            self.data_limite = date(2000 + año_inicio + 2, 12, 31)
+        super().save(*args, **kwargs)
+
+    @property
+    def valoracion(self):
+        if self.resultado is None or self.meta is None:
+            return None
+        if self.indicador.sentido == 'positivo':
+            return self.resultado >= self.meta
+        else:
+            return self.resultado <= self.meta
+
+    def pechar_se_corresponde(self):
+        if self.valoracion_final is None and date.today() >= self.data_limite:
+            self.valoracion_final = self.valoracion
+            self.save(update_fields=['valoracion_final'])
+        return self.valoracion_final
+
+class Seguimentos(SeguimentoBase):
+    centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='seguimentos')
+
+    class Meta:
+        verbose_name = "Seguimento de Centro"
+        verbose_name_plural = "Seguimentos de Centro"
+
+    def __str__(self):
+        return f"{self.indicador} - {self.centro} - {self.curso_academico}"
+
+
+class SeguimentosTitulos(SeguimentoBase):
+    titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='seguimentos')
+
+    class Meta:
+        verbose_name = "Seguimento de Título"
+        verbose_name_plural = "Seguimentos de Título"
+
+    def __str__(self):
+        return f"{self.indicador} - {self.titulo} - {self.curso_academico}"
