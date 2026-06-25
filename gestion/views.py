@@ -6,9 +6,9 @@ MODELOS_PUBLICOS = {
     'indicadores': 'Indicadores',
     'irpd': 'IRPD',
     'centros': 'Centros',
-    'localizadores': 'Localizadores',
     'responsables': 'Responsables',
-    'seguimentos': 'Seguimentos',
+    'seguimentos': 'Seguimentos dos centros',
+    'seguimentosTitulos': 'Seguimentos dos títulos',
     'titulos': 'Títulos',
     'codigos': 'Códigos',
 }
@@ -21,37 +21,40 @@ def index(request):
     ]
     return render(request, 'gestion/index.html', {'tablas': tablas})
 
-
 def listado(request, modelo):
-    # Comprobamos que el modelo pedido está en nuestra lista permitida
     nome_tabla = MODELOS_PUBLICOS.get(modelo)
-    if nome_tabla is None:
-        get_object_or_404(None)  # fuerza un 404 si alguien pide algo no permitido
-
-    # Obtenemos la clase del modelo real (ej: 'indicadores' -> Indicadores)
+    if nome_tabla is None: 
+        get_object_or_404(None)
+    
     ModeloClase = apps.get_model('gestion', modelo)
-
-    # Sacamos los nombres de los campos "normales" (sin contar relaciones inversas, etc.)
-    campos = [
-        campo.verbose_name.capitalize()
-        for campo in ModeloClase._meta.fields
-        if campo.name not in ['creado_por', 'modificado_por', 'history']
-    ]
-
-    objetos = ModeloClase.objects.all()
-
-    filas = []
-    for obj in objetos:
-        fila = [
-            getattr(obj, campo.name)
-            for campo in ModeloClase._meta.fields
-            if campo.name not in ['creado_por', 'modificado_por', 'history']
-        ]
-        filas.append(fila)
-
+    
+    # Campos a excluir siempre
+    campos_excluidos = ['id', 'creacion', 'actualizacion', 'creado_por', 'modificado_por', 'history']
+    
+    # Lógica especial para Centros
+    if modelo == 'centros':
+        campos = ['Campus', 'Código', 'Denominación', 'Dirección Web']
+        objetos = ModeloClase.objects.all()
+        filas = []
+        for obj in objetos:
+            fila = [
+                obj.codigo_localizador.campus,  # Localización
+                f"{obj.codigo_localizador.codigo}{obj.codigo}",  # Código concatenado
+                obj.denominacion,
+                obj.direccion_webb or '-'
+            ]
+            filas.append(fila)
+    else:
+        # Resto de modelos, genérico como antes
+        campos = [campo.verbose_name.capitalize() for campo in ModeloClase._meta.fields
+                  if campo.name not in campos_excluidos]
+        objetos = ModeloClase.objects.all()
+        filas = [[getattr(obj, campo.name) for campo in ModeloClase._meta.fields
+                  if campo.name not in campos_excluidos]
+                 for obj in objetos]
+    
     return render(request, 'gestion/listado.html', {
-        'nome_tabla': nome_tabla,
-        'columnas': campos,
-        'filas': filas,
+        'nome_tabla': nome_tabla, 
+        'columnas': campos, 
+        'filas': filas
     })
-

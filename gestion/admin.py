@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Indicadores, IRPD, Localizadores, Centros, Seguimentos, Titulos, Codigos, Responsables
+from .models import Indicadores, IRPD, Localizadores, Centros, Seguimentos, SeguimentosTitulos, Titulos, Codigos, Responsables
 from django.db import models
 from django import forms
 
@@ -33,11 +33,15 @@ class CentrosAdmin(BaseAdmin):
 class SeguimentosAdmin(BaseAdmin):
     pass
 
+class SeguimentosTitulosAdmin(BaseAdmin):
+    pass
+
 class TitulosAdmin(BaseAdmin):
     pass
 
 class CodigosAdmin(BaseAdmin):
     pass
+
 class ResponsablesAdmin(BaseAdmin):
     pass
 
@@ -46,6 +50,7 @@ admin.site.register(IRPD, IRPDAdmin)
 admin.site.register(Localizadores, LocalizadoresAdmin)
 admin.site.register(Centros, CentrosAdmin)
 admin.site.register(Seguimentos, SeguimentosAdmin)
+admin.site.register(SeguimentosTitulos, SeguimentosTitulosAdmin)
 admin.site.register(Titulos, TitulosAdmin)
 admin.site.register(Codigos, CodigosAdmin)
 admin.site.register(Responsables, CodigosAdmin)

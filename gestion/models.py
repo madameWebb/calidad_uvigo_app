@@ -127,7 +127,7 @@ class Codigos(ModeloBase):
 class Indicadores(ModeloBase):
     codigo = models.CharField(max_length=50)
     denominacion_indicador = models.CharField(max_length=255)
-    denominacion = models.CharField(max_length=255)
+    denominacion = models.CharField(max_length=255, verbose_name="Título")
     descricion = models.TextField(blank=True, null=True)
     fonte = models.URLField(max_length=500, blank=True, null=True)
     irpd = models.ForeignKey(IRPD, on_delete=models.PROTECT, related_name='indicadores')
@@ -147,15 +147,16 @@ class Indicadores(ModeloBase):
         verbose_name_plural = "Indicadores"
 
     def __str__(self):
-        return self.denominacion
+        return self.denominacion_indicador
     
 class SeguimentoBase(ModeloBase):
     """Campos y lógica comunes a los seguimientos de centro y de título."""
     indicador = models.ForeignKey(Indicadores, on_delete=models.PROTECT, related_name='%(class)ss')
-    curso_academico = models.CharField(
+    orixe_datos = models.CharField(
         max_length=10,
         choices=generar_curso_choices,
-        help_text="Curso académico ao que pertencen os datos (non o curso no que se introducen)"
+        verbose_name="Orixe dos datos (curso):",
+        help_text="Curso de orixe dos datos (non o curso no que se introducen)"
     )
     meta = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
 
@@ -166,7 +167,8 @@ class SeguimentoBase(ModeloBase):
     tipo_meta = models.CharField(max_length=10, choices=TIPO_META_CHOICES)
     resultado = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     data_limite = models.DateField(
-        help_text="Calculada automaticamente: 31 de decembro, dous anos despois do inicio do curso",
+        verbose_name="Data límite para a introducción dos datos",
+        help_text="Calculada automaticamente: 31 de decembro, ano e medio despóis da finalización do curso",
         blank=True
     )
     valoracion_final = models.BooleanField(null=True, blank=True)
@@ -177,8 +179,8 @@ class SeguimentoBase(ModeloBase):
 
     def save(self, *args, **kwargs):
         if not self.data_limite:
-            año_inicio = int(self.curso_academico.split('/')[0])
-            self.data_limite = date(2000 + año_inicio + 2, 12, 31)
+            ano_finalizacion = int(self.orixe_datos.split('/')[1])
+            self.data_limite = date(2000 + ano_finalizacion + 1, 12, 31)
         super().save(*args, **kwargs)
 
     @property
@@ -200,19 +202,19 @@ class Seguimentos(SeguimentoBase):
     centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='seguimentos')
 
     class Meta:
-        verbose_name = "Seguimento de Centro"
-        verbose_name_plural = "Seguimentos de Centro"
+        verbose_name = "Seguimento do Centro"
+        verbose_name_plural = "Seguimentos do Centro"
 
     def __str__(self):
-        return f"{self.indicador} - {self.centro} - {self.curso_academico}"
+        return f"{self.indicador} - {self.centro} - {self.orixe_datos}"
 
 
 class SeguimentosTitulos(SeguimentoBase):
-    titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='seguimentos')
+    titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='seguimentosTitulo')
 
     class Meta:
-        verbose_name = "Seguimento de Título"
-        verbose_name_plural = "Seguimentos de Título"
+        verbose_name = "Seguimento do Título"
+        verbose_name_plural = "Seguimentos do Título"
 
     def __str__(self):
-        return f"{self.indicador} - {self.titulo} - {self.curso_academico}"
+        return f"{self.indicador} - {self.titulo} - {self.orixe_datos}"
