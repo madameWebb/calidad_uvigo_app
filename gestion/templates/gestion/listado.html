@@ -1,9 +1,17 @@
 {% extends 'gestion/base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+{% endblock %}
 
 {% block titulo %}{{ nome_tabla }} — Calidade UVIGO{% endblock %}
 
 {% block contido %}
 <a href="{% url 'index' %}" class="boton-volver">← Volver ao inicio</a>
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca...">
+</div>
 <h2>{{ nome_tabla }}</h2>
 
 <table>
@@ -16,7 +24,7 @@
     </thead>
     <tbody>
         {% for fila in filas %}
-        <tr>
+        <tr data-filtrable>
             {% for valor in fila %}
             <td>{{ valor }}</td>
             {% endfor %}
@@ -24,4 +32,11 @@
         {% endfor %}
     </tbody>
 </table>
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
 {% endblock %}

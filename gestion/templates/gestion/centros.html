@@ -1,0 +1,71 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/centros.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por campus, código ou denominación...">
+</div>
+
+<div class="filtro-ordenamiento">
+    <label>
+        Ordenar por Campus:
+        <select id="orden-campus">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+    
+    <label>
+        Ordenar por Denominación:
+        <select id="orden-denominacion">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+</div>
+
+<table data-filtrable-table>
+    <thead>
+        <tr>
+            <th>Campus</th>
+            <th>Código</th>
+            <th>Denominación</th>
+            <th>Dirección Web</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for centro in centros %}
+        <tr data-filtrable>
+            <td>{{ centro.codigo_localizador.campus }}</td>
+            <td>{{ centro.codigo_localizador.codigo }}{{ centro.codigo }}</td>
+            <td>{{ centro.denominacion }}</td>
+            <td>
+                {% if centro.direccion_webb %}
+                <a href="{{ centro.direccion_webb }}" target="_blank">📄 Enlace</a>
+                {% else %}
+                —
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+<script src="{% static 'gestion/js/centros.js' %}"></script>
+{% endblock %}

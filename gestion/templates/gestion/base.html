@@ -1,111 +1,40 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="gl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block titulo %}Calidade UVIGO{% endblock %}</title>
-    <style>
-        :root {
-            --azul-uvigo: #00407a;
-            --azul-claro: #e8f0f7;
-            --gris-texto: #333;
-            --gris-borde: #ddd;
-        }
-        * { box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            margin: 0;
-            background: #f7f8fa;
-            color: var(--gris-texto);
-        }
-        header {
-            background: var(--azul-uvigo);
-            color: white;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 1.4rem;
-        }
-        header h1 a {
-            color: white;
-            text-decoration: none;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 1.2rem;
-            font-size: 0.95rem;
-            opacity: 0.9;
-        }
-        nav a:hover {
-            opacity: 1;
-            text-decoration: underline;
-        }
-        main {
-            max-width: 1100px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1.5rem;
-            color: #888;
-            font-size: 0.85rem;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-        }
-        th, td {
-            padding: 0.6rem 0.9rem;
-            border-bottom: 1px solid var(--gris-borde);
-            text-align: left;
-            font-size: 0.92rem;
-        }
-        th {
-            background: var(--azul-claro);
-            color: var(--azul-uvigo);
-        }
-        tr:hover td {
-            background: #fafbfc;
-        }
-        .tarxeta {
-            background: white;
-            padding: 1.2rem 1.5rem;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            margin-bottom: 1rem;
-        }
-        a.boton-volver {
-            display: inline-block;
-            margin-bottom: 1rem;
-            color: var(--azul-uvigo);
-            text-decoration: none;
-        }
-        a.boton-volver:hover { text-decoration: underline; }
-    </style>
+    
+    <link rel="stylesheet" href="{% static 'gestion/css/base.css' %}">
+    
+    {% block extra_css %}{% endblock %}
 </head>
 <body>
-    <header>
-        <h1><a href="{% url 'index' %}">Calidade UVIGO</a></h1>
-        <nav>
-            <a href="{% url 'index' %}">Inicio</a>
-            <a href="/admin/">Área de xestión</a>
-        </nav>
+    <!-- Header -->
+     <header>
+        <div style="max-width: 1400px; margin: 0 auto; padding: var(--spacing-lg); display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <h1 style="margin: 0; font-size: 28px; color: white;">Calidade UVIGO</h1>
+            </div>
+            <nav>
+                <a href="{% url 'index' %}" style="color: white; margin-right: 20px; text-decoration: none;">Inicio</a>
+                <a href="/admin/" style="color: white; text-decoration: none;">Área de xestión</a>
+            </nav>
+        </div>
     </header>
-
+    
+    
     <main>
         {% block contido %}{% endblock %}
     </main>
-
-    <footer>
-        Universidade de Vigo — Área de Calidade
+    
+    <!-- Footer -->
+    <footer style="margin-top: 60px; padding: 20px; text-align: center; color: #666; border-top: 1px solid var(--color-border); font-size: 12px; display: flex; justify-content: center; align-items: center; gap: 15px;">
+        <img src="{% static 'gestion/img/logo.png' %}" alt="Logo UVIGO" style="height: 40px; width: auto;">
+        <p style="margin: 0;">Universidade de Vigo — Área de Calidade</p>
     </footer>
+    
+    {% block extra_js %}{% endblock %}
 </body>
 </html>

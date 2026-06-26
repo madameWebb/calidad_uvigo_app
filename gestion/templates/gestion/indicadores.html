@@ -1,0 +1,46 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/indicadores.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por código, denominación ou título...">
+</div>
+<div class="indicadores-container">
+    {% for ind in indicadores %}
+    <div class="card-indicador" data-filtrable>
+        <div class="card-header">
+            <button class="btn-expand" data-toggle="card">▶</button>
+            <div class="card-content-inicial">
+                <h3>Código: {{ ind.codigo }}</h3>
+                <p class="denominacion">{{ ind.denominacion }}</p>
+                <p class="titulo">{{ ind.denominacion_indicador }}</p>
+                {% if ind.fonte %}
+                <a href="{{ ind.fonte }}" target="_blank" class="btn-fonte">📄 Fonte</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card-body">
+            <p><strong>Descrición:</strong></p>
+            <p>{{ ind.descricion }}</p>
+            
+            <p><strong>IRPD:</strong> {% if ind.irpd %}{{ ind.irpd.denominacion }}{% else %}—{% endif %}</p>
+            <p><strong>Responsable:</strong> {% if ind.responsable %}{{ ind.responsable.denominacion }}{% else %}—{% endif %}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/indicadores.js' %}"></script>
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+{% endblock %}

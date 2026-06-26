@@ -53,6 +53,7 @@ class ModeloBase(models.Model):
 class IRPD(ModeloBase):
     criterio = models.CharField(max_length=20, unique=True)
     denominacion = models.CharField(max_length=255)
+    estandar = models.TextField(blank=True, null=True)
     descricion = models.TextField(blank=True, null=True)
 
     class Meta:
@@ -97,10 +98,10 @@ class Centros(ModeloBase):
         return self.denominacion
 
 class Titulos(ModeloBase):
-    centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='titulos')
-    TIPO_CHOICES = [('grado', 'Grado'), ('master', 'Máster'),]
+    TIPO_CHOICES = [('grao', 'Grao'), ('máster', 'Máster'),]
     tipo = models.CharField(max_length=10, choices=TIPO_CHOICES)
     denominacion = models.CharField(max_length=255)
+    centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='titulos')
     
     class Meta:
         verbose_name = "Título"

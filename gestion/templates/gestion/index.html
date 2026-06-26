@@ -3,11 +3,37 @@
 {% block titulo %}Inicio — Calidade UVIGO{% endblock %}
 
 {% block contido %}
-<h2>Táboas públicas</h2>
+<h2>Estándares e información xeral sobre a xestión de calidade</h2>
 <p>Consulta a información dispoñible sobre os indicadores de calidade.</p>
 
 <div class="tarxeta">
     <ul style="list-style: none; padding: 0; margin: 0;">
+        <!-- Enlace especial para Indicadores -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'indicadores' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                Indicadores
+            </a>
+        </li>
+        <!-- Enlace especial para IRPD -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'irpd' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                IRPD
+            </a>
+        </li>
+        <!-- Enlace especial para Centros -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'centros' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                Centros
+            </a>
+        </li>
+        <!-- Enlace especial para Títulos -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'titulos' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                Títulos
+            </a>
+        </li>
+        
+        <!-- Resto de tablas dinámicamente -->
         {% for tabla in tablas %}
         <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
             <a href="{% url 'listado' modelo=tabla.slug %}" style="color: #00407a; font-weight: 600; text-decoration: none;">

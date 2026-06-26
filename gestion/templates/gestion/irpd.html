@@ -1,0 +1,47 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/indicadores.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por criterio ou denominación...">
+</div>
+
+<div class="indicadores-container">
+    {% for irpd in irpds %}
+    <div class="card-indicador" data-filtrable>
+        <div class="card-header">
+            <button class="btn-expand" data-toggle="card">▶</button>
+            <div class="card-content-inicial" style="grid-template-columns: 100px 1fr auto;">
+                <h3>Criterio: {{ irpd.criterio }}</h3>
+                <p class="denominacion">{{ irpd.denominacion }}</p>
+                <div></div>
+            </div>
+            
+        </div>
+        
+        <div class="card-body">
+            <p><strong>Estándares:</strong></p>
+            <p>{{ irpd.estandar|default:"—" }}</p>
+             <p><strong>Descripción:</strong></p>
+            <p>{{ irpd.descricion|default:"—" }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/indicadores.js' %}"></script>
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+{% endblock %}

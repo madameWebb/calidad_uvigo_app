@@ -1,0 +1,83 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/indicadores.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/centros.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por código sigma ou denominación...">
+</div>
+<div class="filtro-ordenamiento">
+    <label>
+        Ordenar por o Plan Sigma:
+        <select id="orden-sigma">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+
+    <label>
+        Ordenar por a Denominación do título:
+        <select id="orden-denominacion">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+
+    <label>
+        Ordenar por o tipo:
+        <select id="orden-tipo">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+</div>
+<div class="indicadores-container">
+    {% for titulo in titulos %}
+    <div class="card-indicador" data-filtrable>
+        <div class="card-header">
+            <button class="btn-expand" data-toggle="card">▶</button>
+            <div class="card-content-inicial">
+                <h3>{{ titulo.codigos.first.plan_sigma|default:"—" }}</h3>
+                <p class="denominacion">{{ titulo.denominacion }}</p>
+                <p class="tipo">Tipo: {{ titulo.get_tipo_display }}</p>
+            </div>
+        </div>
+        <div class="card-body">
+            <p><strong>Plan Sigma:</strong> {{ titulo.codigos.first.plan_sigma|default:"—" }}</p>
+            <p><strong>Estudio Sigma:</strong> {{ titulo.codigos.first.estudio_sigma|default:"—" }}</p>
+            <p><strong>Código Xescampus:</strong> {{ titulo.codigos.first.xescampus|default:"—" }}</p>
+            <p><strong>Código Mec:</strong> {{ titulo.codigos.first.mec|default:"—" }}</p>
+            <p><strong>Código Ruct:</strong> {{ titulo.codigos.first.ruct|default:"—" }}</p>
+            <p><strong>Centro:</strong> {{ titulo.centro.denominacion }}</p>
+            <p><strong>Dirección Web del Centro:</strong>
+                {% if titulo.centro.direccion_webb %}
+                <a href="{{ titulo.centro.direccion_webb }}" target="_blank" style="color: #00407a;">{{ titulo.centro.direccion_webb }}</a>
+                {% else %}
+                —
+                {% endif %}
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/indicadores.js' %}"></script>
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+<script src="{% static 'gestion/js/titulos.js' %}"></script>
+{% endblock %}

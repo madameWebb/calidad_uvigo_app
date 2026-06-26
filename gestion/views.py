@@ -3,13 +3,9 @@ from django.apps import apps
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
-    'indicadores': 'Indicadores',
-    'irpd': 'IRPD',
-    'centros': 'Centros',
     'responsables': 'Responsables',
     'seguimentos': 'Seguimentos dos centros',
     'seguimentosTitulos': 'Seguimentos dos títulos',
-    'titulos': 'Títulos',
     'codigos': 'Códigos',
 }
 
@@ -45,7 +41,7 @@ def listado(request, modelo):
             ]
             filas.append(fila)
     else:
-        # Resto de modelos, genérico como antes
+        # Resto de modelos, genérico
         campos = [campo.verbose_name.capitalize() for campo in ModeloClase._meta.fields
                   if campo.name not in campos_excluidos]
         objetos = ModeloClase.objects.all()
@@ -57,4 +53,38 @@ def listado(request, modelo):
         'nome_tabla': nome_tabla, 
         'columnas': campos, 
         'filas': filas
+    })
+
+def indicadores_publicos(request):
+    from gestion.models import Indicadores
+    
+    indicadores = Indicadores.objects.select_related('irpd', 'responsable').all()
+    
+    return render(request, 'gestion/indicadores.html', {
+        'indicadores': indicadores
+    })
+
+def irpd_publicos(request):
+    from gestion.models import IRPD
+    
+    irpds = IRPD.objects.all()
+    
+    return render(request, 'gestion/irpd.html', {
+        'irpds': irpds
+    })
+def centros_publicos(request):
+    from gestion.models import Centros
+    
+    centros = Centros.objects.select_related('codigo_localizador').all()
+    
+    return render(request, 'gestion/centros.html', {
+        'centros': centros
+    })
+def titulos_publicos(request):
+    from gestion.models import Titulos
+    
+    titulos = Titulos.objects.select_related('centro', 'centro__codigo_localizador').all()
+    
+    return render(request, 'gestion/titulos.html', {
+        'titulos': titulos
     })
