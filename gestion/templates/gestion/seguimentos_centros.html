@@ -1,0 +1,66 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/centros.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/modal.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
+
+<h2>Seguimento dos Centros</h2>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por código ou centro...">
+</div>
+
+<table data-filtrable-table>
+    <thead>
+        <tr>
+            <th>Centro</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for centro in centros %}
+        <tr data-filtrable>
+            <td>
+                <a href="#" class="btn-centro" data-centro-id="{{ centro.id }}" style="color: #fdfeff; font-weight: 600;">
+                    {{ centro.codigo_localizador.codigo }}{{ centro.codigo }} - {{ centro.denominacion }}
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<!-- Modal de selección de año -->
+<div id="modal-orixe" class="modal-overlay">
+    <div class="modal-content">
+        <h2>Selecciona a orixe dos datos</h2>
+        <label>
+            Ano académico:
+            <select id="select-orixe">
+                <option value="">-- Selecciona --</option>
+                <option value="23/24">23/24</option>
+                <option value="24/25">24/25</option>
+                <option value="25/26">25/26</option>
+            </select>
+        </label>
+        <div class="modal-buttons">
+            <button class="btn-aceptar" id="btn-aceptar">Aceptar</button>
+            <button class="btn-cancelar" id="btn-cancelar">Cancelar</button>
+        </div>
+    </div>
+</div>
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+<script src="{% static 'gestion/js/modal.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/indicadores.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'seguimentos_centros' %}" style="color: #00407a;">← Volver aos centros</a></p>
+
+<h2>Seguimentos de {{ centro.denominacion }} ({{ orixe_datos }})</h2>
+
+<div class="indicadores-container">
+    {% for seg in seguimentos %}
+    <div class="card-indicador">
+        <div class="card-header">
+            <button class="btn-expand" data-toggle="card">▶</button>
+            <div class="card-content-inicial" style="grid-template-columns: 1fr auto;">
+                <h3>{{ seg.indicador.codigo }} - {{ seg.indicador.denominacion }}</h3>
+                <div></div>
+            </div>
+           
+        </div>
+        
+        <div class="card-body">
+            <p><strong>Meta:</strong>
+                {% if seg.tipo_meta == 'porcentaje' %}
+                    {{ seg.meta }}%
+                {% else %}
+                    {{ seg.meta|default:"—" }}
+                {% endif %}
+            </p>
+            
+            <p><strong>Resultado:</strong>
+                {% if seg.tipo_meta == 'porcentaje' %}
+                    {{ seg.resultado }}%
+                {% else %}
+                    {{ seg.resultado|default:"—" }}
+                {% endif %}
+            </p>
+            
+            <p><strong>Valoración Final:</strong>
+                {% if seg.valoracion_final %}
+                    <span style="color: green;">✓ Cumplido</span>
+                {% elif seg.valoracion_final == False %}
+                    <span style="color: red;">✗ Non cumplido</span>
+                {% else %}
+                    —
+                {% endif %}
+            </p>
+            
+            <p><strong>Observacións:</strong> {{ seg.observacions|default:"—" }}</p>
+            
+            <p><strong>Data límite para a introducción dos datos:</strong> {{ seg.data_limite|date:"d/m/Y"|default:"—" }}</p>
+        </div>
+    </div>
+    {% empty %}
+    <div style="padding: 40px 20px; text-align: center; background: white; border-radius: 6px; border: 1px dashed var(--color-border);">
+        Non hai seguimentos para este período
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/indicadores.js' %}"></script>
+{% endblock %}

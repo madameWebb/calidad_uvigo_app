@@ -89,6 +89,10 @@ class Centros(ModeloBase):
     codigo = models.CharField(max_length=50)
     denominacion= models.CharField(max_length=255)
     direccion_webb = models.URLField(max_length=500, blank=True, null=True)
+    equipo_decanal_directivo = models.URLField(
+        verbose_name="Equipo Decanal/Directivo",
+        help_text="Enlace á páxina do equipo decanal ou directivo"
+    )
     
     class Meta:
         verbose_name = "Centro"
@@ -115,7 +119,6 @@ class Codigos(ModeloBase):
     plan_sigma = models.CharField(max_length=20, unique=True)
     estudio_sigma = models.CharField(max_length=20, unique=True)
     xescampus = models.CharField(max_length=20, unique=True)
-    mec = models.CharField(max_length=20, unique=True)
     ruct = models.CharField(max_length=20, unique=True)
 
     class Meta:
@@ -126,9 +129,20 @@ class Codigos(ModeloBase):
         return self.plan_sigma
 
 class Indicadores(ModeloBase):
+    TIPO_INDICADOR_CHOICES = [
+        ('institucional', 'Institucional'),
+        ('estratexico', 'Estratégico'),
+        ('calidade', 'Calidade'),
+    ]
     codigo = models.CharField(max_length=50)
-    denominacion_indicador = models.CharField(max_length=255)
-    denominacion = models.CharField(max_length=255, verbose_name="Título")
+    tipo_indicador = models.CharField(
+        max_length=20,
+        choices=TIPO_INDICADOR_CHOICES,
+        default='institucional',
+        verbose_name="Tipo de Indicador"
+    )
+    denominacion = models.CharField(max_length=255)
+    procedemento_asociado = models.CharField(max_length=255, verbose_name="Procedemento Asociado")
     descricion = models.TextField(blank=True, null=True)
     fonte = models.URLField(max_length=500, blank=True, null=True)
     irpd = models.ForeignKey(IRPD, on_delete=models.PROTECT, related_name='indicadores')
@@ -138,7 +152,6 @@ class Indicadores(ModeloBase):
     ('negativo', 'A menos, mejor'),    # ej: tasa de abandono
     ]
     sentido = models.CharField(max_length=10, choices=SENTIDO_CHOICES)
-    # Define a qué centros/títulos aplica este indicador (sin datos extra, solo el vínculo)
     centros = models.ManyToManyField(Centros, related_name='indicadores', blank=True)
     titulos = models.ManyToManyField(Titulos, related_name='indicadores', blank=True)
 
@@ -148,7 +161,7 @@ class Indicadores(ModeloBase):
         verbose_name_plural = "Indicadores"
 
     def __str__(self):
-        return self.denominacion_indicador
+        return self.denominacion
     
 class SeguimentoBase(ModeloBase):
     """Campos y lógica comunes a los seguimientos de centro y de título."""
@@ -204,7 +217,7 @@ class Seguimentos(SeguimentoBase):
 
     class Meta:
         verbose_name = "Seguimento do Centro"
-        verbose_name_plural = "Seguimentos do Centro"
+        verbose_name_plural = "Seguimento dos Centro"
 
     def __str__(self):
         return f"{self.indicador} - {self.centro} - {self.orixe_datos}"
@@ -215,7 +228,7 @@ class SeguimentosTitulos(SeguimentoBase):
 
     class Meta:
         verbose_name = "Seguimento do Título"
-        verbose_name_plural = "Seguimentos do Título"
+        verbose_name_plural = "Seguimento dos Títulos"
 
     def __str__(self):
         return f"{self.indicador} - {self.titulo} - {self.orixe_datos}"

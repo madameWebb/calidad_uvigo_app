@@ -32,7 +32,12 @@
                 Títulos
             </a>
         </li>
-        
+        <!-- Enlace especial para Seguimentos de Centros -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'seguimentos_centros' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                Seguimentos dos centros
+            </a>
+        </li>
         <!-- Resto de tablas dinámicamente -->
         {% for tabla in tablas %}
         <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">

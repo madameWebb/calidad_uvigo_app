@@ -48,14 +48,14 @@
     color: var(--color-primary);
 }
 
-.card-content-inicial .denominacion {
+.card-content-inicial .procedemento {
     margin: 0;
     color: var(--color-text);
     font-size: 14px;
     font-weight: 500;
 }
 
-.card-content-inicial .titulo,
+.card-content-inicial .denominacion,
 .card-content-inicial .tipo {
     margin: 0;
     color: var(--color-text-light);

@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const selectCampus = document.getElementById('orden-campus');
+    const selectCodigo = document.getElementById('orden-codigo');
     const selectDenominacion = document.getElementById('orden-denominacion');
     const table = document.querySelector('table tbody');
     
@@ -7,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function ordenarTabla() {
         const ordenCampus = selectCampus.value;
+        const ordenCodigo = selectCodigo.value;
         const ordenDenom = selectDenominacion.value;
         
         const filas = Array.from(table.querySelectorAll('tr'));
@@ -23,10 +25,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (resultado !== 0) return resultado;
             }
             
+            if (ordenCodigo !== 'ninguno') {
+                const codigoA = a.cells[1].textContent.trim();
+                const codigoB = b.cells[1].textContent.trim();
+                resultado = codigoA.localeCompare(codigoB);
+                if (ordenCodigo === 'descendente') resultado *= -1;
+                if (resultado !== 0) return resultado;
+            }
+
             // Luego por Denominación
             if (ordenDenom !== 'ninguno') {
-                const denomA = a.cells[1].textContent.trim();
-                const denomB = b.cells[1].textContent.trim();
+                const denomA = a.cells[2].textContent.trim();
+                const denomB = b.cells[2].textContent.trim();
                 resultado = denomA.localeCompare(denomB);
                 if (ordenDenom === 'descendente') resultado *= -1;
             }
@@ -39,5 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     selectCampus.addEventListener('change', ordenarTabla);
+    selectCodigo.addEventListener('change', ordenarTabla);
     selectDenominacion.addEventListener('change', ordenarTabla);
 });

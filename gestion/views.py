@@ -1,10 +1,10 @@
 from django.shortcuts import render, get_object_or_404
 from django.apps import apps
+from django.shortcuts import render, get_object_or_404
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
     'responsables': 'Responsables',
-    'seguimentos': 'Seguimentos dos centros',
     'seguimentosTitulos': 'Seguimentos dos títulos',
     'codigos': 'Códigos',
 }
@@ -87,4 +87,31 @@ def titulos_publicos(request):
     
     return render(request, 'gestion/titulos.html', {
         'titulos': titulos
+    })
+
+def seguimentos_centros_publicos(request):
+    from gestion.models import Centros
+    
+    centros = Centros.objects.select_related('codigo_localizador').all().order_by('codigo_localizador__codigo', 'codigo')
+    
+    return render(request, 'gestion/seguimentos_centros.html', {
+        'centros': centros
+    })
+
+def seguimentos_centro_detalle_publicos(request, centro_id, orixe_datos):
+    from gestion.models import Centros, Seguimentos
+    
+    # Convertir 23-24 a 23/24
+    orixe_datos = orixe_datos.replace('-', '/')
+    
+    centro = get_object_or_404(Centros, id=centro_id)
+    seguimentos = Seguimentos.objects.filter(
+        centro=centro,
+        orixe_datos=orixe_datos
+    ).select_related('indicador', 'indicador__irpd').order_by('indicador__codigo')
+    
+    return render(request, 'gestion/seguimentos_centro_detalle.html', {
+        'centro': centro,
+        'orixe_datos': orixe_datos,
+        'seguimentos': seguimentos
     })

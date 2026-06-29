@@ -1,0 +1,80 @@
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay.visible {
+    display: flex;
+}
+
+.modal-content {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    color: var(--color-primary);
+}
+
+.modal-content label {
+    display: block;
+    margin-bottom: var(--spacing-md);
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.modal-content select {
+    width: 100%;
+    padding: var(--spacing-sm);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: var(--font-family);
+    margin-bottom: var(--spacing-lg);
+}
+
+.modal-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.modal-buttons button {
+    flex: 1;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-aceptar {
+    background: var(--color-primary);
+    color: white;
+}
+
+.btn-aceptar:hover {
+    background: var(--color-primary-light);
+}
+
+.btn-cancelar {
+    background: var(--color-border);
+    color: var(--color-text);
+}
+
+.btn-cancelar:hover {
+    background: #d0d0d0;
+}

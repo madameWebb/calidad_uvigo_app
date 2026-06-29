@@ -22,6 +22,15 @@
             <option value="descendente">Z → A</option>
         </select>
     </label>
+
+    <label>
+        Ordenar por Código:
+        <select id="orden-codigo">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
     
     <label>
         Ordenar por Denominación:
@@ -40,6 +49,7 @@
             <th>Código</th>
             <th>Denominación</th>
             <th>Dirección Web</th>
+            <th>Equipo Decanal/Directivo</th>
         </tr>
     </thead>
     <tbody>
@@ -50,7 +60,14 @@
             <td>{{ centro.denominacion }}</td>
             <td>
                 {% if centro.direccion_webb %}
-                <a href="{{ centro.direccion_webb }}" target="_blank">📄 Enlace</a>
+                <a href="{{ centro.direccion_webb }}" target="_blank">📄 Dir. Web</a>
+                {% else %}
+                —
+                {% endif %}
+            </td>
+            <td>
+                {% if centro.equipo_decanal_directivo %}
+                <a href="{{ centro.equipo_decanal_directivo }}" target="_blank">📄 Equipo D.</a>
                 {% else %}
                 —
                 {% endif %}

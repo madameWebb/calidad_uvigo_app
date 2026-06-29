@@ -1,8 +1,9 @@
 import re
-from decimal import Decimal, InvalidOperation
+from decimal import Decimal
 from pathlib import Path
 
 import openpyxl
+from openpyxl.styles import PatternFill
 from django.core.management.base import BaseCommand
 from django.contrib.auth import get_user_model
 
@@ -11,13 +12,14 @@ from gestion.models import IRPD, Centros, Titulos, Indicadores, Localizadores
 User = get_user_model()
 
 REGEX_URL = re.compile(r'https?://\S+')
-SHEETS_EXCLUIDAS = {'Portada', 'Centro', 'Anexos 1', 'Anexos 2', 'Anexos 3', 'Resumo', 'Procedementos'}
+SHEETS_EXCLUIDAS = {'Portada', 'Anexos 1', 'Anexos 2', 'Anexos 3', 'Resumo', 'Procedementos'}
 
 
 def extraer_url(texto):
+    """Extrae URL de un texto."""
     if not texto:
         return None
-    match = REGEX_URL.search(texto)
+    match = REGEX_URL.search(str(texto))
     return match.group(0) if match else None
 
 
@@ -30,28 +32,30 @@ def limpiar_valor(valor):
     return valor
 
 
-def celda_segura(fila, indice):
-    """Devuelve fila[indice] o None si esa columna no existe en la fila."""
-    if indice < len(fila):
-        return fila[indice]
-    return None
-
-
-def extraer_titulo_de_hoja(ws, nombre_hoja):
-    """Extrae el nombre del título buscando 'Cadro de mando do/da ...'"""
-    for fila in ws.iter_rows(max_row=5, values_only=True):
-        for celda in fila:
-            if celda and isinstance(celda, str) and 'Cadro de mando' in celda:
-                match = re.search(r'Cadro de mando\s+d[oa]s?\s+(.+)', celda)
-                if match:
-                    denominacion = match.group(1).strip()
-                    tipo = 'master' if denominacion.startswith('M.') or 'Máster' in denominacion or 'M. Univ' in denominacion else 'grado'
-                    return denominacion, tipo
-    return None, None
+def obtener_tipo_indicador(celda):
+    """Detecta el tipo de indicador por color de fila."""
+    if not celda or not celda.fill:
+        return 'calidade'  # default
+    
+    fill = celda.fill
+    if not fill.start_color:
+        return 'calidade'
+    
+    rgb = str(fill.start_color.rgb).upper()
+    
+    # Azul = calidade (default)
+    # Verde = institucional
+    # Rojo = estratexico
+    if 'FF00B050' in rgb or '00B050' in rgb:  # Verde
+        return 'institucional'
+    elif 'FFFF0000' in rgb or 'FF0000' in rgb:  # Rojo
+        return 'estratexico'
+    
+    return 'calidade'
 
 
 class Command(BaseCommand):
-    help = 'Importa indicadores desde los Excel del cadro de mando (sin seguimentos)'
+    help = 'Importa indicadores desde Excel del cadro de mando'
 
     def add_arguments(self, parser):
         parser.add_argument('carpeta', type=str, help='Carpeta con los Excel')
@@ -60,13 +64,13 @@ class Command(BaseCommand):
         carpeta = Path(options['carpeta'])
         
         usuario = User.objects.filter(is_superuser=True).first()
-        if usuario is None:
-            self.stderr.write('No hay superusuario...')
+        if not usuario:
+            self.stderr.write('No hay superusuario.')
             return
 
         archivos = list(carpeta.glob('*.xlsx'))
         if not archivos:
-            self.stderr.write(f'No hay archivos .xlsx en {carpeta}')
+            self.stderr.write(f'No hay .xlsx en {carpeta}')
             return
 
         for ruta in archivos:
@@ -78,133 +82,139 @@ class Command(BaseCommand):
         if not match:
             self.stdout.write(self.style.WARNING(f'No puedo extraer código de {nombre_archivo}'))
             return
-        
+
         codigo_localizador = match.group(1)
         codigo_centro = match.group(2)
+
         localizador = Localizadores.objects.filter(codigo=codigo_localizador).first()
-        
-        if localizador is None:
+        if not localizador:
             self.stderr.write(f'Localizador {codigo_localizador} no existe.')
             return
 
         centro = Centros.objects.filter(codigo=codigo_centro, codigo_localizador=localizador).first()
-        if centro is None:
-            self.stdout.write(self.style.WARNING(f'Centro {codigo_centro} no existe. Salto {nombre_archivo}'))
+        if not centro:
+            self.stderr.write(f'Centro {codigo_centro} no existe.')
             return
 
-        wb = openpyxl.load_workbook(str(ruta), data_only=True)
+        wb = openpyxl.load_workbook(str(ruta), data_only=False)  # data_only=False para detectar colores
         total_indicadores = 0
 
-        # --- Hoja "Centro" ---
+        # Hoja "Centro"
         if 'Centro' in wb.sheetnames:
-            n_ind = self.procesar_hoja(
-                wb['Centro'], centro=centro, titulo=None, usuario=usuario
-            )
-            total_indicadores += n_ind
+            n = self.procesar_hoja(wb['Centro'], centro, None, usuario)
+            total_indicadores += n
 
-        # --- Hojas de título ---
+        # Hojas de títulos
         for nombre_hoja in wb.sheetnames:
             if nombre_hoja in SHEETS_EXCLUIDAS:
                 continue
 
-            denominacion_titulo, tipo = extraer_titulo_de_hoja(wb[nombre_hoja], nombre_hoja)
-            if not denominacion_titulo:
+            titulo = self.buscar_titulo(wb[nombre_hoja], centro)
+            if not titulo:
                 continue
 
-            titulo = Titulos.objects.filter(
-                centro=centro, denominacion=denominacion_titulo
-            ).first()
-            if titulo is None:
-                continue
-
-            n_ind = self.procesar_hoja(
-                wb[nombre_hoja], centro=centro, titulo=titulo, usuario=usuario
-            )
-            total_indicadores += n_ind
+            n = self.procesar_hoja(wb[nombre_hoja], centro, titulo, usuario)
+            total_indicadores += n
 
         self.stdout.write(self.style.SUCCESS(
             f'{nombre_archivo}: {total_indicadores} indicadores'
         ))
 
+    def buscar_titulo(self, ws, centro):
+        """Busca el título que corresponde a esta hoja."""
+        for fila in ws.iter_rows(max_row=5, values_only=True):
+            for celda in fila:
+                if celda and isinstance(celda, str):
+                    for t in centro.titulos.all():
+                        if t.denominacion in celda:
+                            return t
+        return None
+
     def procesar_hoja(self, ws, centro, titulo, usuario):
+        """Lee la hoja y crea indicadores."""
         n_indicadores = 0
+        tipo_actual = 'calidade'
 
-        for fila in ws.iter_rows(min_row=6, values_only=True):
-            if celda_segura(fila, 0) is None:
+        for fila_num, fila in enumerate(ws.iter_rows(min_row=6), start=6):
+            valor_primera = str(fila[0].value or '').strip()
+            
+            # Detectar cambio de tipo por texto
+            if 'CALIDADE' in valor_primera.upper():
+                tipo_actual = 'calidade'
+                continue
+            elif 'INSTITUCION' in valor_primera.upper():
+                tipo_actual = 'institucional'
+                continue
+            elif 'ESTRATÉXICO' in valor_primera.upper() or 'ESTRATEXICO' in valor_primera.upper():
+                tipo_actual = 'estratexico'
+                continue
+            
+            # Saltar filas vacías
+            if not valor_primera:
                 continue
 
-            codigo = str(celda_segura(fila, 0)).strip()
-            denominacion_indicador = (celda_segura(fila, 1) or '').strip()
-            denominacion = (celda_segura(fila, 2) or '').strip()
-            descricion = (celda_segura(fila, 3) or '').strip()
-            irpd_celda = celda_segura(fila, 4)
+            # Es un indicador, procesar normalmente
+            codigo = valor_primera if valor_primera else None
+            
+            # DEBUG: Imprime el código y su longitud
+            if codigo and len(codigo) > 50:
+                print(f"CÓDIGO LARGO - Fila {fila_num}: '{codigo}' (long={len(codigo)})")
+
+            denominacion = str(fila[1].value).strip() if fila[1].value else None
+            procedemento = str(fila[2].value).strip() if fila[2].value else None
+            descricion = str(fila[3].value).strip() if fila[3].value else None
+            irpd_celda = fila[4].value if len(fila) > 4 else None
+
+            if not codigo or not denominacion:
+                continue
+
             fonte = extraer_url(descricion)
+            irpd_obj = self.obtener_irpd(irpd_celda, usuario)
 
-            if self.es_fila_categoria(fila):
-                continue
+            indicador, creado = Indicadores.objects.get_or_create(
+                codigo=codigo,
+                defaults={
+                    'denominacion': denominacion,
+                    'procedemento_asociado': procedemento or '',
+                    'descricion': descricion or '',
+                    'fonte': fonte,
+                    'irpd': irpd_obj,
+                    'tipo_indicador': tipo_actual,  # ← USA EL TIPO DETECTADO
+                    'sentido': 'positivo',
+                    'creado_por': usuario,
+                }
+            )
 
-            criterios = self.obtener_criterios(irpd_celda)
+            indicador.centros.add(centro)
+            if titulo:
+                indicador.titulos.add(titulo)
 
-            for criterio in criterios:
-                indicador = self.obtener_o_crear_indicador(
-                    codigo, denominacion_indicador, denominacion,
-                    descricion, fonte, criterio, usuario
-                )
-
-                # Asegurar el vínculo N:M
-                indicador.centros.add(centro)
-                if titulo:
-                    indicador.titulos.add(titulo)
-
-                n_indicadores += 1
+            n_indicadores += 1
 
         return n_indicadores
 
-    def es_fila_categoria(self, fila):
-        """Las filas de categoría solo tienen texto en la primera columna."""
-        return (celda_segura(fila, 0) is not None and
-                all(celda_segura(fila, i) is None for i in range(1, 5)))
-
-    def obtener_criterios(self, irpd_celda):
-        """Convierte '1 e 7' en [1, 7]. Si vacío, devuelve [None]."""
-        if irpd_celda is None:
-            return [None]
-        texto = str(irpd_celda)
-        numeros = re.findall(r'\d+', texto)
-        if not numeros:
-            return [None]
-        return [int(n) for n in numeros]
-
-    def obtener_o_crear_indicador(self, codigo, denominacion_indicador, denominacion,
-                                    descricion, fonte, criterio, usuario):
-        irpd_obj = None
-        if criterio is not None:
-            irpd_obj, _ = IRPD.objects.get_or_create(
-                criterio=str(criterio),
-                defaults={'denominacion': f'Criterio {criterio}', 'creado_por': usuario}
-            )
-        else:
-            irpd_obj, _ = IRPD.objects.get_or_create(
+    def obtener_irpd(self, irpd_celda, usuario):
+        """Obtiene o crea IRPD."""
+        if not irpd_celda:
+            irpd, _ = IRPD.objects.get_or_create(
                 criterio='8',
                 defaults={'denominacion': 'Sin clasificar', 'creado_por': usuario}
             )
+            return irpd
 
-        codigo_final = codigo
-        if criterio is not None:
-            existentes = Indicadores.objects.filter(codigo=codigo).exclude(irpd=irpd_obj)
-            if existentes.exists():
-                codigo_final = f"{codigo}-{criterio}"
+        texto = str(irpd_celda)
+        numeros = re.findall(r'\d+', texto)
+        
+        if not numeros:
+            irpd, _ = IRPD.objects.get_or_create(
+                criterio='8',
+                defaults={'denominacion': 'Sin clasificar', 'creado_por': usuario}
+            )
+            return irpd
 
-        indicador, creado = Indicadores.objects.get_or_create(
-            codigo=codigo_final,
-            defaults={
-                'denominacion_indicador': denominacion_indicador,
-                'denominacion': denominacion,
-                'descricion': descricion,
-                'fonte': fonte,
-                'irpd': irpd_obj,
-                'sentido': 'positivo',
-                'creado_por': usuario,
-            }
+        criterio = numeros[0]
+        irpd, _ = IRPD.objects.get_or_create(
+            criterio=criterio,
+            defaults={'denominacion': f'Criterio {criterio}', 'creado_por': usuario}
         )
-        return indicador
+        return irpd
