@@ -17,15 +17,28 @@
         <div class="card-header">
             <button class="btn-expand" data-toggle="card">▶</button>
             <div class="card-content-inicial">
-                <h3>Código: {{ ind.codigo }}</h3>
+                <h3>{{ ind.codigo }}</h3>
                 <p class="denominacion">{{ ind.denominacion }}</p>
-                <p class="procedemento">{{ ind.procedemento_asociado }}</p>
+                <p class="procedemento">{{ ind.procedemento_titulo }}</p>
                 {% if ind.fonte %}
                 <a href="{{ ind.fonte }}" target="_blank" class="btn-fonte">📄 Fonte</a>
                 {% endif %}
             </div>
         </div>
         <div class="card-body">
+            <p><strong>Código:</strong> {{ ind.codigo }}</p>
+            <p><strong>Denominación:</strong> {{ ind.denominacion }}</p>
+            <p><strong>Procedemento asociado:</strong></p>
+            <p>{{ ind.procedemento_titulo }}</p>
+            <p>
+                <ul style="margin: 8px 0; padding-left: 20px;">
+                    {% for item in ind.procedemento_items %}
+                        <p style="margin: 4px 0;">{{ item }}</p>
+                    {% empty %}
+                        <p></p>
+                    {% endfor %}
+                </ul>
+            </p>
             <p><strong>Descrición:</strong></p>
             <p>{{ ind.descricion }}</p>
             

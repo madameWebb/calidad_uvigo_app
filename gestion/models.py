@@ -154,6 +154,18 @@ class Indicadores(ModeloBase):
     sentido = models.CharField(max_length=10, choices=SENTIDO_CHOICES)
     centros = models.ManyToManyField(Centros, related_name='indicadores', blank=True)
     titulos = models.ManyToManyField(Titulos, related_name='indicadores', blank=True)
+    def procedemento_titulo(self):
+        """Retorna solo hasta que encuentra un guión entre espacios"""
+        if '\n' in self.procedemento_asociado:
+            return self.procedemento_asociado.split('\n')[0].strip()
+        return self.procedemento_asociado
+    
+    def procedemento_items(self):
+        """Retorna los items después de los dos puntos como lista"""
+        if '\n' not in self.procedemento_asociado:
+            return []
+        parte = self.procedemento_asociado.split('\n', 1)[1].strip()
+        return [item.strip() for item in parte.split('\n')]
 
 
     class Meta:

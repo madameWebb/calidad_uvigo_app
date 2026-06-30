@@ -155,10 +155,11 @@ class Command(BaseCommand):
 
             # Es un indicador, procesar normalmente
             codigo = valor_primera if valor_primera else None
-            
-            # DEBUG: Imprime el código y su longitud
-            if codigo and len(codigo) > 50:
-                print(f"CÓDIGO LARGO - Fila {fila_num}: '{codigo}' (long={len(codigo)})")
+
+            # Salta fórmulas
+            if codigo.startswith('='):
+                continue
+
 
             denominacion = str(fila[1].value).strip() if fila[1].value else None
             procedemento = str(fila[2].value).strip() if fila[2].value else None
