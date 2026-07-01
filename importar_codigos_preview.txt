@@ -1,349 +1,67 @@
 VISTA PREVIA DE IMPORTACIÓN DE CÓDIGOS
 ================================================================================
 
-✗ Fila 2: Título 'Grado en Ciencia y Tecnología de los Alimentos' NO ENCONTRADO
-
-✗ Fila 3: Título 'Grado en Ciencias Ambientales' NO ENCONTRADO
-
-✗ Fila 4: Título 'Grado en Ingeniería Agraria' NO ENCONTRADO
-
-✗ Fila 5: Título 'Máster Universitario en Nutrición' NO ENCONTRADO
-
-✗ Fila 6: Título 'Máster Universitario en Ciencia y Tecnología Agroalimentaria y Ambiental' NO ENCONTRADO
-
-✗ Fila 7: Título 'PCEO Grado en Ingeniería Agraria y el Grado en Ciencias Ambientales' NO ENCONTRADO
-
-✗ Fila 8: Título 'PCEO Grado en Ingeniería Agraria y el Grado en Ciencia y Tecnología de los Alimentos' NO ENCONTRADO
-
-✗ Fila 9: Título 'Grado en Geografía e Historia' NO ENCONTRADO
-
-✓ Fila 10:
-  Plan SIGMA: 10195
-  Estudio SIGMA: 10190
-  Nombre: Máster Universitario en Valoración, Gestión y Protección del Patrimonio Cultural
-  Título encontrado: Máster Universitario en Valoración, xestión e protección do patrimonio cultural (ID: 203)
-  Xescampus: O02M143V03
-  RUCT: 4315075
-
-✗ Fila 11: Título 'Máster Universitario en Arqueología y Ciencias de la Antigüedad' NO ENCONTRADO
-
-✗ Fila 12: Título 'Grado en Derecho' NO ENCONTRADO
-
-✗ Fila 13: Título 'PCEO Grado en Administración y Dirección de Empresas y el Grado en Derecho' NO ENCONTRADO
-
-✗ Fila 14: Título 'Máster Universitario en Abogacía y Procura - Ourense' NO ENCONTRADO
-
-✗ Fila 15: Título 'Grado en Administración y Dirección de Empresas' NO ENCONTRADO
-
-✗ Fila 16: Título 'Grado en Turismo' NO ENCONTRADO
-
-✗ Fila 17: Título 'PCEO Grado en Turismo y el Grado en Geografía e Historia' NO ENCONTRADO
-
 ✓ Fila 18:
-  Plan SIGMA: ----
-  Estudio SIGMA: 10201
-  Nombre: Máster Universitario en Dirección y Planificación del Turismo Interior y de Salud - Presencial
-  Título encontrado: Máster Universitario en Dirección e Planificación do Turismo Interior e de Saúde (ID: 206)
-  Xescampus: O04M097V01
-  RUCT: 4313117
-
-✗ Fila 19: Título 'Máster Universitario en Gestión Empresarial del Deporte' NO ENCONTRADO
-
-✗ Fila 20: Título 'Grado en Educación Infantil' NO ENCONTRADO
-
-✗ Fila 21: Título 'Grado en Educación Primaria' NO ENCONTRADO
-
-✗ Fila 22: Título 'Grado en Educación Social' NO ENCONTRADO
-
-✗ Fila 23: Título 'Grado en Trabajo Social' NO ENCONTRADO
-
-✗ Fila 24: Título 'Máster Universitario en Dificultades de Aprendizaje y Procesos Cognitivos' NO ENCONTRADO
-
-✓ Fila 25:
-  Plan SIGMA: 10213
-  Estudio SIGMA: 10207
-  Nombre: Máster Universitario en Intervención Multidisciplinar en la Diversidad en Contextos Educativos
-  Título encontrado: Máster Universitario en Intervención Multidisciplinar na Diversidade en Contextos Educativos (ID: 210)
-  Xescampus: O05M138V01
-  RUCT: 4310397
-
-✗ Fila 26: Título 'Máster Universitario en Desafíos de las Ciudades' NO ENCONTRADO
-
-✗ Fila 27: Título 'Máster Universitario en Trabajo Social en el ámbito sanitario' NO ENCONTRADO
-
-✗ Fila 28: Título 'Máster Universitario en Prevención y Abordaje Multidisciplinar de las Drogodependencias y Conductas Adictivas' NO ENCONTRADO
-
-✗ Fila 29: Título 'Grado en Ingeniería Informática' NO ENCONTRADO
-
-✗ Fila 30: Título 'Grado en Inteligencia Artificial' NO ENCONTRADO
-
-✗ Fila 31: Título 'PCEO Grado en Administración y Dirección de Empresas y el Grado en Ingeniería Informática' NO ENCONTRADO
-
-✗ Fila 32: Título 'Máster Universitario en Ingeniería Informática' NO ENCONTRADO
-
-✗ Fila 33: Título 'Máster Universitario en Inteligencia Artificial' NO ENCONTRADO
-
-✗ Fila 34: Título 'PCEO Grado en Ingeniería Informática y el Grado en Inteligencia Artificial' NO ENCONTRADO
-
-✗ Fila 35: Título 'Grado en Ingeniería Aeroespacial' NO ENCONTRADO
-
-✗ Fila 36: Título 'Máster Universitario en Sistemas Aéreos no Tripulados' NO ENCONTRADO
-
-✗ Fila 37: Título 'Máster Universitario en Ingeniería Aeronáutica' NO ENCONTRADO
-
-✗ Fila 38: Título 'Grado en Relaciones Internacionales' NO ENCONTRADO
-
-✗ Fila 39: Título 'Grado en Enfermería' NO ENCONTRADO
-
-✗ Fila 40: Título 'Grado en Bellas Artes' NO ENCONTRADO
-
-✗ Fila 41: Título 'Máster Universitario en Creación Artística Contemporánea' NO ENCONTRADO
-
-✓ Fila 42:
-  Plan SIGMA: 11443
-  Estudio SIGMA: 11436
-  Nombre: Grado en Ciencias de la Actividad Física y del Deporte
-  Título encontrado: Grao en Ciencias da Actividade Física e do Deporte (ID: 128)
-  Xescampus: P02G051V01
-  RUCT: 2501117
-
-✗ Fila 43: Título 'Grado en Educación Infantil' NO ENCONTRADO
-
-✗ Fila 44: Título 'Grado en Educación Primaria' NO ENCONTRADO
-
-✗ Fila 45: Título 'Máster Universitario en Necesidades Específicas de Apoyo Educativo' NO ENCONTRADO
-
-✓ Fila 46:
-  Plan SIGMA: 10236
-  Estudio SIGMA: 10226
-  Nombre: Máster Universitario en Investigación en Actividad Física, Deporte y Salud
-  Título encontrado: Máster Universitario en Investigación en Actividade Física, Deporte e Saúde (ID: 218)
-  Xescampus: P02M156V01
-  RUCT: 4315288
-
-✗ Fila 47: Título 'Máster Universitario en Dirección Integrada de Proyectos' NO ENCONTRADO
-
-✓ Fila 48:
-  Plan SIGMA: 10238
-  Estudio SIGMA: 10228
-  Nombre: Máster Universitario en Investigación e Innovación en Didácticas Específicas para Educación Infantil y Primaria
-  Título encontrado: Máster Univ. en Investigación e Innovación en Didácticas Específicas para Ed. Infantil e Primaria (ID: 217)
-  Xescampus: P02M178V01
-  RUCT: 4316441
-
-✓ Fila 49:
-  Plan SIGMA: 11600
-  Estudio SIGMA: 11600
-  Nombre: Máster Universitario en Ciencia del Ejercicio, Preparación Física y Readaptación Deportiva
-  Título encontrado: Máster Univ. en Ciencia do Exercicio, Preparación Física e Readaptación Deportiva (ID: 220)
-  Xescampus: ----
-  RUCT: 3500201
-
-✗ Fila 50: Título 'Grado en Ingeniería Forestal' NO ENCONTRADO
-
-✗ Fila 51: Título 'Grado en Comunicación Audiovisual' NO ENCONTRADO
-
-✗ Fila 52: Título 'Grado en Publicidad y Relaciones Públicas' NO ENCONTRADO
-
-✗ Fila 53: Título 'Máster Universitario en Dirección de Arte en Publicidad' NO ENCONTRADO
-
-✗ Fila 54: Título 'Máster Universitario en Comunicación en Medios Sociales y Creación de Contenidos Digitales' NO ENCONTRADO
-
-✗ Fila 55: Título 'PCEO Grado en Publicidad y Relaciones Públicas y el Grado en Comunicación Audiovisual' NO ENCONTRADO
-
-✗ Fila 56: Título 'Grado en Fisioterapia' NO ENCONTRADO
-
-✗ Fila 57: Título 'Máster Universitario en Ejercicio Terapéutico en Fisioterapia' NO ENCONTRADO
-
-✗ Fila 58: Título 'Máster Universitario en Diseño y Dirección Creativa en Moda' NO ENCONTRADO
-
-✗ Fila 59: Título 'Grado en Diseño' NO ENCONTRADO
-
-✗ Fila 60: Título 'Grado en Dirección y Gestión Pública' NO ENCONTRADO
-
-✗ Fila 61: Título 'Máster Universitario en Dirección Pública y Liderazgo Institucional' NO ENCONTRADO
-
-✗ Fila 62: Título 'Grado en Enfermería' NO ENCONTRADO
-
-✗ Fila 63: Título 'Grado en Ingeniería Mecánica' NO ENCONTRADO
-
-✗ Fila 64: Título 'Máster Universitario en Dirección TIC para la Defensa' NO ENCONTRADO
-
-✗ Fila 65: Título 'Grado en Ingeniería de Tecnologías Navales para la Defensa' NO ENCONTRADO
-
-✗ Fila 66: Título 'Grado en Lenguas Extranjeras' NO ENCONTRADO
-
-✗ Fila 67: Título 'Grado en Traducción e Interpretación' NO ENCONTRADO
-
-✗ Fila 68: Título 'Grado en Ciencias del Lenguaje y Estudios Literarios' NO ENCONTRADO
-
-✗ Fila 69: Título 'Grado en Filología Aplicada Gallega y Española' NO ENCONTRADO
-
-✗ Fila 70: Título 'Máster Universitario en Traducción Multimedia' NO ENCONTRADO
-
-✗ Fila 71: Título 'Máster Universitario en Estudios Ingleses Avanzados y sus Aplicaciones' NO ENCONTRADO
-
-✗ Fila 72: Título 'Máster Universitario en Lingüística Aplicada' NO ENCONTRADO
-
-✓ Fila 73:
-  Plan SIGMA: 10264
-  Estudio SIGMA: 10250
-  Nombre: Máster Universitario en Traducción para la Comunicación Internacional
-  Título encontrado: Máster Universitario en Traducción para a Comunicación Internacional (ID: 229)
-  Xescampus: V01M128V11
-  RUCT: 4314063
-
-✗ Fila 74: Título 'Máster Universitario en Enseñanza de Español como Lengua Extranjera o Segunda Lengua' NO ENCONTRADO
-
-✗ Fila 75: Título 'Máster Universitario en Literatura Dramática, Música y Artes Escénicas' NO ENCONTRADO
-
-✗ Fila 76: Título 'Grado en Biología' NO ENCONTRADO
-
-✗ Fila 77: Título 'Máster Universitario en Profesorado en Educación Secundaria Obligatoria, Bachillerato, Formación Profesional y Enseñanza en Idiomas. ' NO ENCONTRADO
-
-✗ Fila 78: Título 'Máster Universitario en Biotecnología Avanzada' NO ENCONTRADO
-
-✗ Fila 79: Título 'Máster Universitario en Biología Marina' NO ENCONTRADO
-
-✗ Fila 80: Título 'Máster Universitario en Neurociencia' NO ENCONTRADO
-
-✗ Fila 81: Título 'Máster Universitario en Acuicultura' NO ENCONTRADO
-
-✗ Fila 82: Título 'Máster Universitario en Genómica y Genética' NO ENCONTRADO
-
-✗ Fila 83: Título 'Máster Universitario en Biodiversidad Terrestre: Caracterización, Conservación y Gestión' NO ENCONTRADO
-
-✗ Fila 84: Título 'Grado en Administración y Dirección de Empresas' NO ENCONTRADO
-
-✗ Fila 85: Título 'Grado en Economía' NO ENCONTRADO
-
-✗ Fila 86: Título 'PCEO del Grado en Administración y Dirección de Empresas y el Grado en Derecho' NO ENCONTRADO
-
-✗ Fila 87: Título 'Máster Universitario en Administración Integrada de Empresas y Responsabilidad Social Corporativa' NO ENCONTRADO
-
-✗ Fila 88: Título 'Máster Universitario en Finanzas' NO ENCONTRADO
-
-✗ Fila 89: Título 'Máster Universitario en Gestión del Desarrollo Sostenible' NO ENCONTRADO
-
-✗ Fila 90: Título 'Máster Universitario en Economía' NO ENCONTRADO
-
-✗ Fila 91: Título 'Máster Universitario en Técnicas Estadísticas' NO ENCONTRADO
-
-✗ Fila 92: Título 'Máster Universitario en Economía Circular' NO ENCONTRADO
-
-✗ Fila 93: Título 'Grado en Ingeniería de Tecnologías de Telecomunicación' NO ENCONTRADO
-
-✗ Fila 94: Título 'Máster Universitario en Matemática Industrial' NO ENCONTRADO
-
-✗ Fila 95: Título 'Máster Universitario en Ingeniería de Telecomunicación' NO ENCONTRADO
-
-✗ Fila 96: Título 'Máster Universitario en Ciberseguridad' NO ENCONTRADO
-
-✗ Fila 97: Título 'Máster Universitario en Visión por Computador' NO ENCONTRADO
-
-✗ Fila 98: Título 'Máster Universitario en Ciencia y Tecnologías de Información Cuántica' NO ENCONTRADO
-
-✗ Fila 99: Título 'Máster Universitario en Internet de las Cosas - IoT' NO ENCONTRADO
-
-✗ Fila 100: Título 'Máster Universitario en Realidad Extendida' NO ENCONTRADO
-
-✗ Fila 101: Título 'Grado en Comercio' NO ENCONTRADO
-
-✗ Fila 102: Título 'Máster Universitario en Dirección de PYMES' NO ENCONTRADO
-
-✗ Fila 103: Título 'Máster Universitario en Comercio Internacional' NO ENCONTRADO
+  Plan SIGMA: 10246
+  Estudio SIGMA: 10234
+  Nombre: Máster Universitario en Dirección Pública y Liderazgo Institucional
+  Título encontrado: Máster Universitario en Dirección Publica e Liderado Institucional (ID: 225)
+  Xescampus: P04M125V11
+  RUCT: 4314011
+
+✓ Fila 59:
+  Plan SIGMA: 10410
+  Estudio SIGMA: 10245
+  Nombre: Máster Universitario en Traducción Multimedia
+  Título encontrado: Máster Universitario en Traducción Multimedia (ID: 227)
+  Xescampus: V01M079V11
+  RUCT: 4312437
+
+✗ Fila 70: Título 'Grado en Ciencias Ambientales' NO ENCONTRADO
+
+✗ Fila 81: Título 'Grado en Trabajo Social' NO ENCONTRADO
+
+✗ Fila 86: Título 'Grado en Relaciones Internacionales' NO ENCONTRADO
+
+✓ Fila 88:
+  Plan SIGMA: 11405
+  Estudio SIGMA: 11312
+  Nombre: Grado en Educación Infantil
+  Título encontrado: Grao en Educación Infantil (ID: 100)
+  Xescampus: P02G110V01
+  RUCT: 2501120
+
+✗ Fila 94: Título 'Grado en Diseño' NO ENCONTRADO
+
+✗ Fila 97: Título 'Grado en Lenguas Extranjeras' NO ENCONTRADO
+
+✗ Fila 99: Título 'Grado en Ciencias del Lenguaje y Estudios Literarios' NO ENCONTRADO
 
 ✗ Fila 104: Título 'Grado en Derecho' NO ENCONTRADO
 
-✗ Fila 105: Título 'Grado en Relaciones Laborales y Recursos Humanos' NO ENCONTRADO
+✗ Fila 106: Título 'Grado en Ingeniería de la Energía' NO ENCONTRADO
 
-✓ Fila 106:
-  Plan SIGMA: 10367
-  Estudio SIGMA: 10334
-  Nombre: Máster Universitario en Menores en Situación de Desprotección y Conflicto Social
-  Título encontrado: Máster Universitario en Menores en Situación de Desprotección e Conflito Social (ID: 183)
-  Xescampus: V08M042V01
-  RUCT: 4310602
+✗ Fila 107: Título 'Grado en Ingeniería de los Recursos Mineros y Energéticos' NO ENCONTRADO
 
-✗ Fila 107: Título 'Máster Universitario en Gestión y Dirección Laboral' NO ENCONTRADO
+✗ Fila 109: Título 'Grado en Química' NO ENCONTRADO
 
-✗ Fila 108: Título 'Máster Universitario en Abogacía y Procura - Vigo' NO ENCONTRADO
+✗ Fila 114: Título 'Grado en Ingeniería en Tecnologías Industriales' NO ENCONTRADO
 
-✗ Fila 109: Título 'Grado en Ingeniería de la Energía' NO ENCONTRADO
+✗ Fila 115: Título 'Grado en Ingeniería Mecánica' NO ENCONTRADO
 
-✗ Fila 110: Título 'Grado en Ingeniería de los Recursos Mineros y Energéticos' NO ENCONTRADO
+✗ Fila 117: Título 'Grado en Ingeniería de la Automoción' NO ENCONTRADO
 
-✗ Fila 111: Título 'Máster Universitario en Ingeniería de Minas' NO ENCONTRADO
+✗ Fila 133: Título 'PCEO Grado en Ingeniería Agraria y el Grado en Ciencias Ambientales' NO ENCONTRADO
 
-✗ Fila 112: Título 'Máster Universitario en Gestión Sostenible del Agua' NO ENCONTRADO
+✗ Fila 135: Título 'Grado en Enfermería' NO ENCONTRADO
 
-✗ Fila 113: Título 'Máster Universitario en Geomática Avanzada e Inteligencia Geoespacial' NO ENCONTRADO
+✗ Fila 136: Título 'Grado en Enfermería' NO ENCONTRADO
 
-✗ Fila 114: Título 'Grado en Ciencias del Mar' NO ENCONTRADO
+✗ Fila 137: Título 'Grado en Enfermería' NO ENCONTRADO
 
-✗ Fila 115: Título 'Máster Universitario en Oceanografía' NO ENCONTRADO
+✗ Fila 138: Título 'Grado en Enfermería' NO ENCONTRADO
 
-✗ Fila 116: Título 'Grado en Química' NO ENCONTRADO
-
-✗ Fila 117: Título 'Máster Universitario en Ciencia y Tecnología de Conservación de Productos de la Pesca' NO ENCONTRADO
-
-✗ Fila 118: Título 'Máster Universitario en Química Teórica y Modelización Computacional' NO ENCONTRADO
-
-✗ Fila 119: Título 'Máster Universitario en Investigación Química y Química Industrial' NO ENCONTRADO
-
-✗ Fila 120: Título 'Máster Universitario en Nanociencia y Nanotecnología' NO ENCONTRADO
-
-✗ Fila 121: Título 'Máster Universitario en Mecatrónica' NO ENCONTRADO
-
-✗ Fila 122: Título 'Máster Universitario en Ingeniería de la Automoción' NO ENCONTRADO
-
-✗ Fila 123: Título 'Máster Universitario en Ingeniería Industrial' NO ENCONTRADO
-
-✗ Fila 124: Título 'Máster Universitario en Prevención de Riesgos Laborales' NO ENCONTRADO
-
-✗ Fila 125: Título 'Máster Universitario en Energía y Sostenibilidad' NO ENCONTRADO
-
-✗ Fila 126: Título 'Máster Universitario en Industria 4.0' NO ENCONTRADO
-
-✗ Fila 127: Título 'Máster Universitario en Dirección e Innovación de la Cadena de Suministro' NO ENCONTRADO
-
-✗ Fila 128: Título 'Máster Universitario en Ingeniería Biomédica' NO ENCONTRADO
-
-✗ Fila 129: Título 'Máster Universitario en Fabricación Aditiva' NO ENCONTRADO
-
-✗ Fila 130: Título 'Grado en Ingeniería Eléctrica' NO ENCONTRADO
-
-✗ Fila 131: Título 'Grado en Ingeniería en Electrónica Industrial y Automática' NO ENCONTRADO
-
-✗ Fila 132: Título 'Grado en Ingeniería en Organización Industrial' NO ENCONTRADO
-
-✗ Fila 133: Título 'Grado en Ingeniería en Química Industrial' NO ENCONTRADO
-
-✗ Fila 134: Título 'Grado en Ingeniería en Tecnologías Industriales' NO ENCONTRADO
-
-✗ Fila 135: Título 'Grado en Ingeniería Mecánica' NO ENCONTRADO
-
-✗ Fila 136: Título 'Grado en Ingeniería Biomédica' NO ENCONTRADO
-
-✗ Fila 137: Título 'Grado en Ingeniería de la Automoción' NO ENCONTRADO
-
-✗ Fila 138: Título 'PCEO del Grado en Ingeniería Biomédica y el Grado en Ingeniería Mecánica' NO ENCONTRADO
-
-✗ Fila 139: Título 'PCEO del Grado en Ingeniería Biomédica y el Grado en Ingeniería en Electrónica Industrial y Automática' NO ENCONTRADO
-
-✗ Fila 140: Título 'PCEO del Grado en Ingeniería Mecánica y el Grado en Ingeniería en Electrónica Industrial y Automática' NO ENCONTRADO
-
-✗ Fila 141: Título 'Máster Universitario en Vehículos Autónomos' NO ENCONTRADO
-
-✗ Fila 142: Título 'Grado en Educación Infantil' NO ENCONTRADO
-
-✗ Fila 143: Título 'Grado en Educación Primaria' NO ENCONTRADO
-
-✗ Fila 144: Título 'Grado en Enfermería' NO ENCONTRADO
-
-✗ Fila 145: Título 'Grado en Enfermería' NO ENCONTRADO
-
-✗ Fila 146: Título 'Máster Universitario en Biofabricación' NO ENCONTRADO
+✗ Fila 140: Título 'Grado en Biología' NO ENCONTRADO
 
 ================================================================================
-RESUMEN: 9 códigos OK, 136 errores
+RESUMEN: 3 códigos OK, 19 errores

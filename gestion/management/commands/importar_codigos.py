@@ -16,11 +16,34 @@ class Command(BaseCommand):
     def traducir_a_gallego(self, nombre):
         """Traduce términos castellanos comunes a gallego"""
         traducciones = {
-            'Grado': 'Grao',
             'Ambientales': 'Ambientais',
             'Ingeniería': 'Enxeñaría',
             'Enfermería': 'Enfermaría',
             'Tecnología': 'Tecnoloxía',
+            'Arqueología': 'Arqueoloxía',
+            'Ciudades': 'Cidades',
+            'Inteligencia': 'Intelixencia',
+            'Bachillerato': 'Bacharelato',
+            'Biotecnología': 'Biotecnoloxía',
+            'Biología': 'Bioloxía', 
+            'Abordaje': 'Abordaxe',
+            'Genética': 'Xenética',
+            'PCEO': 'PCEO',
+            'Energía': 'Enerxía',
+            'Industriales': 'Industriais',
+            'Extranjera': 'Extranxeira',
+            'Realidad': 'Realidade',
+            'Geoespacial': 'Xeoespacial',
+            'Literatura': 'Literatura',
+            'Música': 'Música',
+            'Gestión': 'Xestión',
+            'Desarrollo': 'Desenvolvemento',
+            'Sostenible': 'Sostible',
+            'Grado': 'Grao',
+            'Máster': 'Máster',
+            'Universitario': 'Universitario',
+            'Nanotecnología': 'Nanotecnoloxía',
+            'Institucional': 'Institucional',
         }
         
         nombre_traducido = nombre.lower()
@@ -32,11 +55,11 @@ class Command(BaseCommand):
     def buscar_titulo(self, nombre):
         """Busca un título por palabras clave (4+ coincidencias)"""
         # Si es PCEO, devuelve None
-        if 'pceo' in nombre.lower():
-            return None
+        # if 'pceo' in nombre.lower():
+        #     return None
         
         nombre_traducido = self.traducir_a_gallego(nombre)
-        palabras_genéricas = {'máster', 'universitario', 'en', 'de', 'y', 'e', 'grao', 'programa'}
+        palabras_genéricas = {'en', 'de', 'y', 'e'}
         palabras_clave = [p for p in nombre_traducido.lower().split() 
                           if len(p) > 3 and p not in palabras_genéricas]
         
@@ -53,7 +76,7 @@ class Command(BaseCommand):
                 mejor_match = titulo
         
         # Solo devuelve si hay 4+ coincidencias
-        if mejor_coincidencias >= 4:
+        if mejor_coincidencias >= 2:
             return mejor_match
         
         return None

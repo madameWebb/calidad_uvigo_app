@@ -117,9 +117,10 @@ class Titulos(ModeloBase):
 class Codigos(ModeloBase):
     titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='codigos')
     plan_sigma = models.CharField(max_length=20, unique=True)
-    estudio_sigma = models.CharField(max_length=20, unique=True)
-    xescampus = models.CharField(max_length=20, unique=True)
-    ruct = models.CharField(max_length=20, unique=True)
+    estudio_sigma = models.CharField(max_length=20, null=True, blank=True)
+    xescampus = models.CharField(max_length=20, null=True, blank=True)
+    ruct = models.CharField(max_length=20, null=True, blank=True)
+    notas = models.TextField(blank=True, null=True)
 
     class Meta:
         verbose_name = "Código"
