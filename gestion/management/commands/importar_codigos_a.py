@@ -26,7 +26,7 @@ class Command(BaseCommand):
             'Genética': 'Xenética',
             'PCEO': 'PCEO',
             'Energía': 'Enerxía',
-            'Industriales': 'Industriais',
+            'Industriales': 'Industriáis',
             'Extranjera': 'Extranxeira',
             'Realidad': 'Realidade',
             'Geoespacial': 'Xeoespacial',
@@ -35,11 +35,15 @@ class Command(BaseCommand):
             'Gestión': 'Xestión',
             'Desarrollo': 'Desenvolvemento',
             'Sostenible': 'Sostible',
-            'Grado': 'Grao',
-            'Máster': 'Máster',
-            'Universitario': 'Universitario',
             'Nanotecnología': 'Nanotecnoloxía',
             'Institucional': 'Institucional',
+            'Administración': 'Administración',
+            'Dirección': 'Dirección',
+            'Empresas': 'Empresas',
+            'Tecnologías': 'Tecnoloxías',
+            'Derecho': 'Dereito',
+            'Diseño': 'Deseño',
+            'Extranjeras': 'Extranxeiras',
         }
         
         nombre_traducido = nombre.lower()
@@ -58,7 +62,7 @@ class Command(BaseCommand):
         #     return None
         
         nombre_traducido = self.traducir_a_gallego(nombre)
-        palabras_genéricas = {'en', 'de', 'y', 'e'}
+        palabras_genéricas = {'en', 'de', 'y', 'e''Grado', 'Grao', 'Máster', 'Universitario'}
         palabras_clave = [p for p in nombre_traducido.lower().split() 
                         if len(p) > 3 and p not in palabras_genéricas]
         
@@ -75,7 +79,7 @@ class Command(BaseCommand):
                 mejor_match = titulo
         
         # Solo devuelve si hay 4+ coincidencias
-        if mejor_coincidencias >= 2:
+        if mejor_coincidencias >= 4:
             return mejor_match
         
         return None

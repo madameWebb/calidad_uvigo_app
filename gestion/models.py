@@ -115,7 +115,7 @@ class Titulos(ModeloBase):
         return self.denominacion
 
 class Codigos(ModeloBase):
-    titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='codigos')
+    titulo = models.OneToOneField(Titulos, on_delete=models.PROTECT, related_name='codigos', unique=True)
     plan_sigma = models.CharField(max_length=20, unique=True)
     estudio_sigma = models.CharField(max_length=20, null=True, blank=True)
     xescampus = models.CharField(max_length=20, null=True, blank=True)
