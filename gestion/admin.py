@@ -18,6 +18,9 @@ class BaseAdmin(admin.ModelAdmin):
         super().save_model(request, obj, form, change)
 
 class IndicadoresAdmin(BaseAdmin):
+    list_display = ('codigo', 'denominacion', 'procedemento_asociado', 'tipo_indicador')
+    list_filter = ('tipo_indicador', 'irpd', 'sentido')
+    search_fields = ('codigo', 'denominacion', 'procedemento_asociado')
     filter_horizontal = ('centros', 'titulos')
     
 
@@ -36,14 +39,55 @@ class SeguimentosAdmin(BaseAdmin):
 class SeguimentosTitulosAdmin(BaseAdmin):
     pass
 
+class CodigosInline(admin.StackedInline):
+    model = Codigos
+    extra = 0
+    fields = ('plan_sigma', 'estudio_sigma', 'xescampus', 'ruct', 'notas')
+    can_delete = False
+
 class TitulosAdmin(BaseAdmin):
-    pass
+    list_display = ('denominacion', 'tipo', 'centro')
+    list_filter = ('denominacion',)
+    search_fields = ('denominacion',)
+    raw_id_fields = ('centro',)
+    inlines = [CodigosInline]
+    
+    fieldsets = (
+        ('Información do Título', {
+            'fields': ('denominacion', 'tipo', 'centro')
+        }),    
+    )
 
 class CodigosAdmin(BaseAdmin):
-    pass
+    list_display = ('plan_sigma', 'titulo',)
+    list_filter = ('titulo__centro',)
+    search_fields = ('plan_sigma', 'titulo__denominacion',)
+    raw_id_fields = ('titulo',)
+    
+    fieldsets = (
+        ('Códigos', {
+            'fields': ('plan_sigma', 'estudio_sigma', 'xescampus', 'ruct', 'notas')
+        }),
+
+        ('Relación', {
+            'fields': ('titulo',)
+        }),
+    )
+
+    def has_add_permission(self, request):
+        return False  # No crear
+
+    def has_change_permission(self, request, obj=None):
+        return False  # No editar
+
+    def has_delete_permission(self, request, obj=None):
+        return False  # No eliminar
+
 
 class ResponsablesAdmin(BaseAdmin):
-    pass
+    list_display = ('denominacion',)
+    search_fields = ('denominacion',)
+    ordering = ('denominacion',)
 
 admin.site.register(Indicadores, IndicadoresAdmin)
 admin.site.register(IRPD, IRPDAdmin)

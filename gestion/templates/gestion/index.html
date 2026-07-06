@@ -8,30 +8,30 @@
 
 <div class="tarxeta">
     <ul style="list-style: none; padding: 0; margin: 0;">
-        <!-- Enlace especial para Indicadores -->
-        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-            <a href="{% url 'indicadores' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
-                Indicadores
-            </a>
-        </li>
-        <!-- Enlace especial para IRPD -->
-        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
-            <a href="{% url 'irpd' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
-                IRPD
-            </a>
-        </li>
         <!-- Enlace especial para Centros -->
         <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
             <a href="{% url 'centros' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
-                Centros
+                Centros UVIGO
             </a>
         </li>
         <!-- Enlace especial para Títulos -->
         <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
             <a href="{% url 'titulos' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
-                Títulos
+                Títulos UVIGO
             </a>
         </li>
+        <!-- Enlace especial para Indicadores -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'indicadores' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                Indicadores de Calidade
+            </a>
+        </li>
+        <!-- Enlace especial para IRPD -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'irpd' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                IRPD - Informe de Revisión do Sistema pola Dirección
+            </a>
+        </li>        
         <!-- Enlace especial para Seguimentos de Centros -->
         <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
             <a href="{% url 'seguimentos_centros' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
@@ -43,6 +43,12 @@
         <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
             <a href="{% url 'listado' modelo=tabla.slug %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
                 {{ tabla.nome }}
+            </a>
+        </li>
+        <!-- Enlace especial para Responsables -->
+        <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+            <a href="{% url 'responsables' %}" style="color: #00407a; font-weight: 600; text-decoration: none;">
+                Responsables
             </a>
         </li>
         {% endfor %}

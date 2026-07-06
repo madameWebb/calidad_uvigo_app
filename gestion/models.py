@@ -65,21 +65,23 @@ class IRPD(ModeloBase):
 
 class Responsables(ModeloBase):
     denominacion = models.CharField(max_length=255)
+    descricion = models.TextField(blank=True, null=True, verbose_name="Descrición")
     
     class Meta:
         verbose_name = "Responsable"
         verbose_name_plural = "Responsables"
-
+        ordering = ('denominacion',)
+    
     def __str__(self):
-        return self.denominacion
-
+        return self.denominacion   
+ 
 class Localizadores(ModeloBase):
     codigo = models.CharField(max_length=50)
     campus = models.CharField(max_length=255)
     
     class Meta:
-        verbose_name = "Localizador"
-        verbose_name_plural = "Localizadores"
+        verbose_name = "Localización"
+        verbose_name_plural = "Localizaciones"
 
     def __str__(self):
         return self.campus
@@ -88,7 +90,7 @@ class Centros(ModeloBase):
     codigo_localizador = models.ForeignKey(Localizadores, on_delete=models.PROTECT, related_name='centros')
     codigo = models.CharField(max_length=50)
     denominacion= models.CharField(max_length=255)
-    direccion_webb = models.URLField(max_length=500, blank=True, null=True)
+    direccion_web = models.URLField(max_length=500, blank=True, null=True)
     equipo_decanal_directivo = models.URLField(
         verbose_name="Equipo Decanal/Directivo",
         help_text="Enlace á páxina do equipo decanal ou directivo"
@@ -102,7 +104,7 @@ class Centros(ModeloBase):
         return self.denominacion
 
 class Titulos(ModeloBase):
-    TIPO_CHOICES = [('grao', 'Grao'), ('máster', 'Máster'),]
+    TIPO_CHOICES = [('grao', 'Grao'), ('dobre grao', 'Dobre Grao'), ('máster', 'Máster'),]
     tipo = models.CharField(max_length=10, choices=TIPO_CHOICES)
     denominacion = models.CharField(max_length=255)
     centro = models.ForeignKey(Centros, on_delete=models.PROTECT, related_name='titulos')
@@ -115,7 +117,7 @@ class Titulos(ModeloBase):
         return self.denominacion
 
 class Codigos(ModeloBase):
-    titulo = models.OneToOneField(Titulos, on_delete=models.PROTECT, related_name='codigos', unique=True)
+    titulo = models.OneToOneField(Titulos, on_delete=models.CASCADE, related_name='codigos', unique=True)
     plan_sigma = models.CharField(max_length=20, unique=True)
     estudio_sigma = models.CharField(max_length=20, null=True, blank=True)
     xescampus = models.CharField(max_length=20, null=True, blank=True)
@@ -149,8 +151,8 @@ class Indicadores(ModeloBase):
     irpd = models.ForeignKey(IRPD, on_delete=models.PROTECT, related_name='indicadores')
     responsable = models.ForeignKey(Responsables, on_delete=models.PROTECT, related_name='indicadores', default=get_responsable_por_defecto)
     SENTIDO_CHOICES = [
-    ('positivo', 'A más, mejor'),      # ej: matriculados
-    ('negativo', 'A menos, mejor'),    # ej: tasa de abandono
+    ('positivo', 'A máis, mellor'),      # ej: matriculados
+    ('negativo', 'A menos, mellor'),    # ej: tasa de abandono
     ]
     sentido = models.CharField(max_length=10, choices=SENTIDO_CHOICES)
     centros = models.ManyToManyField(Centros, related_name='indicadores', blank=True)

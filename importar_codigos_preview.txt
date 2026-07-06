@@ -1,67 +1,365 @@
-VISTA PREVIA DE IMPORTACIÓN DE CÓDIGOS
+VISTA PREVIA: TÍTULOS SIN CÓDIGO
 ================================================================================
 
-✓ Fila 18:
-  Plan SIGMA: 10246
-  Estudio SIGMA: 10234
-  Nombre: Máster Universitario en Dirección Pública y Liderazgo Institucional
-  Título encontrado: Máster Universitario en Dirección Publica e Liderado Institucional (ID: 225)
-  Xescampus: P04M125V11
-  RUCT: 4314011
+✗ Fila 2: Título ID 107 YA TIENE CÓDIGO
 
-✓ Fila 59:
-  Plan SIGMA: 10410
-  Estudio SIGMA: 10245
-  Nombre: Máster Universitario en Traducción Multimedia
-  Título encontrado: Máster Universitario en Traducción Multimedia (ID: 227)
-  Xescampus: V01M079V11
-  RUCT: 4312437
+✓ Fila 3:
+  Plan SIGMA: 11356
+  Estudio SIGMA: 11284
+  Nombre: Grado en Ciencias Ambientales
+  Título: Grao en Ciencias Ambientais (ID: 108)
+  Localizador: 101
+  Xescampus: O01G261V01
+  RUCT: 2502238
 
-✗ Fila 70: Título 'Grado en Ciencias Ambientales' NO ENCONTRADO
+✗ Fila 4: Título ID 109 YA TIENE CÓDIGO
 
-✗ Fila 81: Título 'Grado en Trabajo Social' NO ENCONTRADO
+✗ Fila 5: Título ID 201 YA TIENE CÓDIGO
 
-✗ Fila 86: Título 'Grado en Relaciones Internacionales' NO ENCONTRADO
+✗ Fila 6: Título ID 200 YA TIENE CÓDIGO
 
-✓ Fila 88:
+✓ Fila 7:
+  Plan SIGMA: 11588
+  Estudio SIGMA: 11445
+  Nombre: PCEO Grado en Ingeniería Agraria y el Grado en Ciencias Ambientales
+  Título: Grao en Ciencias Ambientais (ID: 108)
+  Localizador: 101
+  Xescampus: ----
+  RUCT: ----
+
+✗ Fila 8: Título ID 107 YA TIENE CÓDIGO
+
+✗ Fila 9: Título ID 110 YA TIENE CÓDIGO
+
+✗ Fila 10: Título ID 203 YA TIENE CÓDIGO
+
+✗ Fila 11: Título ID 202 YA TIENE CÓDIGO
+
+✓ Fila 12:
+  Plan SIGMA: 11362
+  Estudio SIGMA: 11290
+  Nombre: Grado en Derecho
+  Título: Grao en Dereito (ID: 111)
+  Localizador: 103
+  Xescampus: O03G081V01
+  RUCT: 2501118
+
+✗ Fila 13: Título ID 112 YA TIENE CÓDIGO
+
+✗ Fila 14: Título ID 204 YA TIENE CÓDIGO
+
+✗ Fila 15: Título ID 113 YA TIENE CÓDIGO
+
+✗ Fila 16: Título ID 114 YA TIENE CÓDIGO
+
+✗ Fila 17: Título ID 115 YA TIENE CÓDIGO
+
+✗ Fila 18: Título ID 206 YA TIENE CÓDIGO
+
+✗ Fila 19: Título ID 205 YA TIENE CÓDIGO
+
+✓ Fila 20:
+  Plan SIGMA: 11374
+  Estudio SIGMA: 11297
+  Nombre: Grado en Educación Infantil
+  Título: Grao en Educación Infantil (ID: 116)
+  Localizador: 105
+  Xescampus: O05G110V01
+  RUCT: 2501120
+
+✓ Fila 21:
+  Plan SIGMA: 11381
+  Estudio SIGMA: 11298
+  Nombre: Grado en Educación Primaria
+  Título: Grao en Educación Primaria (ID: 117)
+  Localizador: 105
+  Xescampus: O05G120V01
+  RUCT: 2501121
+
+✗ Fila 22: Título ID 118 YA TIENE CÓDIGO
+
+✗ Fila 23: Título ID 118 YA TIENE CÓDIGO
+
+✗ Fila 24: Título ID 208 YA TIENE CÓDIGO
+
+✗ Fila 25: Título ID 210 YA TIENE CÓDIGO
+
+✗ Fila 26: Título ID 209 YA TIENE CÓDIGO
+
+✗ Fila 27: Título ID 118 YA TIENE CÓDIGO
+
+✗ Fila 28: Título ID 210 YA TIENE CÓDIGO
+
+✗ Fila 29: Título ID 120 YA TIENE CÓDIGO
+
+✗ Fila 30: Título ID 121 YA TIENE CÓDIGO
+
+✗ Fila 31: Título ID 122 YA TIENE CÓDIGO
+
+✗ Fila 32: Título ID 120 YA TIENE CÓDIGO
+
+✗ Fila 33: Título ID 121 YA TIENE CÓDIGO
+
+✗ Fila 34: Título ID 122 YA TIENE CÓDIGO
+
+✗ Fila 35: Título ID 123 YA TIENE CÓDIGO
+
+✗ Fila 36: Título ID 213 YA TIENE CÓDIGO
+
+✗ Fila 37: Título ID 124 YA TIENE CÓDIGO
+
+? Fila 38: Título 'Grado en Relaciones Internacionales' NO ENCONTRADO (localizador: 108)
+
+✗ Fila 39: Título ID 126 YA TIENE CÓDIGO
+
+✗ Fila 40: Título ID 127 YA TIENE CÓDIGO
+
+✗ Fila 41: Título ID 214 YA TIENE CÓDIGO
+
+✗ Fila 42: Título ID 128 YA TIENE CÓDIGO
+
+✓ Fila 43:
   Plan SIGMA: 11405
   Estudio SIGMA: 11312
   Nombre: Grado en Educación Infantil
-  Título encontrado: Grao en Educación Infantil (ID: 100)
+  Título: Grao en Educación Infantil (ID: 129)
+  Localizador: 202
   Xescampus: P02G110V01
   RUCT: 2501120
 
-✗ Fila 94: Título 'Grado en Diseño' NO ENCONTRADO
+✓ Fila 44:
+  Plan SIGMA: 11412
+  Estudio SIGMA: 11313
+  Nombre: Grado en Educación Primaria
+  Título: Grao en Educación Primaria (ID: 130)
+  Localizador: 202
+  Xescampus: P02G120V01
+  RUCT: 2501121
 
-✗ Fila 97: Título 'Grado en Lenguas Extranjeras' NO ENCONTRADO
+✗ Fila 45: Título ID 216 YA TIENE CÓDIGO
 
-✗ Fila 99: Título 'Grado en Ciencias del Lenguaje y Estudios Literarios' NO ENCONTRADO
+✗ Fila 46: Título ID 218 YA TIENE CÓDIGO
 
-✗ Fila 104: Título 'Grado en Derecho' NO ENCONTRADO
+✗ Fila 47: Título ID 219 YA TIENE CÓDIGO
 
-✗ Fila 106: Título 'Grado en Ingeniería de la Energía' NO ENCONTRADO
+✗ Fila 48: Título ID 217 YA TIENE CÓDIGO
 
-✗ Fila 107: Título 'Grado en Ingeniería de los Recursos Mineros y Energéticos' NO ENCONTRADO
+✗ Fila 49: Título ID 220 YA TIENE CÓDIGO
 
-✗ Fila 109: Título 'Grado en Química' NO ENCONTRADO
+✗ Fila 50: Título ID 131 YA TIENE CÓDIGO
 
-✗ Fila 114: Título 'Grado en Ingeniería en Tecnologías Industriales' NO ENCONTRADO
+✗ Fila 51: Título ID 132 YA TIENE CÓDIGO
 
-✗ Fila 115: Título 'Grado en Ingeniería Mecánica' NO ENCONTRADO
+✗ Fila 52: Título ID 133 YA TIENE CÓDIGO
 
-✗ Fila 117: Título 'Grado en Ingeniería de la Automoción' NO ENCONTRADO
+✗ Fila 53: Título ID 221 YA TIENE CÓDIGO
 
-✗ Fila 133: Título 'PCEO Grado en Ingeniería Agraria y el Grado en Ciencias Ambientales' NO ENCONTRADO
+✗ Fila 54: Título ID 222 YA TIENE CÓDIGO
 
-✗ Fila 135: Título 'Grado en Enfermería' NO ENCONTRADO
+✗ Fila 55: Título ID 132 YA TIENE CÓDIGO
 
-✗ Fila 136: Título 'Grado en Enfermería' NO ENCONTRADO
+✗ Fila 56: Título ID 134 YA TIENE CÓDIGO
 
-✗ Fila 137: Título 'Grado en Enfermería' NO ENCONTRADO
+✗ Fila 57: Título ID 223 YA TIENE CÓDIGO
 
-✗ Fila 138: Título 'Grado en Enfermería' NO ENCONTRADO
+✗ Fila 58: Título ID 224 YA TIENE CÓDIGO
 
-✗ Fila 140: Título 'Grado en Biología' NO ENCONTRADO
+✓ Fila 59:
+  Plan SIGMA: 11437
+  Estudio SIGMA: 11325
+  Nombre: Grado en Diseño
+  Título: Grao en Deseño (ID: 135)
+  Localizador: 206
+  Xescampus: P06G450V01
+  RUCT: 2504328
+
+✗ Fila 60: Título ID 136 YA TIENE CÓDIGO
+
+✗ Fila 61: Título ID 136 YA TIENE CÓDIGO
+
+✗ Fila 62: Título ID 137 YA TIENE CÓDIGO
+
+✗ Fila 63: Título ID 138 YA TIENE CÓDIGO
+
+✗ Fila 64: Título ID 226 YA TIENE CÓDIGO
+
+✗ Fila 65: Título ID 226 YA TIENE CÓDIGO
+
+? Fila 66: Título 'Grado en Lenguas Extranjeras' NO ENCONTRADO (localizador: 301)
+
+✗ Fila 67: Título ID 140 YA TIENE CÓDIGO
+
+? Fila 68: Título 'Grado en Ciencias del Lenguaje y Estudios Literarios' NO ENCONTRADO (localizador: 301)
+
+✗ Fila 69: Título ID 141 YA TIENE CÓDIGO
+
+✗ Fila 70: Título ID 227 YA TIENE CÓDIGO
+
+✗ Fila 71: Título ID 228 YA TIENE CÓDIGO
+
+✗ Fila 72: Título ID 142 YA TIENE CÓDIGO
+
+✗ Fila 73: Título ID 229 YA TIENE CÓDIGO
+
+✗ Fila 74: Título ID 141 YA TIENE CÓDIGO
+
+? Fila 75: Título 'Máster Universitario en Literatura Dramática, Música y Artes Escénicas' NO ENCONTRADO (localizador: 301)
+
+✗ Fila 76: Título ID 143 YA TIENE CÓDIGO
+
+? Fila 77: Título 'Máster Universitario en Profesorado en Educación Secundaria Obligatoria, Bachillerato, Formación Profesional y Enseñanza en Idiomas. ' NO ENCONTRADO (localizador: 302)
+
+✗ Fila 78: Título ID 230 YA TIENE CÓDIGO
+
+✗ Fila 79: Título ID 143 YA TIENE CÓDIGO
+
+✗ Fila 80: Título ID 232 YA TIENE CÓDIGO
+
+✗ Fila 81: Título ID 233 YA TIENE CÓDIGO
+
+✗ Fila 82: Título ID 234 YA TIENE CÓDIGO
+
+✓ Fila 83:
+  Plan SIGMA: 10288
+  Estudio SIGMA: 10266
+  Nombre: Máster Universitario en Biodiversidad Terrestre: Caracterización, Conservación y Gestión
+  Título: Máster Univesitario en Biodiversidade Terrestre (ID: 235)
+  Localizador: 302
+  Xescampus: V02M179V01
+  RUCT: 4316672
+
+✗ Fila 84: Título ID 144 YA TIENE CÓDIGO
+
+✗ Fila 85: Título ID 145 YA TIENE CÓDIGO
+
+✗ Fila 86: Título ID 146 YA TIENE CÓDIGO
+
+✗ Fila 87: Título ID 237 YA TIENE CÓDIGO
+
+✗ Fila 88: Título ID 238 YA TIENE CÓDIGO
+
+? Fila 89: Título 'Máster Universitario en Gestión del Desarrollo Sostenible' NO ENCONTRADO (localizador: 303)
+
+✗ Fila 90: Título ID 145 YA TIENE CÓDIGO
+
+✗ Fila 91: Título ID 236 YA TIENE CÓDIGO
+
+✗ Fila 92: Título ID 145 YA TIENE CÓDIGO
+
+✗ Fila 93: Título ID 147 YA TIENE CÓDIGO
+
+✗ Fila 94: Título ID 240 YA TIENE CÓDIGO
+
+✗ Fila 95: Título ID 147 YA TIENE CÓDIGO
+
+✗ Fila 96: Título ID 242 YA TIENE CÓDIGO
+
+✗ Fila 97: Título ID 243 YA TIENE CÓDIGO
+
+✗ Fila 98: Título ID 244 YA TIENE CÓDIGO
+
+? Fila 99: Título 'Máster Universitario en Internet de las Cosas - IoT' NO ENCONTRADO (localizador: 305)
+
+? Fila 100: Título 'Máster Universitario en Realidad Extendida' NO ENCONTRADO (localizador: 305)
+
+✗ Fila 101: Título ID 87 YA TIENE CÓDIGO
+
+✗ Fila 102: Título ID 181 YA TIENE CÓDIGO
+
+✗ Fila 103: Título ID 182 YA TIENE CÓDIGO
+
+✓ Fila 104:
+  Plan SIGMA: 11474
+  Estudio SIGMA: 11354
+  Nombre: Grado en Derecho
+  Título: Grao en Dereito (ID: 88)
+  Localizador: 308
+  Xescampus: V08G081V01
+  RUCT: 2501118
+
+✗ Fila 105: Título ID 89 YA TIENE CÓDIGO
+
+✗ Fila 106: Título ID 183 YA TIENE CÓDIGO
+
+✗ Fila 107: Título ID 184 YA TIENE CÓDIGO
+
+✗ Fila 108: Título ID 186 YA TIENE CÓDIGO
+
+✗ Fila 109: Título ID 105 YA TIENE CÓDIGO
+
+✗ Fila 110: Título ID 106 YA TIENE CÓDIGO
+
+✗ Fila 111: Título ID 197 YA TIENE CÓDIGO
+
+✗ Fila 112: Título ID 198 YA TIENE CÓDIGO
+
+? Fila 113: Título 'Máster Universitario en Geomática Avanzada e Inteligencia Geoespacial' NO ENCONTRADO (localizador: 309)
+
+✗ Fila 114: Título ID 104 YA TIENE CÓDIGO
+
+✗ Fila 115: Título ID 196 YA TIENE CÓDIGO
+
+✗ Fila 116: Título ID 93 YA TIENE CÓDIGO
+
+✗ Fila 117: Título ID 107 YA TIENE CÓDIGO
+
+✗ Fila 118: Título ID 93 YA TIENE CÓDIGO
+
+✗ Fila 119: Título ID 93 YA TIENE CÓDIGO
+
+? Fila 120: Título 'Máster Universitario en Nanociencia y Nanotecnología' NO ENCONTRADO (localizador: 311)
+
+✗ Fila 121: Título ID 194 YA TIENE CÓDIGO
+
+✗ Fila 122: Título ID 190 YA TIENE CÓDIGO
+
+✗ Fila 123: Título ID 91 YA TIENE CÓDIGO
+
+✗ Fila 124: Título ID 195 YA TIENE CÓDIGO
+
+✗ Fila 125: Título ID 188 YA TIENE CÓDIGO
+
+✗ Fila 126: Título ID 91 YA TIENE CÓDIGO
+
+✗ Fila 127: Título ID 187 YA TIENE CÓDIGO
+
+✗ Fila 128: Título ID 96 YA TIENE CÓDIGO
+
+✗ Fila 129: Título ID 192 YA TIENE CÓDIGO
+
+✗ Fila 130: Título ID 90 YA TIENE CÓDIGO
+
+✗ Fila 131: Título ID 91 YA TIENE CÓDIGO
+
+✗ Fila 132: Título ID 92 YA TIENE CÓDIGO
+
+✗ Fila 133: Título ID 93 YA TIENE CÓDIGO
+
+✗ Fila 134: Título ID 94 YA TIENE CÓDIGO
+
+✗ Fila 135: Título ID 95 YA TIENE CÓDIGO
+
+✗ Fila 136: Título ID 96 YA TIENE CÓDIGO
+
+✗ Fila 137: Título ID 190 YA TIENE CÓDIGO
+
+✗ Fila 138: Título ID 95 YA TIENE CÓDIGO
+
+✗ Fila 139: Título ID 91 YA TIENE CÓDIGO
+
+✗ Fila 140: Título ID 91 YA TIENE CÓDIGO
+
+? Fila 141: Título 'Máster Universitario en Vehículos Autónomos' NO ENCONTRADO (localizador: 312)
+
+✗ Fila 142: Título ID 100 YA TIENE CÓDIGO
+
+✗ Fila 143: Título ID 101 YA TIENE CÓDIGO
+
+✗ Fila 144: Título ID 102 YA TIENE CÓDIGO
+
+✗ Fila 145: Título ID 103 YA TIENE CÓDIGO
+
+✗ Fila 146: Título ID 199 YA TIENE CÓDIGO
 
 ================================================================================
-RESUMEN: 3 códigos OK, 19 errores
+RESUMEN: 10 nuevos, 124 ya existentes, 11 no encontrados

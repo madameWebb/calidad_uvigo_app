@@ -9,6 +9,8 @@
 {% block contido %}
 <p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
 
+<h2>Centros UVIGO</h2>
+
 <div class="filtro-busqueda">
     <input type="text" id="filtro-input" placeholder="Busca por campus, código ou denominación...">
 </div>
@@ -56,11 +58,11 @@
         {% for centro in centros %}
         <tr data-filtrable>
             <td>{{ centro.codigo_localizador.campus }}</td>
-            <td>{{ centro.codigo_localizador.codigo }}{{ centro.codigo }}</td>
+            <td>{{ centro.codigo }}</td>
             <td>{{ centro.denominacion }}</td>
             <td>
-                {% if centro.direccion_webb %}
-                <a href="{{ centro.direccion_webb }}" target="_blank">📄 Dir. Web</a>
+                {% if centro.direccion_web %}
+                <a href="{{ centro.direccion_web }}" target="_blank">📄 Dir. Web</a>
                 {% else %}
                 —
                 {% endif %}

@@ -4,9 +4,7 @@ from django.shortcuts import render, get_object_or_404
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
-    'responsables': 'Responsables',
     'seguimentosTitulos': 'Seguimentos dos títulos',
-    'codigos': 'Códigos',
 }
 
 
@@ -114,4 +112,11 @@ def seguimentos_centro_detalle_publicos(request, centro_id, orixe_datos):
         'centro': centro,
         'orixe_datos': orixe_datos,
         'seguimentos': seguimentos
+    })
+def responsables_publicos(request):
+    from gestion.models import Responsables
+    responsables = Responsables.objects.all().order_by('denominacion')
+    
+    return render(request, 'gestion/responsables.html', {
+        'responsables': responsables
     })

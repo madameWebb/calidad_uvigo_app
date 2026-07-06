@@ -16,6 +16,27 @@
     <input type="text" id="filtro-input" placeholder="Busca por código ou centro...">
 </div>
 
+<div class="filtro-ordenamiento">
+    <label>Ordenar por:</label>
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="campo" value="codigo" checked> Código
+        </label>
+        <label>
+            <input type="radio" name="campo" value="denominacion"> Denominación
+        </label>
+    </div>
+    
+    <label>
+        Dirección:
+        <select id="orden-campo">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+</div>
+
 <table data-filtrable-table>
     <thead>
         <tr>
@@ -24,10 +45,10 @@
     </thead>
     <tbody>
         {% for centro in centros %}
-        <tr data-filtrable>
+        <tr class="table-content" data-filtrable>
             <td>
                 <a href="#" class="btn-centro" data-centro-id="{{ centro.id }}" style="color: #fdfeff; font-weight: 600;">
-                    {{ centro.codigo_localizador.codigo }}{{ centro.codigo }} - {{ centro.denominacion }}
+                    <span class="codigo-seguimento">{{ centro.codigo }}</span> - <span class="nome-centro">{{ centro.denominacion }}</span>
                 </a>
             </td>
         </tr>
@@ -63,4 +84,5 @@
 {% block extra_js %}
 <script src="{% static 'gestion/js/filtro.js' %}"></script>
 <script src="{% static 'gestion/js/modal.js' %}"></script>
+<script src="{% static 'gestion/js/seguimentos_centros.js' %}"></script>
 {% endblock %}
