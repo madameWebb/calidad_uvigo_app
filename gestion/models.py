@@ -59,6 +59,7 @@ class IRPD(ModeloBase):
     class Meta:
         verbose_name = "IRPD"
         verbose_name_plural = "IRPDs"
+        ordering = ('criterio',)
 
     def __str__(self):
         return self.denominacion
@@ -99,6 +100,7 @@ class Centros(ModeloBase):
     class Meta:
         verbose_name = "Centro"
         verbose_name_plural = "Centros"
+        ordering = ('denominacion',)
 
     def __str__(self):
         return self.denominacion

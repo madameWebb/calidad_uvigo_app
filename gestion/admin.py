@@ -25,13 +25,28 @@ class IndicadoresAdmin(BaseAdmin):
     
 
 class IRPDAdmin(BaseAdmin):
-    pass    
+    list_display = ('criterio', 'denominacion',)
+    search_fields = ('denominacion',)
+    
+    fieldsets = (
+        ('Información dos IRPDs', {
+            'fields': ('criterio', 'denominacion', 'estandar', 'descricion',)
+        }),    
+    )   
 
 class LocalizadoresAdmin(BaseAdmin):
     pass   
 
 class CentrosAdmin(BaseAdmin):
-    pass
+    list_display = ('codigo', 'denominacion',)
+    search_fields = ('codigo', 'denominacion',)
+    list_filter = ('codigo_localizador',)
+    
+    fieldsets = (
+        ('Información dos IRPDs', {
+            'fields': ('codigo_localizador','codigo', 'denominacion', 'direccion_web', 'equipo_decanal_directivo',)
+        }),    
+    )   
 
 class SeguimentosAdmin(BaseAdmin):
     pass
@@ -47,7 +62,7 @@ class CodigosInline(admin.StackedInline):
 
 class TitulosAdmin(BaseAdmin):
     list_display = ('denominacion', 'tipo', 'centro')
-    list_filter = ('denominacion',)
+    list_filter = ('centro','tipo', 'centro__codigo_localizador')
     search_fields = ('denominacion',)
     raw_id_fields = ('centro',)
     inlines = [CodigosInline]
@@ -63,9 +78,11 @@ class CodigosAdmin(BaseAdmin):
     list_filter = ('titulo__centro',)
     search_fields = ('plan_sigma', 'titulo__denominacion',)
     raw_id_fields = ('titulo',)
+    raw_id_fields = ('titulo',)
+    ordering = ('plan_sigma', 'titulo__denominacion')
     
     fieldsets = (
-        ('Códigos', {
+        ('Información dos códigos', {
             'fields': ('plan_sigma', 'estudio_sigma', 'xescampus', 'ruct', 'notas')
         }),
 
