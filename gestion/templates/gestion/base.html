@@ -15,12 +15,13 @@
      <header>
         <div style="max-width: 1400px; margin: 0 auto; padding: var(--spacing-lg); display: flex; justify-content: space-between; align-items: center;">
             <div style="display: flex; align-items: center; gap: 20px;">
-                <img src="{% static 'gestion/img/logob.png' %}" alt="Logo UVIGO" style="height: 60px; width: auto;">
-                <h1 style="margin: 0; font-size: 28px; color: white;">Calidade UVIGO</h1>
+                <img src="{% static 'gestion/img/logo.png' %}" alt="Logo UVIGO" style="height: 60px; width: auto;">
+                <img src="{% static 'gestion/img/logotipo.png' %}" alt="Calidade UVIGO" style="height: 60px; width: auto;">
+                
             </div>
             <nav>
-                <a href="{% url 'index' %}" style="color: white; margin-right: 20px; text-decoration: none;">Inicio</a>
-                <a href="/admin/" style="color: white; text-decoration: none;">Área de xestión</a>
+                <a href="{% url 'index' %}" >Inicio</a>
+                <a href="/admin/" >Área de xestión</a>
             </nav>
         </div>
     </header>

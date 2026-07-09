@@ -10,6 +10,11 @@
 <p><a href="{% url 'seguimentos_titulos' %}" style="color: #00407a;">← Volver aos títulos</a></p>
 
 <h2>Seguimentos de {{ titulo.denominacion }} ({{ orixe_datos }})</h2>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por código, nome de indicador, procedemento...">
+</div>
+
 <div class="filtro-ordenamiento">
     
     <div class="radio-group" style="display:inline-flex; align-items: center;">
@@ -90,4 +95,5 @@
 {% block extra_js %}
 <script src="{% static 'gestion/js/indicadores.js' %}"></script>
 <script src="{% static 'gestion/js/seguimentos.js' %}"></script>
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
 {% endblock %}
