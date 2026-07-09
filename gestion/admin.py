@@ -49,10 +49,24 @@ class CentrosAdmin(BaseAdmin):
     )   
 
 class SeguimentosAdmin(BaseAdmin):
-    pass
+    list_filter = ('centro', 'orixe_datos', 'indicador__tipo_indicador', 'valoracion_final')
+    search_fields = ('indicador__codigo', 'indicador__denominacion', 'centro__denominacion', 'orixe_datos')
+    raw_id_fields = ('indicador', 'centro')
+    fieldsets = (
+        ('Información dos seguimentos do centro', {
+            'fields': ('centro', 'indicador', 'orixe_datos', 'meta', 'tipo_meta', 'resultado', 'observacions')
+        }),    
+    )
 
 class SeguimentosTitulosAdmin(BaseAdmin):
-    pass
+    list_filter = ('titulo__centro', 'orixe_datos', 'indicador__tipo_indicador', 'valoracion_final')
+    search_fields = ('indicador__codigo', 'indicador__denominacion', 'titulo__denominacion', 'titulo__centro__denominacion', 'orixe_datos')
+    raw_id_fields = ('indicador', 'titulo')
+    fieldsets = (
+        ('Información dos seguimentos do centro', {
+            'fields': ('titulo', 'indicador', 'orixe_datos', 'meta', 'tipo_meta', 'resultado', 'observacions')
+        }),    
+    )
 
 class CodigosInline(admin.StackedInline):
     model = Codigos
@@ -77,7 +91,6 @@ class CodigosAdmin(BaseAdmin):
     list_display = ('plan_sigma', 'titulo',)
     list_filter = ('titulo__centro',)
     search_fields = ('plan_sigma', 'titulo__denominacion',)
-    raw_id_fields = ('titulo',)
     raw_id_fields = ('titulo',)
     ordering = ('plan_sigma', 'titulo__denominacion')
     

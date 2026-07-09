@@ -4,7 +4,7 @@ from django.shortcuts import render, get_object_or_404
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
-    'seguimentosTitulos': 'Seguimentos dos títulos',
+    
 }
 
 
@@ -88,12 +88,15 @@ def titulos_publicos(request):
     })
 
 def seguimentos_centros_publicos(request):
-    from gestion.models import Centros
+    from gestion.models import Centros, Localizadores
     
     centros = Centros.objects.select_related('codigo_localizador').all().order_by('codigo_localizador__codigo', 'codigo')
     
+    localizadores = Localizadores.objects.all().order_by('campus')
+    
     return render(request, 'gestion/seguimentos_centros.html', {
-        'centros': centros
+        'centros': centros,
+        'localizadores': localizadores
     })
 
 def seguimentos_centro_detalle_publicos(request, centro_id, orixe_datos):
@@ -106,13 +109,45 @@ def seguimentos_centro_detalle_publicos(request, centro_id, orixe_datos):
     seguimentos = Seguimentos.objects.filter(
         centro=centro,
         orixe_datos=orixe_datos
-    ).select_related('indicador', 'indicador__irpd').order_by('indicador__codigo')
+    ).select_related('indicador', 'indicador__irpd').order_by('indicador__tipo_indicador','indicador__codigo')
     
     return render(request, 'gestion/seguimentos_centro_detalle.html', {
         'centro': centro,
         'orixe_datos': orixe_datos,
         'seguimentos': seguimentos
     })
+def seguimentos_titulos_publicos(request):
+    from gestion.models import Titulos, Localizadores, Centros
+    
+    titulos = Titulos.objects.select_related('centro', 'centro__codigo_localizador').all().order_by('centro__codigo_localizador__campus', 'centro__codigo', 'denominacion')
+    
+    localizadores = Localizadores.objects.all().order_by('campus')
+    centros = Centros.objects.all().order_by('codigo')
+
+    return render(request, 'gestion/seguimentos_titulos.html', {
+        'titulos': titulos,
+        'localizadores': localizadores, 
+        'centros': centros
+    })
+
+def seguimentos_titulo_detalle_publicos(request, titulo_id, orixe_datos):
+    from gestion.models import Titulos, SeguimentosTitulos
+    
+    # Convertir 23-24 a 23/24
+    orixe_datos = orixe_datos.replace('-', '/')
+    
+    titulo = get_object_or_404(Titulos, id=titulo_id)
+    seguimentos = SeguimentosTitulos.objects.filter(
+        titulo=titulo,
+        orixe_datos=orixe_datos
+    ).select_related('indicador', 'indicador__irpd').order_by('indicador__codigo')
+    
+    return render(request, 'gestion/seguimentos_titulo_detalle.html', {
+        'titulo': titulo,
+        'orixe_datos': orixe_datos,
+        'seguimentos': seguimentos
+    })
+
 def responsables_publicos(request):
     from gestion.models import Responsables
     responsables = Responsables.objects.all().order_by('denominacion')

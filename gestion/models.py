@@ -114,6 +114,8 @@ class Titulos(ModeloBase):
     class Meta:
         verbose_name = "Título"
         verbose_name_plural = "Títulos"
+        ordering = ('denominacion',)
+
 
     def __str__(self):
         return self.denominacion
@@ -136,7 +138,7 @@ class Codigos(ModeloBase):
 class Indicadores(ModeloBase):
     TIPO_INDICADOR_CHOICES = [
         ('institucional', 'Institucional'),
-        ('estratexico', 'Estratégico'),
+        ('estratexico', 'Estratéxico'),
         ('calidade', 'Calidade'),
     ]
     codigo = models.CharField(max_length=50)
@@ -176,6 +178,8 @@ class Indicadores(ModeloBase):
     class Meta:
         verbose_name = "Indicador"
         verbose_name_plural = "Indicadores"
+        ordering = ('codigo', 'denominacion')
+
 
     def __str__(self):
         return self.denominacion
@@ -235,6 +239,7 @@ class Seguimentos(SeguimentoBase):
     class Meta:
         verbose_name = "Seguimento do Centro"
         verbose_name_plural = "Seguimento dos Centro"
+        ordering = ('indicador__denominacion',)
 
     def __str__(self):
         return f"{self.indicador} - {self.centro} - {self.orixe_datos}"
@@ -246,6 +251,7 @@ class SeguimentosTitulos(SeguimentoBase):
     class Meta:
         verbose_name = "Seguimento do Título"
         verbose_name_plural = "Seguimento dos Títulos"
+        ordering = ('indicador__denominacion',)
 
     def __str__(self):
         return f"{self.indicador} - {self.titulo} - {self.orixe_datos}"

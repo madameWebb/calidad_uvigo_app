@@ -9,6 +9,8 @@ urlpatterns = [
     path('seguimentos-centros/', views.seguimentos_centros_publicos, name='seguimentos_centros'),
     path('seguimentos-centros/<int:centro_id>/<str:orixe_datos>/', views.seguimentos_centro_detalle_publicos, name='seguimentos_centro_detalle'),
     path('titulos/', views.titulos_publicos, name='titulos'),
+    path('seguimentos-titulos/', views.seguimentos_titulos_publicos, name='seguimentos_titulos'),
+    path('seguimentos-titulos/<int:titulo_id>/<str:orixe_datos>/', views.seguimentos_titulo_detalle_publicos, name='seguimentos_titulo_detalle'),
     path('responsables/', views.responsables_publicos, name='responsables'),
     path('listado/<str:modelo>/', views.listado, name='listado'),
 ]

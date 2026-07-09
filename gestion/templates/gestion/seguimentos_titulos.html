@@ -10,17 +10,17 @@
 {% block contido %}
 <p><a href="{% url 'index' %}" style="color: #00407a;">← Volver ao inicio</a></p>
 
-<h2>Seguimento dos Centros</h2>
+<h2>Seguimento dos Titulos</h2>
 
 <div class="filtro-busqueda">
-    <input type="text" id="filtro-input" placeholder="Busca por código ou centro...">
+    <input type="text" id="filtro-input" placeholder="Busca por código ou titulación...">
 </div>
 
 <div class="filtro-ordenamiento">
     <label>Ordenar por:</label>
     <div class="radio-group">
         <label>
-            <input type="radio" name="campo" value="codigo" checked> Código
+            <input type="radio" name="campo" value="codigo" checked> Código do centro
         </label>
         <label>
             <input type="radio" name="campo" value="denominacion"> Denominación
@@ -34,33 +34,49 @@
             <option value="ascendente">A → Z</option>
             <option value="descendente">Z → A</option>
         </select>
-    </label>
-    <label>
-            Campus:
-            <select id="filtro-campus">
-                <option value="">Todos</option>
-                {% for localizador in localizadores %}
-                    <option value="{{ localizador.campus }}">{{ localizador.campus }}</option>
-                {% endfor %}
-            </select>
+    </label>  
+    <label>Agrupar por:</label>
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="localizacion" value="campus"> Campus
         </label>
-    <div class="filtro-ordenamiento">
-        
+        <label>
+            <input type="radio" name="localizacion" value="centro"> Centro
+        </label>
     </div>
+    
+    <label id="filtro-campus-container" style="display: none;"> 
+        Campus:
+        <select id="filtro-campus">
+            <option value="">Todos</option>
+            {% for localizador in localizadores %}
+                <option value="{{ localizador.campus }}">{{ localizador.campus }}</option>
+            {% endfor %}
+        </select>
+    </label>
+    <label id="filtro-centro-container" style="display: none;">
+        Centro:
+        <select id="filtro-centro">
+            <option value="">Todos</option>
+            {% for centro in centros %}
+                <option value="{{ centro.codigo }}">{{ centro.denominacion }}</option>
+            {% endfor %}
+        </select>
+    </label>
 </div>
 
 <table data-filtrable-table>
     <thead>
         <tr>
-            <th>Centro</th>
+            <th>Titulo</th>
         </tr>
     </thead>
     <tbody>
-        {% for centro in centros %}
-        <tr class="table-content" data-filtrable  data-campus="{{ centro.codigo_localizador.campus }}">
+        {% for titulo in titulos %}
+        <tr class="table-content" data-filtrable data-campus="{{ titulo.centro.codigo_localizador.campus }}" data-centro="{{ titulo.centro.codigo }}">
             <td>
-                <a href="#" class="btn-centro" data-centro-id="{{ centro.id }}" style="color: #fdfeff; font-weight: 600;">
-                    <span class="codigo-seguimento">{{ centro.codigo }}</span> - <span class="nome-centro">{{ centro.denominacion }}</span>
+                <a href="#" class="btn-centro" data-titulo-id="{{ titulo.id }}" style="color: #fdfeff; font-weight: 600;">
+                    <span class="codigo-seguimento">{{ titulo.centro.codigo }}</span> - <span class="nome-centro">{{ titulo.denominacion }}</span>
                 </a>
             </td>
         </tr>

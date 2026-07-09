@@ -3,14 +3,13 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'gestion/css/indicadores.css' %}">
-<link rel="stylesheet" href="{% static 'gestion/css/centros.css' %}">
 <link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
 {% endblock %}
 
 {% block contido %}
-<p><a href="{% url 'seguimentos_centros' %}" style="color: #00407a;">← Volver aos centros</a></p>
+<p><a href="{% url 'seguimentos_titulos' %}" style="color: #00407a;">← Volver aos títulos</a></p>
 
-<h2>Seguimentos de {{ centro.denominacion }} ({{ orixe_datos }})</h2>
+<h2>Seguimentos de {{ titulo.denominacion }} ({{ orixe_datos }})</h2>
 <div class="filtro-ordenamiento">
     
     <div class="radio-group" style="display:inline-flex; align-items: center;">

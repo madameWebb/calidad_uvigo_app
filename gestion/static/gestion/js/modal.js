@@ -4,12 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnAceptar = document.getElementById('btn-aceptar');
     const btnCancelar = document.getElementById('btn-cancelar');
     let centroActual = null;
+    let tituloActual = null;
 
     // Abrir modal al hacer click en centro
     document.querySelectorAll('.btn-centro').forEach(btn => {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
             centroActual = this.dataset.centroId;
+            tituloActual = this.dataset.tituloId;
             selectOrixe.value = '';
             modal.classList.add('visible');
         });
@@ -28,8 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         // Convertir 23/24 a 23-24 para la URL
-        const oreixeUrl = orixe.replace('/', '-');
-        window.location.href = `/seguimentos-centros/${centroActual}/${oreixeUrl}/`;
+        const orixeUrl = orixe.replace('/', '-');
+        // Detectar en qué página estamos
+        if (window.location.pathname.includes('seguimentos-centros')) {
+            window.location.href = `/seguimentos-centros/${centroActual}/${orixeUrl}/`;
+        } else if (window.location.pathname.includes('seguimentos-titulos')) {
+            window.location.href = `/seguimentos-titulos/${tituloActual}/${orixeUrl}/`;
+        }
     });
 
     // Cerrar modal al hacer click fuera
