@@ -1,10 +1,205 @@
 {% extends "admin/base.html" %}
-{% load static %}
 {% load i18n static %}
 
 {% block extrastyle %}
 {{ block.super }}
-    <link rel="stylesheet" href="{% static 'admin/css/base_site.css' %}">
+    <style>
+        {% comment %} Se pone aquí el css para que no interfiera con los estilos globales del sitio {% endcomment %}
+        :root {
+            --body-fg: #4a3f8f !important;
+            --body-quiet-color: #211c3f !important;
+            --body-medium-color: #6b5fb5 !important;
+            --selected-row: #daf2c5 !important;
+            --message-success-bg: var(--selected-row) !important;
+            --close-button-hover-bg: var(--body-quiet-color) !important;
+            --button-hover-bg: var(--body-quiet-color) !important;
+            --close-button-bg: var(--body-fg) !important;
+            --default-button-bg: var(--body-medium-color) !important;
+            --button-fg: var(--selected-row) !important;
+            --button-bg: var(--body-medium-color) !important;
+            --default-button-hover-bg: var(--body-quiet-color) !important;
+            --link-fg: #b6acf1 !important;
+            --link-hover-color: var(--body-quiet-color);
+            --secondary: var(--body-quiet-color) !important;
+            }
+
+        #header {
+            background: #4a3f8f !important;
+            color: #f0c040 !important;
+        }
+
+        #header a:link,
+        #header a:visited,
+        #header * {
+            color: #f0c040 !important;
+        }
+
+        /* Barra de migas de pan */
+        div.breadcrumbs {
+            background: #6b5fb5 !important;
+            color: #f0c040 !important;
+        }
+
+        div.breadcrumbs a {
+            color: #f0c040 !important;
+        }
+
+        .module h2,
+        .module caption,
+        .inline-group h2 {
+            background: #4a3f8f !important;
+            color: #f0c040 !important;
+        }
+
+        a.section:link,
+        a.section:visited {
+            color: #f0c040 !important;
+            text-decoration: none;
+        }
+
+        .theme-toggle svg.theme-icon-when-auto,
+        .theme-toggle svg.theme-icon-when-dark,
+        .theme-toggle svg.theme-icon-when-light {
+            fill: #4a3f8f !important;
+        }
+
+        .object-tools a:link,
+        .object-tools a:visited {
+            background: #f0c040 !important;
+            color: #211c3f !important;
+
+        }
+
+        .object-tools a.addlink {
+            background-image: url(../img/tooltag-add.svg);
+        }
+
+        .object-tools a.viewsitelink,
+        .object-tools a.addlink {
+            background-repeat: no-repeat;
+            background-position: right 7px center;
+            padding-right: 26px;
+        }
+
+        .viewlink,
+        .inlineviewlink {
+            position: relative !important;
+            padding-left: 20px !important;
+            background: none !important;
+        }
+
+        .viewlink::before,
+        .inlineviewlink::before {
+            content: "" !important;
+            position: absolute !important;
+            left: 0 !important;
+            top: 2px !important;
+            width: 16px !important;
+            height: 16px !important;
+            background-color: #211c3f !important;
+            -webkit-mask: url(../img/icon-viewlink.svg) no-repeat center / 75% !important;
+            mask: url(../img/icon-viewlink.svg) no-repeat center / 75% !important;
+        }
+
+        #changelist-filter h2 {
+            background: #4a3f8f !important;
+            color: #f0c040 !important;
+        }
+
+
+        :is(.submit-row)>a {
+            color: var(--selected-row) !important;
+        }
+
+        .button.default,
+        input[type=submit].default,
+        .submit-row input.default {
+            background: var(--close-button-bg);
+        }
+
+        .button,
+        input[type=submit],
+        input[type=button],
+        .submit-row input,
+        a.button {
+            color: var(--button-fg) !important;
+        }
+
+        .button.default:active,
+        input[type=submit].default:active,
+        .button.default:focus,
+        input[type=submit].default:focus,
+        .button.default:hover,
+        input[type=submit].default:hover {
+            background: var(--body-medium-color) !important;
+        }
+
+        #toolbar form input[type="submit"],
+        #changelist .actions .button {
+            background: #f0c040 !important;
+            {% comment %} #b6acf1 !important; {% endcomment %}
+            color: var(--body-quiet-color) !important;
+        }
+
+        :is(.app-auth, .app-gestion).module>table:first-of-type>tbody>tr>th>a {
+            /* Tus estilos aquí, por ejemplo: */
+            color: #6825A2 !important;
+            text-decoration: none !important;
+        }
+
+        #changelist-filter a:link {
+            color: #211c3f !important;
+        }
+
+        #changelist-filter li.selected a,
+        #changelist-filter a:visited {
+            color: #5fa225 !important;
+        }
+
+        #changelist-filter details>summary {
+            color: #211c3f !important;
+        }
+
+        #changelist-filter details>summary::before {
+            color: #211c3f !important;
+        }
+
+        #changelist-filter li.selected a:hover {
+            color: #6b5fb5 !important;
+        }
+
+        .viewlink::before,
+        .changelink::before {
+            color: #4a3f8f !important;
+        }
+
+        #result_list a {
+            color: #6825A2 !important;
+        }
+
+        #result_list .field-denominacion {
+            color: #211c3f !important;
+        }
+
+        ul.messagelist li {
+            color: #6825A2;
+        }
+
+        label {
+            color: var(--body-medium-color) !important;
+        }
+
+        .selector-chosen-title label, .selector-available .selector-available-title label{
+            color: #f0c040 !important;
+        }
+        .selector-chosen-title,
+        .selector-available-title {
+            background: #4a3f8f !important;
+            color: var(--selected-row) !important;
+        }
+
+    </style>
+    
 {% endblock %}
 
 {% block branding %}
