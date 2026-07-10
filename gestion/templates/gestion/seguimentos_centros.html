@@ -59,7 +59,7 @@
         {% for centro in centros %}
         <tr class="table-content" data-filtrable  data-campus="{{ centro.codigo_localizador.campus }}">
             <td>
-                <a href="#" class="btn-centro" data-centro-id="{{ centro.id }}" style="color: #fdfeff; font-weight: 600;">
+                <a href="#" class="btn-centro" data-centro-id="{{ centro.id }}" style="color: #fdfeff !important; font-weight: 600;">
                     <span class="codigo-seguimento">{{ centro.codigo }}</span> - <span class="nome-centro">{{ centro.denominacion }}</span>
                 </a>
             </td>

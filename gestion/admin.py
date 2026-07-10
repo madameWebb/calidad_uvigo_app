@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Indicadores, IRPD, Localizadores, Centros, Seguimentos, SeguimentosTitulos, Titulos, Codigos, Responsables
+from .models import Indicadores, IRPD, Localizadores, Centros, Seguimentos, SeguimentosTitulos, Titulos, Codigos, Responsables, AvaliacionsPdis, MateriasAvaliadas, SeguementoMaterias
 from django.db import models
 from django import forms
 
@@ -119,6 +119,15 @@ class ResponsablesAdmin(BaseAdmin):
     search_fields = ('denominacion',)
     ordering = ('denominacion',)
 
+class AvaliacionsPdisAdmin(BaseAdmin):
+    pass 
+
+class MateriasAvaliadasAdmin(BaseAdmin):
+    pass  
+
+class SeguementoMateriasAdmin(BaseAdmin):
+    pass  
+
 admin.site.register(Indicadores, IndicadoresAdmin)
 admin.site.register(IRPD, IRPDAdmin)
 admin.site.register(Localizadores, LocalizadoresAdmin)
@@ -128,3 +137,6 @@ admin.site.register(SeguimentosTitulos, SeguimentosTitulosAdmin)
 admin.site.register(Titulos, TitulosAdmin)
 admin.site.register(Codigos, CodigosAdmin)
 admin.site.register(Responsables, ResponsablesAdmin)
+admin.site.register(AvaliacionsPdis, AvaliacionsPdisAdmin)
+admin.site.register(MateriasAvaliadas, MateriasAvaliadasAdmin)
+admin.site.register(SeguementoMaterias, SeguementoMateriasAdmin)

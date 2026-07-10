@@ -4,7 +4,9 @@ from django.shortcuts import render, get_object_or_404
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
-    
+    'MateriasAvaliadas': 'Materias',
+    'AvaliacionsPdis': 'Avaliacion dos PDIs',  
+    'SeguementoMaterias': "Seguementos por materia", 
 }
 
 

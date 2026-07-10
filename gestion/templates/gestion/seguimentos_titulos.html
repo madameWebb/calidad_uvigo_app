@@ -75,7 +75,7 @@
         {% for titulo in titulos %}
         <tr class="table-content" data-filtrable data-campus="{{ titulo.centro.codigo_localizador.campus }}" data-centro="{{ titulo.centro.codigo }}">
             <td>
-                <a href="#" class="btn-centro" data-titulo-id="{{ titulo.id }}" style="color: #fdfeff; font-weight: 600;">
+                <a href="#" class="btn-centro" data-titulo-id="{{ titulo.id }}" style="color: #fdfeff !important; font-weight: 600;">
                     <span class="codigo-seguimento">{{ titulo.centro.codigo }}</span> - <span class="nome-centro">{{ titulo.denominacion }}</span>
                 </a>
             </td>
