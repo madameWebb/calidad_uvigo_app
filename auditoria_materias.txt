@@ -1,0 +1,194 @@
+AUDITORÍA DE MATERIAS
+====================================================================================================
+
+
+ARQUIVO: 151 DE-02 Cadro de mando 24-25 Enfermaria OU Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 251 DE-02 Cadro de mando 24-25 Enfermaria PO Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 252 DE-02 Cadro de mando 24-25 CUD Precubierto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 305 DE-02 Cadro de mando 24-25 Teleco Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 308 DE-02 Cadro de mando 24-25 Xurídicas Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 309 R1_DE-02 Cadro de mando_2425 EEME_GGL modificado.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 310 DE-02 Cadro de mando 24-25 CC Mar Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 312 DE-02 Cadro de Mando 25-26 Industriais Graos Modificado.xlsx
+====================================================================================================
+
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760101 — Expresión gráfica: Expresión gráfica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760102 — Física: Física I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760103 — Matemáticas: Álxebra e estatística
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760104 — Matemáticas: Cálculo I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760105 — Empresa: Introdución á xestión empresarial
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760106 — Física: Física II
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760107 — Informática: Informática para a enxeñaría
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760108 — Matemáticas: Cálculo II e ecuacións diferenciais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760109 — Química: Química
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760201 — Bioquímica e bioloxía celular
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760202 — Ciencia e enxeñaría de materiais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760203 — Termodinámica aplicada e transmisión de calor
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760204 — Sistemas mecánicos
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760205 — Fundamentos de electrotecnia
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760206 — Fundamentos de sistemas e tecnoloxías de fabricación
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760207 — Fundamentos de electrónica para biomedicina
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760208 — Fisioloxía xeral
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760209 — Estrutura e patoloxía médica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760210 — Estrutura e patoloxía médico-cirúrxica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760301 — Fundamentos de organización de empresas e xestión sanitaria
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760302 — Fundamentos de automática e control
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760303 — Mecánica de sólidos deformables en enxeñaría biomédica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760304 — Mecánica de fluídos
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760305 — Sensores e adquisición de sinais biomédicas
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760306 — Electrónica dixital e microcontroladores
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760307 — Enxeñaría de control I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760308 — Tecnoloxía medioambiental
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G760309 — Oficina técnica
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750101 — Expresión gráfica: Expresión gráfica
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750102 — Física: Física I
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750103 — Matemáticas: Álxebra e estatística
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750104 — Matemáticas: Cálculo I
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750105 — Empresa: Introdución á xestión empresarial
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750106 — Física: Física II
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750107 — Informática: Informática para a enxeñaría
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750108 — Matemáticas: Cálculo II e ecuacións diferenciais
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750109 — Química: Química
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750201 — Bioquímica e bioloxía celular
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750202 — Ciencia e Enxeñaría de materiais
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750203 — Termodinámica aplicada e transmisión de calor
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750204 — Sistemas mecánicos
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750205 — Fundamentos de electrotecnia
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750206 — Fundamentos de sistemas e tecnoloxías de fabricación
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750207 — Fundamentos de electrónica para biomedicina
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750208 — Fisioloxía xeral
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750209 — Estrutura e patoloxía médica
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750210 — Estrutura e patoloxía médico-cirúrxica
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750301 — Fundamentos de organización de empresas e xestión sanitaria
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750302 — Fundamentos de automática e control
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750303 — Mecánica de sólidos deformables en enxeñaría biomédica
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750304 — Mecánica de fluídos
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750305 — Sensores e adquisición de sinais biomédicas
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750306 — Bioestatística
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750307 — Enxeñaría clínica e hospitalaria
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750308 — Fundamentos de tecnoloxía hospitalaria
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750309 — Biomateriais
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750310 — Biomecánica
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750311 — Técnicas de procesado de sinais biomédicas
+✗ Materia non importada: Grao en Enxeñaría Mecánica —  G750312 — Dispositivos electrónicos dixitais en medicina
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770101 — Expresión gráfica: Expresión gráfica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770102 — Física: Física I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770103 — Matemáticas: Álxebra e estatística
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770104 — Matemáticas: Cálculo I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770105 — Empresa: Introdución á xestión empresarial
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770106 — Física: Física II
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770107 — Informática: Informática para a enxeñaría
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770108 — Matemáticas: Cálculo II e ecuacións diferenciais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770109 — Química: Química
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770201 — Ciencia e tecnoloxía dos materiais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770202 — Fundamentos de sistemas e tecnoloxías de fabricación
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770203 — Fundamentos de teoría de circuítos e máquinas eléctricas
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770204 — Teoría de máquinas e mecanismos
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770206 — Fundamentos de automatización
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770207 — Fundamentos de electrónica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770208 — Fundamentos de organización de empresas
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770209 — Mecánica de fluídos
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770210 — Resistencia de materiais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770211 — Tecnoloxía medioambiental
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770301 — Complementos de formación
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770302 — Informática industrial
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770303 — Instrumentación electrónica I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770304 — Sistemas trifásicos e máquinas eléctricas
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770305 — Elasticidade e ampliación de resistencia de materiais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770306 — Enxeñaría de materiais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770307 — Enxeñaría gráfica
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770308 — Teoría de estruturas e construcións industriais
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770309 — Electrónica dixital e microcontroladores
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770310 — Enxeñaría de control I
+✗ Materia non importada: Grao en Enxeñaría en Electrónica Industrial e Automática —  G770205 — Termodinámica e transmisión de calor
+RESUMEN: 365 correctas, 89 faltantes
+
+
+ARQUIVO: 312 DE-02 Cadro de Mando 25-26 Industriais Másters Modificado.xlsx
+====================================================================================================
+
+RESUMEN: 217 correctas, 0 faltantes
+
+
+ARQUIVO: 351 DE-02 Cadro de mando 24-25 EU Profesorado Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 352 DE-02 Cadro de mando 24-25 Enfermaria Meixoeiro Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 353 DE-02 Cadro de mando 24-25 Enfermaria Povisa v02 Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+
+ARQUIVO: 362 DE-02 Cadro de mando 24-25 CPFP.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+RESUMEN: 0 correctas, 0 faltantes
+
+====================================================================================================
+TOTAL: 582 correctas, 89 faltantes

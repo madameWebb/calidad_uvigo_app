@@ -4,8 +4,6 @@ from django.shortcuts import render, get_object_or_404
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
-    'MateriasAvaliadas': 'Materias',
-    'AvaliacionsPdis': 'Avaliacion dos PDIs',  
     'SeguementoMaterias': "Seguementos por materia", 
 }
 
@@ -157,3 +155,31 @@ def responsables_publicos(request):
     return render(request, 'gestion/responsables.html', {
         'responsables': responsables
     })
+
+def avaliacionspdis_publicas(request):
+    from gestion.models import Centros
+    centros = Centros.objects.select_related('codigo_localizador').prefetch_related('titulos').all().order_by('codigo_localizador__codigo', 'codigo')
+    return render(request, 'gestion/avaliacionspdis.html', {'centros': centros})
+
+def avaliacionspdis_detalle(request, titulo_id):
+    from gestion.models import Titulos, AvaliacionsPdis
+    titulo = get_object_or_404(Titulos, id=titulo_id)
+    avaliacions = AvaliacionsPdis.objects.filter(titulo=titulo).order_by('orixe_datos')
+    return render(request, 'gestion/avaliacionspdis_detalle.html', {
+        'titulo': titulo,
+        'avaliacions': avaliacions,
+    })
+
+def materias_publicas(request, titulo_id):
+    from gestion.models import Titulos, MateriasAvaliadas
+    titulo = get_object_or_404(Titulos, id=titulo_id)
+    materias = MateriasAvaliadas.objects.filter(titulo=titulo).order_by('materia')
+    return render(request, 'gestion/materias.html', {
+        'titulo': titulo,
+        'materias': materias,
+    })
+
+def todas_materias(request):
+    from gestion.models import MateriasAvaliadas
+    materias = MateriasAvaliadas.objects.select_related('titulo').all().order_by('materia')
+    return render(request, 'gestion/todas_materias.html', {'materias': materias})

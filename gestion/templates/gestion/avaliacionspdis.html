@@ -1,0 +1,61 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/indicadores.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/modal.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}">← Volver ao inicio</a></p>
+
+<h2>Avaliacións do PDI</h2>
+
+<div class="info-box" style="background: var(--color-primary-lighter); border-left: 4px solid var(--color-primary); padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+    <p style="margin: 0;">Aquí podes consultar os resultados das avaliacións do PDI por titulación e curso. Selecciona un centro, despois a titulación e o curso académico para ver os resultados.</p>
+</div>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por centro ou código...">
+</div>
+
+<div class="indicadores-container">
+    {% for centro in centros %}
+    <div class="card-indicador" data-filtrable>
+        <div class="card-header">
+            <button class="btn-expand" data-toggle="card">▶</button>
+            <div class="card-content-inicial">
+                <h3>{{ centro.codigo }}</h3>
+                <h3>{{ centro.codigo_localizador.campus }}</h3>
+                <h3>{{ centro.denominacion }}</h3>
+                
+            </div>
+        </div>
+        <div class="card-body">
+            {% for titulo in centro.titulos.all %}
+            <p>
+                <a href="#" class="btn-titulo" data-titulo-id="{{ titulo.id }}" style="color: var(--color-primary);">
+                    {{ titulo.denominacion }}
+                </a>
+            </p>
+            {% empty %}
+            <p>Non hai titulacións rexistradas</p>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/indicadores.js' %}"></script>
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+<script src="{% static 'gestion/js/avaliacionspdis.js' %}"></script>
+{% endblock %}

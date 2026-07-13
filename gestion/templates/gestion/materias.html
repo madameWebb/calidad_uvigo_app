@@ -1,0 +1,68 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/centros.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'titulos' %}">← Volver aos títulos</a></p>
+
+<h2>Materias — {{ titulo.denominacion }}</h2>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por código ou asignatura...">
+</div>
+
+<div class="filtro-ordenamiento">
+    <label>Ordenar por:</label>
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="campo" value="codigo" checked> Código
+        </label>
+        <label>
+            <input type="radio" name="campo" value="materia"> Asignatura
+        </label>
+    </div>
+    
+    <label>
+        Dirección:
+        <select id="orden-campo">
+            <option value="ninguno">Ningún orden</option>
+            <option value="ascendente">A → Z</option>
+            <option value="descendente">Z → A</option>
+        </select>
+    </label>
+</div>
+
+<table data-filtrable-table>
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Asignatura</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for materia in materias %}
+        <tr data-filtrable>
+            <td>{{ materia.codigo }}</td>
+            <td>{{ materia.materia }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="2" style="text-align: center; padding: 20px;">Non hai materias rexistradas</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>              
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'gestion/js/filtro.js' %}"></script>
+    <script src="{% static 'gestion/js/materias.js' %}"></script>
+{% endblock %}      

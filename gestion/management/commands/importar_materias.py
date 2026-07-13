@@ -23,8 +23,8 @@ def traducir_a_gallego(nombre):
         'Genética': 'Xenética',
         'Energía': 'Enerxía',
         'Industriales': 'Industriáis',
+        'Industrial': 'Industrial',
         'Extranjera': 'Extranxeira',
-        'Extranjeras': 'Estranxeiras',
         'Realidad': 'Realidade',
         'Geoespacial': 'Xeoespacial',
         'Gestión': 'Xestión',
@@ -33,13 +33,35 @@ def traducir_a_gallego(nombre):
         'Nanotecnología': 'Nanotecnoloxía',
         'Derecho': 'Dereito',
         'Diseño': 'Deseño',
+        'Extranjeras': 'Extranxeiras',
         'Lenguas': 'Linguas',
         'Traducción': 'Tradución',
         'Filología': 'Filoloxía',
         'Lingüística': 'Lingüística',
+        'Lenguas': 'Linguas',
+        'Extranjeras': 'Estranxeiras',
+        'Traducción': 'Tradución',
+        'Interpretación': 'Interpretación',
+        'Lingüística': 'Lingüística',
+        'Literatura': 'Literatura',
+        'Dramática': 'Dramática',
+        'Escénicas': 'Escénicas',
         'Enseñanza': 'Ensino',
+        'Español': 'Español',
+        'Segunda': 'Segunda',
+        'Aplicaciones': 'Aplicacións',
         'Relaciones': 'Relacións',
-        'Internacionales': 'Internacionais'
+        'Internacionales': 'Internacionais',
+        'PCEO': 'PCEO',
+        'Máster': 'Máster',
+        'Grado': 'Grao',
+        'Automática': 'Automática',
+        'Mecánica': 'Mecánica', 
+        'Biomédica': 'Biomédica',
+        'Graduado': 'Grao',
+        'Electrónica': 'Electrónica', 
+        'Mecatrónica': 'Mecatrónica', 
+        'Sustentabilidade': 'Sustentabilidade'
     }
     nombre_traducido = nombre.lower()
     for castellano, gallego in traducciones.items():
@@ -68,7 +90,7 @@ def buscar_titulo(nombre, codigo_centro):
             mejor_coincidencias = coincidencias
             mejor_match = titulo
 
-    return mejor_match if mejor_coincidencias >= 1 else None
+    return mejor_match if mejor_coincidencias >= 3 else None
 
 def detectar_bloques(ws):
     bloques = []
@@ -109,8 +131,10 @@ class Command(BaseCommand):
                 f.write("=" * 100 + "\n\n")
                 for error in errores:
                     f.write(f"{error}\n")
-            self.stdout.write(self.style.WARNING(f'Erros en: {salida}'))
-
+            self.stdout.write(f'Total errores: {len(errores)}')
+            if errores:
+                salida = Path('importar_materias_errores.txt')
+               
     def procesar_archivo(self, ruta, usuario):
         errores = []
         nombre = ruta.name
@@ -130,8 +154,15 @@ class Command(BaseCommand):
 
         for col_inicio in bloques:
             nombre_titulo = ws.cell(row=6, column=col_inicio).value
+            
+            # Saltar PCEO
+            if nombre_titulo and str(nombre_titulo).upper().startswith('PCEO'):
+                self.stdout.write(self.style.WARNING(f'Saltado PCEO: {nombre_titulo}'))
+                errores.append(f'{nombre}: Saltado PCEO — {nombre_titulo}')
+                continue
+            
             titulo = buscar_titulo(nombre_titulo, codigo_centro) if nombre_titulo else None
-
+            
             if not titulo:
                 errores.append(f'{nombre} col {col_inicio}: Título "{nombre_titulo}" non encontrado')
                 continue

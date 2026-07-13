@@ -1,0 +1,730 @@
+PREVIEW MATERIAS — CARPETA COMPLETA
+====================================================================================================
+
+
+ARQUIVO: 151 DE-02 Cadro de mando 24-25 Enfermaria OU Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 251 DE-02 Cadro de mando 24-25 Enfermaria PO Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 252 DE-02 Cadro de mando 24-25 CUD Precubierto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 305 DE-02 Cadro de mando 24-25 Teleco Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 308 DE-02 Cadro de mando 24-25 Xurídicas Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 309 R1_DE-02 Cadro de mando_2425 EEME_GGL modificado.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 310 DE-02 Cadro de mando 24-25 CC Mar Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 312 DE-02 Cadro de Mando 25-26 Industriais Graos Modificado.xlsx
+====================================================================================================
+
+Bloques detectados: [10, 21, 32, 43, 54, 65, 76, 87, 98, 109]
+
+BLOQUE col 10: Graduado en Ingeniería Eléctrica
+  Título: ✓ Grao en Enxeñaría Eléctrica
+--------------------------------------------------------------------------------
+  Fila 6: G320104 — Matemáticas: Cálculo I
+  Fila 7: G320102 — Física: Física I
+  Fila 8: G320101 — Expresión gráfica: Expresión gráfica
+  Fila 9: G320103 — Matemáticas: Álxebra e estatística
+  Fila 10: G320202 — Física: Física II
+  Fila 11: G320205 — Química: Química
+  Fila 12: G320204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 13: G320203 — Informática: Informática para a enxeñaría
+  Fila 14: G320201 — Empresa: Introdución á xestión empresarial
+  Fila 15: G320301 — Ciencia e tecnoloxía dos materiais
+  Fila 16: G320302 — Termodinámica e transmisión de calor
+  Fila 17: G320303 — Mecánica de fluídos
+  Fila 18: G320304 — Fundamentos de teoría de circuítos e máquinas eléctricas
+  Fila 19: G320305 — Teoría de máquinas e mecanismos
+  Fila 20: G320401 — Electrotecnia
+  Fila 21: G320404 — Fundamentos de electrónica
+  Fila 22: G320405 — Fundamentos de automatización
+  Fila 23: G320501 — Electrónica de potencia e regulación automática
+  Fila 24: G320502 — Máquinas térmicas e de fluídos en centrais e enerxías renovables
+  Fila 25: G320503 — Instalacións eléctricas I
+  Fila 26: G320504 — Máquinas eléctricas
+  Fila 27: G320505 — Resistencia de materiais
+  Fila 28: G320601 — Deseño e cálculo de máquinas eléctricas
+  Fila 29: G320602 — Instalacións eléctricas II
+  Fila 30: G320603 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 31: G320604 — Tecnoloxía medioambiental
+  Fila 32: G320605 — Fundamentos de organización de empresas
+  Fila 33: G320701 — Control de máquinas e accionamentos eléctricos
+  Fila 34: G320702 — Centrais eléctricas
+  Fila 35: G320703 — Liñas eléctricas e transporte de enerxía
+  Fila 36: G320704 — Oficina técnica
+  Fila 37: G320801 — Xeración eléctrica con enerxías renovables
+  Fila 38: G320802 — Sistemas eléctricos de potencia
+  Fila 39: G320981 — Prácticas externas: Prácticas en empresas
+  Fila 40: G320991 — Traballo de Fin de Grao
+  Fila 41: G320912 — Electrificación e tracción eléctrica
+  Fila 42: G320914 — Instalacións eléctricas especiais
+  Fila 43: G320907 — Seguridade e hixiene industrial
+  Fila 44: G320902 — Compoñentes eléctricos en vehículos
+
+BLOQUE col 21: Graduado en Ingeniería en Electrónica Industrial y Automática
+  Título: ✓ Grao en Enxeñaría en Electrónica Industrial e Automática
+--------------------------------------------------------------------------------
+  Fila 6: G330104 — Matemáticas: Cálculo I
+  Fila 7: G330102 — Física: Física I
+  Fila 8: G330101 — Expresión gráfica: Expresión gráfica
+  Fila 9: G330103 — Matemáticas: Álxebra e estatística
+  Fila 10: G330202 — Física: Física II
+  Fila 11: G330205 — Química: Química
+  Fila 12: G330204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 13: G330203 — Informática: Informática para a enxeñaría
+  Fila 14: G330201 — Empresa: Introdución á xestión empresarial
+  Fila 15: G330301 — Ciencia e tecnoloxía dos materiais
+  Fila 16: G330305 — Termodinámica e transmisión de calor
+  Fila 17: G330304 — Teoría de máquinas e mecanismos
+  Fila 18: G330303 — Fundamentos de teoría de circuítos e máquinas eléctricas
+  Fila 19: G330302 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 20: G330404 — Mecánica de fluídos
+  Fila 21: G330402 — Fundamentos de electrónica
+  Fila 22: G330401 — Fundamentos de automatización
+  Fila 23: G330405 — Resistencia de materiais
+  Fila 24: G330403 — Fundamentos de organización de empresas
+  Fila 25: G330502 — Complementos de formación
+  Fila 26: G330505 — Sistemas trifásicos e máquinas eléctricas
+  Fila 27: G330503 — Instrumentación electrónica I
+  Fila 28: G330501 — Informática industrial
+  Fila 29: G330601 — Electrónica dixital e microcontroladores
+  Fila 30: G330602 — Enxeñaría de control I
+  Fila 31: G330603 — Tecnoloxía medioambiental
+  Fila 32: G330604 — Oficina técnica
+  Fila 33: G330701 — Electrónica de potencia
+  Fila 34: G330702 — Robótica industrial
+  Fila 35: G330911 — Enxeñaría de control II
+  Fila 36: G330912 — Redes de comunicación industrial
+  Fila 37: G330913 — Sistemas de control en tempo real
+  Fila 38: G330914 — Automatización industrial
+  Fila 39: G330915 — Laboratorio de sistemas dixitais programables
+  Fila 40: G330921 — Instrumentación electrónica II
+  Fila 41: G330922 — Sistemas electrónicos de comunicacións
+  Fila 42: G330923 — Sistemas electrónicos dixitais
+  Fila 43: G330924 — Electrónica industrial
+  Fila 44: G330925 — Laboratorio de enxeñaría de control
+  Fila 45: G330991 — Traballo de Fin de Grao
+  Fila 46: G330903 — Inglés técnico I
+  Fila 47: G330904 — Inglés técnico II
+  Fila 48: G330907 — Seguridade e hixiene industrial
+  Fila 49: G330902 — Compoñentes eléctricos en vehículos
+  Fila 50: G330906 — Programación avanzada para a enxeñaría
+  Fila 51: G330981 — Prácticas externas: Prácticas en empresas
+
+BLOQUE col 32: Graduado en Ingeniería en Organización Industrial
+  Título: ✓ Grao en Enxeñaría en Organización Industrial
+--------------------------------------------------------------------------------
+  Fila 6: G340104 — Matemáticas: Cálculo I
+  Fila 7: G340102 — Física: Física I
+  Fila 8: G340101 — Expresión gráfica: Expresión gráfica
+  Fila 9: G340103 — Matemáticas: Álxebra e estatística
+  Fila 10: G340202 — Física: Física II
+  Fila 11: G340205 — Química: Química
+  Fila 12: G340201 — Empresa: Introdución á xestión empresarial
+  Fila 13: G340204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 14: G340203 — Informática: Informática para a enxeñaría
+  Fila 15: G340301 — Ciencia e tecnoloxía dos materiais
+  Fila 16: G340302 — Termodinámica e transmisión de calor
+  Fila 17: G340303 — Fundamentos de electrotecnia
+  Fila 18: G340304 — Teoría de máquinas e mecanismos
+  Fila 19: G340305 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 20: G340306 — Tecnoloxía medioambiental
+  Fila 21: G340401 — Mecánica de fluídos
+  Fila 22: G340402 — Tecnoloxía electrónica
+  Fila 23: G340403 — Fundamentos de automática
+  Fila 24: G340404 — Resistencia de materiais
+  Fila 25: G340405 — Fundamentos de organización de empresas
+  Fila 26: G340501 — Xestión de produtos e servizo ao cliente
+  Fila 27: G340502 — Métodos cuantitativos de enxeñaría de organización
+  Fila 28: G340601 — Organización da produción
+  Fila 29: G340602 — Xestión da calidade, a seguridade e a sostibilidade
+  Fila 30: G340603 — Organización do traballo e factor humano
+  Fila 31: G340701 — Sistemas e tecnoloxías de fabricación
+  Fila 32: G340702 — Control e automatización industrial
+  Fila 33: G340801 — Instrumentación electrónica
+  Fila 34: G340802 — Tecnoloxía térmica
+  Fila 35: G340803 — Enxeñaría de materiais
+  Fila 36: G340804 — Tecnoloxía eléctrica
+  Fila 37: G340503 — Administración de empresas
+  Fila 38: G340504 — Sistemas de información na enxeñaría de organización
+  Fila 39: G340911 — Métodos cuantitativos e ferramentas de xestión
+  Fila 40: G340912 — Xestión de almacéns e do transporte
+  Fila 41: G340922 — Xestión e mantemento de activos empresariais
+  Fila 42: G340921 — Ferramentas de organización e xestión empresarial
+  Fila 43: G340914 — Sistemas de información e sistemas integrados de xestión
+  Fila 44: G340913 — Instrumentos de control e xestión de empresas
+  Fila 45: G340924 — Xestión da innovación e a tecnoloxía
+  Fila 46: G340923 — Administración de empresas e estruturas organizativas
+  Fila 47: G340981 — Prácticas externas: Prácticas en empresas
+  Fila 48: G340991 — Traballo de Fin de Grao
+  Fila 49: G340307 — Oficina técnica
+  Fila 50: G340903 — Inglés técnico I
+  Fila 51: G340904 — Inglés técnico II
+  Fila 52: G340905 — Metodoloxía para a elaboración, presentación e xestión de traballos técnicos
+  Fila 53: G340907 — Seguridade e hixiene industrial
+
+BLOQUE col 43: Graduado en Ingeniería en Química Industrial
+  Título: ✓ Grao en Enxeñaría en Química Industrial
+--------------------------------------------------------------------------------
+  Fila 6: G350205 — Química: Química
+  Fila 7: G350102 — Física: Física I
+  Fila 8: G350104 — Matemáticas: Cálculo I
+  Fila 9: G350203 — Informática: Informática para a enxeñaría
+  Fila 10: G350201 — Empresa: Introdución á xestión empresarial
+  Fila 11: G350103 — Matemáticas: Álxebra e estatística
+  Fila 12: G350202 — Física: Física II
+  Fila 13: G350101 — Expresión gráfica: Expresión gráfica
+  Fila 14: G350305 — Ciencia e tecnoloxía dos materiais
+  Fila 15: G350204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 16: G350301 — Termodinámica e transmisión de calor
+  Fila 17: G350302 — Fundamentos de electrotecnia
+  Fila 18: G350303 — Teoría de máquinas e mecanismos
+  Fila 19: G350304 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 20: G350401 — Mecánica de fluídos
+  Fila 21: G350402 — Tecnoloxía electrónica
+  Fila 22: G350403 — Fundamentos de automática
+  Fila 23: G350404 — Resistencia de materiais
+  Fila 24: G350405 — Enxeñaría química I
+  Fila 25: G350501 — Fundamentos de organización de empresas
+  Fila 26: G350502 — Tecnoloxía medioambiental
+  Fila 27: G350503 — Enxeñaría química II
+  Fila 28: G350504 — Química industrial
+  Fila 29: G350505 — Experimentación en química industrial I
+  Fila 30: G350601 — Reactores e biotecnoloxía
+  Fila 31: G350602 — Experimentación en química industrial II
+  Fila 32: G350603 — Control e instrumentación de procesos químicos
+  Fila 33: G350604 — Oficina técnica
+  Fila 34: G350702 — Simulación e optimización de procesos químicos
+  Fila 35: G350701 — Optimización de produtos
+  Fila 36: G350913 — Calor e frío na industria de proceso
+  Fila 37: G350914 — Deseño de plantas químicas e de proceso
+  Fila 38: G350923 — Química orgánica industrial
+  Fila 39: G350922 — Procesos e produtos biotecnolóxicos
+  Fila 40: G350981 — Prácticas externas: Prácticas en empresas
+  Fila 41: G350912 — Xestión e posta en servizo de plantas químicas e de proceso
+  Fila 42: G350911 — Integración da planta na xestión do negocio
+  Fila 43: G350925 — Técnicas e xestión medioambientais
+  Fila 44: G350924 — Modelaxe de procesos biotecnolóxicos
+  Fila 45: G350921 — Bioelectroquímica
+  Fila 46: G350991 — Traballo de Fin de Grao
+  Fila 47: G350904 — Inglés técnico II
+  Fila 48: G350907 — Seguridade e hixiene industrial
+
+BLOQUE col 54: Graduado en Ingeniería en Tecnologías Industriales
+  Título: ✓ Grao en Enxeñaría en Tecnoloxías Industriais
+--------------------------------------------------------------------------------
+  Fila 6: G360102 — Física: Física I
+  Fila 7: G360104 — Matemáticas: Cálculo I
+  Fila 8: G360103 — Matemáticas: Álxebra e estatística
+  Fila 9: G360101 — Expresión gráfica: Expresión gráfica
+  Fila 10: G360202 — Física: Física II
+  Fila 11: G360203 — Informática: Informática para a enxeñaría
+  Fila 12: G360205 — Química: Química
+  Fila 13: G360204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 14: G360201 — Empresa: Introdución á xestión empresarial
+  Fila 15: G360303 — Teoría de máquinas e mecanismos
+  Fila 16: G360302 — Fundamentos de teoría de circuítos e máquinas eléctricas
+  Fila 17: G360301 — Ciencia e tecnoloxía dos materiais
+  Fila 18: G360305 — Fundamentos de organización de empresas
+  Fila 19: G360403 — Mecánica de fluídos
+  Fila 20: G360404 — Resistencia de materiais
+  Fila 21: G360405 — Termodinámica e trasmisión de calor
+  Fila 22: G360402 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 23: G360501 — Electrotecnia aplicada
+  Fila 24: G360504 — Turbomáquinas hidráulicas
+  Fila 25: G360502 — Enxeñaría de materiais
+  Fila 26: G360505 — Matemáticas da especialidade
+  Fila 27: G360503 — Física III
+  Fila 28: G360604 — Enxeñaría de fabricación
+  Fila 29: G360602 — Deseño e ensaio de máquinas
+  Fila 30: G360603 — Elasticidade e ampliación de resistencia de materiais
+  Fila 31: G360605 — Máquinas eléctricas
+  Fila 32: G360704 — Tecnoloxía térmica
+  Fila 33: G360801 — Control e automatización industrial
+  Fila 34: G360701 — Instrumentación electrónica
+  Fila 35: G360705 — Sistemas eléctricos
+  Fila 36: G360304 — Fundamentos de automática
+  Fila 37: G360401 — Tecnoloxía electrónica
+  Fila 38: G360606 — Tecnoloxía química
+  Fila 39: G360802 — Fundamentos de administración de empresas
+  Fila 40: G360981 — Prácticas externas: Prácticas en empresas
+  Fila 41: G360903 — Inglés técnico I
+  Fila 42: G360991 — Traballo de Fin de Grao
+  Fila 43: G360907 — Seguridade e hixiene industrial
+  Fila 44: G360902 — Compoñentes eléctricos en vehículos
+  Fila 45: G360702 — Oficina técnica
+  Fila 46: G360703 — Tecnoloxía medioambiental
+  Fila 47: G360904 — Inglés técnico II
+  Fila 48: G363101 — Expresión gráfica: Expresión gráfica
+  Fila 49: G363102 — Física: Física I
+  Fila 50: G363103 — Matemáticas: Álxebra e estatística
+  Fila 51: G363104 — Matemáticas: Cálculo I
+  Fila 52: G363201 — Empresa: Introdución á xestión empresarial
+  Fila 53: G363202 — Física: Física II
+  Fila 54: G363203 — Informática: Informática para a enxeñaría
+  Fila 55: G363204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 56: G363205 — Química: Química
+  Fila 57: G363301 — Ciencia e tecnoloxía dos materiais
+  Fila 58: G363302 — Fundamentos de teoría de circuítos e máquinas eléctricas
+  Fila 59: G363303 — Teoría de máquinas e mecanismos
+  Fila 60: G363304 — Fundamentos de automática
+  Fila 61: G363305 — Fundamentos de organización de empresas
+  Fila 62: G363401 — Tecnoloxía electrónica
+  Fila 63: G363402 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 64: G363403 — Mecánica de fluídos
+  Fila 65: G363404 — Resistencia de materiais
+  Fila 66: G363405 — Termodinámica e trasmisión de calor
+  Fila 67: G363501 — Electrotecnia aplicada
+  Fila 68: G363502 — Enxeñaría de materiais
+  Fila 69: G363503 — Física III
+  Fila 70: G363504 — Turbomáquinas hidráulicas
+  Fila 71: G363505 — Matemáticas da especialidade
+  Fila 72: G363602 — Deseño e ensaio de máquinas
+  Fila 73: G363603 — Elasticidade e ampliación de resistencia de materiais
+  Fila 74: G363604 — Enxeñaría de fabricación
+  Fila 75: G363605 — Máquinas eléctricas
+  Fila 76: G363606 — Tecnoloxía química
+  Fila 77: G363701 — Instrumentación electrónica
+  Fila 78: G363702 — Oficina técnica
+  Fila 79: G363703 — Tecnoloxía medioambiental
+  Fila 80: G363704 — Tecnoloxía térmica
+  Fila 81: G363705 — Sistemas eléctricos
+  Fila 82: G363801 — Control e automatización industrial
+  Fila 83: G363802 — Fundamentos de administración de empresas
+  Fila 84: G363903 — Inglés técnico I
+  Fila 85: G363907 — Seguridade e hixiene industrial
+  Fila 86: G363981 — Prácticas externas: Prácticas en empresas
+  Fila 87: G363991 — Traballo de Fin de Grao
+  Fila 88: G363904 — Inglés técnico II
+
+BLOQUE col 65: Grao en Enxeñaría Mecánica
+  Título: ✓ Grao en Enxeñaría Mecánica
+--------------------------------------------------------------------------------
+  Fila 6: G380103 — Matemáticas: Álxebra e estatística
+  Fila 7: G380101 — Expresión gráfica: Expresión gráfica
+  Fila 8: G380102 — Física: Física I
+  Fila 9: G380104 — Matemáticas: Cálculo I
+  Fila 10: G380205 — Química: Química
+  Fila 11: G380202 — Física: Física II
+  Fila 12: G380203 — Informática: Informática para a enxeñaría
+  Fila 13: G380201 — Empresa: Introdución á xestión empresarial
+  Fila 14: G380204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 15: G380301 — Ciencia e tecnoloxía dos materiais
+  Fila 16: G380302 — Termodinámica e transmisión de calor
+  Fila 17: G380303 — Fundamentos de electrotecnia
+  Fila 18: G380304 — Deseño de máquinas I
+  Fila 19: G380305 — Fundamentos de sistemas e tecnoloxías de fabricación
+  Fila 20: G380405 — Mecánica de fluídos
+  Fila 21: G380401 — Tecnoloxía medioambiental
+  Fila 22: G380402 — Resistencia de materiais
+  Fila 23: G380403 — Fundamentos de automática
+  Fila 24: G380913 — Motores e máquinas térmicos
+  Fila 25: G380912 — Materiais e tecnoloxías en fabricación mecánica
+  Fila 26: G380701 — Oficina técnica
+  Fila 27: G380404 — Tecnoloxía electrónica
+  Fila 28: G380921 — Estruturas de formigón
+  Fila 29: G380501 — Enxeñaría térmica I
+  Fila 30: G380924 — Instalacións térmicas e de fluídos
+  Fila 31: G380502 — Elasticidade e ampliación de resistencia de materiais
+  Fila 32: G380923 — Instalacións eléctricas, topografía e construción
+  Fila 33: G380922 — Estruturas metálicas
+  Fila 34: G380504 — Enxeñaría de materiais
+  Fila 35: G380601 — Fundamentos de organización de empresas
+  Fila 36: G380933 — Sistema de análise, simulación e validación de datos
+  Fila 37: G380931 — Deseño e comunicación de produto e automatización de elementos en planta
+  Fila 38: G380602 — Enxeñaría gráfica
+  Fila 39: G380603 — Teoría de estruturas e construcións industriais
+  Fila 40: G380942 — Sistemas fluidomecánicos e materiais avanzados para o transporte
+  Fila 41: G380932 — Selección de materiais e fabricación de medios de produción
+  Fila 42: G380945 — Enxeñaría do transporte
+  Fila 43: G380941 — Automóbiles e ferrocarrís
+  Fila 44: G380604 — Enxeñaría de fabricación e calidade dimensional
+  Fila 45: G380911 — Deseño de máquinas II
+  Fila 46: G380915 — Deseño mecánico asistido
+  Fila 47: G380914 — Deseño de máquinas hidráulicas e sistemas oleopneumáticos
+  Fila 48: G380981 — Prácticas externas: Prácticas en empresas
+  Fila 49: G380991 — Traballo de Fin de Grao
+  Fila 50: G380925 — Ampliación de estruturas e cimentacións
+  Fila 51: G380934 — Sistema para o deseño e desenvolvemento do produto
+  Fila 52: G380935 — Tecnoloxías avanzadas de fabricación
+  Fila 53: G380944 — Vehículos automóbiles híbridos e eléctricos
+  Fila 54: G380943 — Sistemas motopropulsores
+  Fila 55: G380905 — Metodoloxía para a elaboración, presentación e xestión de traballos técnicos
+  Fila 56: G380306 — Teoría de máquinas e mecanismos
+  Fila 57: G380505 — Máquinas de fluídos
+  Fila 58: G380851 — Xeración eléctrica con enerxías renovables
+  Fila 59: G380902 — Compoñentes eléctricos en vehículos
+  Fila 60: G380903 — Inglés técnico I
+  Fila 61: G380904 — Inglés técnico II
+  Fila 62: G380906 — Programación avanzada para a enxeñaría
+  Fila 63: G380907 — Seguridade e hixiene industrial
+  Fila 64: G380908 — Tecnoloxía láser
+
+BLOQUE col 76: Graduado en Ingeniería Biomédica
+  Título: ✓ Grao en Enxeñaría Biomédica
+--------------------------------------------------------------------------------
+  Fila 6: G420202 — Física: Física II
+  Fila 7: G420204 — Matemáticas: Cálculo II e ecuacións diferenciais
+  Fila 8: G420101 — Expresión gráfica: Expresión gráfica
+  Fila 9: G420102 — Física: Física I
+  Fila 10: G420103 — Matemáticas: Álxebra e estatística
+  Fila 11: G420104 — Matemáticas: Cálculo I
+  Fila 12: G420201 — Empresa: Introdución á xestión empresarial
+  Fila 13: G420203 — Informática: Informática para a enxeñaría
+  Fila 14: G420205 — Química: Química
+  Fila 15: G420301 — Bioquímica e bioloxía celular
+  Fila 16: G420501 — Fundamentos de organización de empresas e xestión sanitaria
+  Fila 17: G420302 — Ciencia e Enxeñaría de materiais
+  Fila 18: G420502 — Fundamentos de automática e control
+  Fila 19: G420303 — Termodinámica aplicada e transmisión de calor
+  Fila 20: G420503 — Mecánica de sólidos deformables en enxeñaría biomédica
+  Fila 21: G420304 — Sistemas mecánicos
+  Fila 22: G420504 — Mecánica de fluídos
+  Fila 23: G420305 — Fundamentos de electrotecnia
+  Fila 24: G420401 — Fundamentos de electrónica para biomedicina
+  Fila 25: G420601 — Bioestatística
+  Fila 26: G420402 — Fisioloxía xeral
+  Fila 27: G420403 — Estrutura e patoloxía médica
+  Fila 28: G420602 — Enxeñaría clínica e hospitalaria
+  Fila 29: G420603 — Fundamentos de tecnoloxía hospitalaria
+  Fila 30: G420911 — Técnicas de procesado de sinais biomédicas
+  Fila 31: G420912 — Dispositivos electrónicos dixitais en medicina
+  Fila 32: G420901 — Biomateriais
+  Fila 33: G420505 — Sensores e adquisición de sinais biomédicas
+  Fila 34: G420902 — Biomecánica
+  Fila 35: G420701 — Redación e execución de proxectos en enxeñaría biomédica
+  Fila 36: G420702 — Prácticas de tecnoloxía hospitalaria
+  Fila 37: G420804 — Inglés técnico II
+  Fila 38: G420404 — Estrutura e patoloxía médico-cirúrxica
+  Fila 39: G420807 — Seguridade e hixiene industrial
+  Fila 40: G420808 — Tecnoloxía láser
+  Fila 41: G420981 — Prácticas externas: prácticas en empresa
+  Fila 42: G420991 — Traballo de Fin de Grao
+  Fila 43: G420903 — Biocompatibilidade e comportamento mecánico de materiais en imprantoloxía
+  Fila 44: G420904 — Deseño e fabricación de produtos e equipos biomédicos
+  Fila 45: G420905 — Instalacións hospitalarias
+  Fila 46: G420906 — Simulación aplicada a fluídos e sistemas mecánicos
+  Fila 47: G420907 — Nanomedicina
+  Fila 48: G420913 — Xeración e procesado de imaxe en biomedicina
+  Fila 49: G420914 — Redes de comunicacións, manipulación e telemedicina
+  Fila 50: G420915 — Sistemas automáticos de control en biomedicina
+  Fila 51: G420916 — Instrumentación biomédica
+  Fila 52: G420917 — Sistemas de información en entornos biomédicos
+
+⚠ Saltado PCEO: PCEO Grao en Enxeñaría Biomédica/Grao en Enxeñaría en Electrónica Industrial e Automática
+⚠ Saltado PCEO: PCEO Grao en Enxeñaría Biomédica/Grao en Enxeñaría Mecánica
+⚠ Saltado PCEO: PCEO Grao en Enxeñaría Mecánica/Grao en Enxeñaría en Electrónica Industrial e Automática
+
+ARQUIVO: 312 DE-02 Cadro de Mando 25-26 Industriais Másters Modificado.xlsx
+====================================================================================================
+
+Bloques detectados: [10, 21, 32, 43, 54, 65, 76, 87, 98]
+
+BLOQUE col 10: M. Univ. en Dirección e Innovación da cadea de subministración
+  Título: ✓ M. Univ. en Dirección e Innovación da cadea de subministración
+--------------------------------------------------------------------------------
+  Fila 6: M186101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 7: M186102 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 8: M186103 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 9: M186104 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 10: M186105 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 11: M186106 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 12: M186107 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 13: M186108 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 14: M186109 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 15: M186110 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 16: M186111 — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 17: M186112 — M. Univ. en Dirección e Innovación da cadea de subministración
+
+BLOQUE col 21: Máster Universitario en Enerxía e Sustentabilidade
+  Título: ✗ Non encontrado
+--------------------------------------------------------------------------------
+  Fila 6: M167101 — Eficiencia nas Tecnoloxías Industriais
+  Fila 7: M167102 — Auditorías Enerxéticas e Certificación Enerxética
+  Fila 8: M167103 — Xeración e Almacenamento de Enerxía
+  Fila 9: M167104 — Enerxía Eólica e Mariña
+  Fila 10: M167105 — Enerxía Solar
+  Fila 11: M167201 — Enerxía Térmica Renovable: Biomasa e Xeotermia de moi baixa Temperatura
+  Fila 12: M167202 — Evaluación Ambiental e Económica
+  Fila 13: M167203 — Obradoiros Prácticos de Realización de Proxectos no Ámbito da Enerxía
+  Fila 14: M167204 — Sistemas Enerxéticos no Ámbito Doméstico, Comercial e Industrial
+  Fila 15: M167205 — Sistemas Avanzados de Análise e Distribución de Enerxía
+  Fila 16: M167206 — Prácticas Externas
+  Fila 17: M167207 — Traballo Fin de Máster
+
+BLOQUE col 32: Máster Universitario en Enxeñaría Biomédica
+  Título: ✗ Non encontrado
+--------------------------------------------------------------------------------
+  Fila 6: M192101 — Estatística avanzada para a enxeñaría biomédica
+  Fila 7: M192102 — Métodos matemáticos aplicados á enxeñaria biomédica
+  Fila 8: M192103 — Modelado e simulación sistemas biomédicos
+  Fila 9: M192104 — Sistemas de diagnóstico e terapia
+  Fila 10: M192105 — Análisis biomecánico de actividades e funcións humanas
+  Fila 11: M192106 — Biomateriales avanzados e enxeñaría tisular
+  Fila 12: M192201 — Sinais biomédicas
+  Fila 13: M192202 — Control e regulación das funcións corporais
+  Fila 14: M192203 — Simulación de biofluídos en enxeñaría biomédica
+  Fila 15: M192204 — Biolectroquímica
+  Fila 16: M192205 — Enxeñaría de superficies para aplicacións biomédicas
+  Fila 17: M192206 — Robótica médica
+  Fila 18: M192207 — Mecánica de materiais e tecidos blandos
+  Fila 19: M192208 — Técnicas avanzadas no invasivas en enxeñaría biomédica: Aplicación do láser en medicina
+  Fila 20: M192209 — Deseño de produtos e servizos intelixentes no sector biomédico
+
+BLOQUE col 43: Máster Universitario en Ingeniería de la Automoción
+  Título: ✓ Máster Univ. en Enxeñaría da Automoción
+--------------------------------------------------------------------------------
+  Fila 6: M120106 — A industria do automóvil
+  Fila 7: M120107 — Deseño e simulación numéricos
+  Fila 8: M120108 — Materiais na automoción
+  Fila 9: M120109 — Tecnoloxías 4.0
+  Fila 10: M120110 — Procesos transversais na industria do automóvil
+  Fila 11: M120217 — Ensaios e validación
+  Fila 12: M120111 — Estructura, carrocería e acabados
+  Fila 13: M120112 — Sistema motopropulsor
+  Fila 14: M120218 — Dinámica vehicular
+  Fila 15: M120219 — Sistemas eléctricos e electrónicos
+  Fila 16: M120220 — O vehículo autónomo e conectado
+  Fila 17: M120113 — Estampación
+  Fila 18: M120114 — Ferraxe
+  Fila 19: M120221 — Montaxe e pintura
+  Fila 20: M120222 — Xestión Lean
+  Fila 21: M120223 — Prácticas externas
+  Fila 22: M120225 — Traballo Fin de Máster
+
+BLOQUE col 54: Máster Universitario en Enxeñaría Industrial
+  Título: ✓ Máster Univ. en Enxeñaría Industrial
+--------------------------------------------------------------------------------
+  Fila 6: M141102 — Instalacións e Máquinas Eléctricas
+  Fila 7: M141104 — Ampliación de Física
+  Fila 8: M141105 — Máquinas de Fluídos
+  Fila 9: M141106 — Métodos Matemáticos na Enxeñaría Industrial
+  Fila 10: M141107 — Deseño e Ensaio de Máquinas
+  Fila 11: M141108 — Elasticidade e Resistencia de Materiais
+  Fila 12: M141109 — Fabricación Industrial
+  Fila 13: M141110 — Acondicionamento de Sinal e Sensores
+  Fila 14: M141111 — Enxeñaría de Control e Automatización Industrial
+  Fila 15: M141112 — Tecnoloxía Térmica I
+  Fila 16: M141201 — Sistemas de Enerxía Eléctrica
+  Fila 17: M141310 — Sistemas de Enerxía Eléctrica
+  Fila 18: M141302 — Sistemas de Enerxía Eléctrica Avanzada
+  Fila 19: M141113 — Sistemas Integrados de Fabricación
+  Fila 20: M141212 — Sistemas Integrados de Fabricación
+  Fila 21: M141202 — Sistemas Integrados Avanzados de Fabricación
+  Fila 22: M141114 — Cálculo de Máquinas
+  Fila 23: M141214 — Cálculo de Máquinas
+  Fila 24: M141203 — Cálculo de Máquinas Avanzado
+  Fila 25: M141117 — Deseño de Procesos Químicos
+  Fila 26: M141311 — Deseño de Procesos Químicos
+  Fila 27: M141115 — Tecnoloxía Térmica II
+  Fila 28: M141216 — Tecnoloxía Térmica II
+  Fila 29: M141205 — Enxeñaría Térmica II
+  Fila 30: M141116 — Máquinas Hidráulicas
+  Fila 31: M141217 — Máquinas Hidráulicas
+  Fila 32: M141206 — Deseño de Máquinas Hidráulicas e Oleoneumática Industrial
+  Fila 33: M141118 — Deseño de Sistemas Electrónicos Industriais
+  Fila 34: M141218 — Deseño de Sistemas Electrónicos Industriais
+  Fila 35: M141207 — Deseño Avanzado de Sistemas Electrónicos Industriais
+  Fila 36: M141119 — Automatización e Control Industrial
+  Fila 37: M141219 — Automatización e Control Industrial
+  Fila 38: M141208 — Control e Automatización Industrial Avanzados
+  Fila 39: M141221 — Dirección Estratéxica. Produción e Loxística
+  Fila 40: M141313 — Dirección Estratéxica. Produción e Loxística
+  Fila 41: M141303 — Dirección Estratéxica. Produción e Loxística Avanzadas
+  Fila 42: M141401 — Dirección da Empresa e dos Recursos Humanos
+  Fila 43: M141222 — Proxectos de Enxeñaría
+  Fila 44: M141318 — Proxectos de Enxeñaría
+  Fila 45: M141120 — Construción, Urbanismo e Infraestruturas
+  Fila 46: M141220 — Construción, Urbanismo e Infraestruturas
+  Fila 47: M141209 — Construción, Urbanismo e Infraestruturas Avanzados
+  Fila 48: M141211 — Deseño e Cálculo de Estruturas
+  Fila 49: M141325 — Deseño e Cálculo de Estruturas
+  Fila 50: M141305 — Deseño e Cálculo Avanzado de Estruturas
+  Fila 51: M141213 — Enxeñaría do Transporte e Manutención Industrial
+  Fila 52: M141331 — Enxeñaría do Transporte e Manutención Industrial
+  Fila 53: M141301 — Enxeñaría Avanzada do Transporte e Manutención Industrial
+  Fila 54: M141215 — Instalacións e Innovación Industrial
+  Fila 55: M141337 — Instalacións e Innovación Industrial
+  Fila 56: M141121 — Estatística Industrial Aplicada á Enxeñaría
+  Fila 57: M141210 — Estatística Industrial Aplicada á Enxeñaría
+  Fila 58: M141402 — Traballo Fin de Máster
+  Fila 59: M141319 — Centrais Eléctricas
+  Fila 60: M141326 — Aplicacións Industriais de Máquinas Eléctricas
+  Fila 61: M141332 — Instalacións e Uso Eficiente da Enerxía Eléctrica
+  Fila 62: M141338 — Xeración Eléctrica con Fontes de Enerxía Renovable
+  Fila 63: M141343 — Xestión e Calidade da Enerxía Eléctrica
+  Fila 64: M141347 — Instalacións Eléctricas de Alta Tensión
+  Fila 65: M141316 — Deseño de Maquinaria Asistido
+  Fila 66: M141323 — Vehículos Automóbiles
+  Fila 67: M141329 — Enxeñaría Fluidomecánica
+  Fila 68: M141335 — Calor e Frío
+  Fila 69: M141341 — Motores Térmicos
+  Fila 70: M141345 — Fabricación Mecánica
+  Fila 71: M141304 — Convertidores Electrónicos de Potencia
+  Fila 72: M141320 — Deseño de Sistemas Electrónicos Dixitais para Control Industrial
+  Fila 73: M141306 — Sistemas de Adquisición de Datos e Sensores Industriais
+  Fila 74: M141308 — Enxeñaría de Control e Sistemas en Tempo Real
+  Fila 75: M141309 — Sistemas Automáticos de Produción Integrados
+  Fila 76: M141317 — Xestión de Produtos e Servizo ao Cliente
+  Fila 77: M141324 — Xestión da Calidade, a Seguridade e o Medio Ambiente
+  Fila 78: M141330 — Sistemas de Información de Apoio á Dirección
+  Fila 79: M141336 — Xestión de Compras e Distribución Física
+  Fila 80: M141342 — Métodos Cuantitativos e Ferramentas de Xestión
+  Fila 81: M141346 — Creación de Empresas e Xestión de Activos Empresariais
+  Fila 82: M141315 — Cimentacións, Simulación e Construcións Industriais
+  Fila 83: M141322 — Estruturas Metálicas e de Formigón
+  Fila 84: M141312 — Materiais Construtivos e Soldadura
+  Fila 85: M141328 — Instalacións Térmicas
+  Fila 86: M141334 — Instalacións Eléctricas
+  Fila 87: M141340 — Instalacións de Fluídos
+  Fila 88: M141314 — Deseño Industrial
+  Fila 89: M141321 — Enxeñaría de Fabricación Avanzada
+  Fila 90: M141327 — Tecnoloxías para a Comunicación e Mellora de Deseño
+  Fila 91: M141333 — Medios, Máquinas e Ferramentas de Fabricación
+  Fila 92: M141339 — Tecnoloxía Láser Aplicada á Produción Industrial
+  Fila 93: M141344 — Enxeñaría de Sistemas e Automatización
+  Fila 94: M141307 — Robótica e Sistemas de Percepción
+
+BLOQUE col 65: M. Univ. en Fabricación Aditiva
+  Título: ✓ Máster Univ. en Fabricación Aditiva
+--------------------------------------------------------------------------------
+  Fila 6: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 7: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 8: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 9: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 10: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 11: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 12: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 13: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 14: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 15: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 16: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+  Fila 17: M196101  — M. Univ. en Dirección e Innovación da cadea de subministración
+
+BLOQUE col 76: Máster Universitario en Industria 4
+  Título: ✗ Non encontrado
+--------------------------------------------------------------------------------
+  Fila 6: M183101 — PLM e Lean Manufacturig
+  Fila 7: M183102 — Cloud Computing e Big Data
+  Fila 8: M183103 — Comunicacións industriais e ciberseguridade industrial
+  Fila 9: M183104 — Sistemas intelixentes na industria
+  Fila 10: M183105 — Sistemas ciberfísicos
+  Fila 11: M183106 — Smart Manufacturing e Smart logistics
+  Fila 12: M183107 — Sistemas CAD/CAM/CAE Avanzados
+  Fila 13: M183108 — Simulación aplicada a xestión de prantas
+  Fila 14: M183109 — Industrialización e innovación industrial. Enfoque Lean
+  Fila 15: M183201 — Internet industrial das cousas (IIoT)
+  Fila 16: M183202 — Fabricación aditiva
+  Fila 17: M183203 — Sistemas de verificación e inspección avanzados
+  Fila 18: M183204 — Robótica e realidade virtual na industria
+  Fila 19: M183205 — Simulación aplicada a deseño e fabricación
+  Fila 20: M183111 — Desenvolvemento e xestión de proxectos de I+D+i
+  Fila 21: M183112 — Ferramentas de cálculo avanzado para enxeñaría
+  Fila 22: M183206 — Prácticas externas
+  Fila 23: M183207 — Traballo fin de máster
+  Fila 24: M183110 — Competencias horizontais e xestión do talento
+
+BLOQUE col 87: Máster Universitario en Mecatrónica
+  Título: ✗ Non encontrado
+--------------------------------------------------------------------------------
+  Fila 6: M093101 — Análise Elástica polo Método dos Elementos Finitos
+  Fila 7: M093102 — Análise Plástica polo Método dos Elementos Finitos
+  Fila 8: M093201 — Aplicación dos Microcontroladores e Dispositivos Lóxicos Programables en Mecatrónica
+  Fila 9: M093103 — Aplicacións Avanzadas de Lubricación e Lubricantes
+  Fila 10: M093202 — Automatización de Maquinaria
+  Fila 11: M093104 — Comunicacións Industriais
+  Fila 12: M093203 — Control Multieixo Sincronizado
+  Fila 13: M093105 — Deseño de Elementos Mecánicos
+  Fila 14: M093204 — Deseño de Superficies Asistido por Computador
+  Fila 15: M093205 — Electrónica de Potencia para Maquinaria
+  Fila 16: M093206 — Xestión do Ciclo de Vida do Produto: PLM/PDM
+  Fila 17: M093207 — Enxeñaría de Sistemas para o Desenvolvemento de Maquinaria
+  Fila 18: M093107 — Introdución ao Control de Eixos
+  Fila 19: M093108 — Modelado de Sistemas Mecánicos e Industrialización do Deseño
+  Fila 20: M093109 — Programación Avanzada de Autómatas
+  Fila 21: M093110 — Programación de Sistemas Embebidos
+  Fila 22: M093209 — Seguridade nas Máquinas
+  Fila 23: M093111 — Sensores e Actuadores para Maquinaria
+  Fila 24: M093112 — Simulación de Sistemas Mecatrónicos
+  Fila 25: M093210 — Simulación Dinámica MBS de Sistemas
+  Fila 26: M093211 — Sistemas Robotizados
+  Fila 27: M093213 — Selección de Materiais para Maquinaria
+  Fila 28: M093212 — Técnicas de Análise para a Aplicación en Máquinas e Optimización de Sistemas Mecatrónicos
+  Fila 29: M093114 — Técnicas Especiais de Mallado
+  Fila 30: M093214 — Prácticas Externas
+  Fila 31: M093215 — Traballo de Fin de Máster
+
+BLOQUE col 98: Máster Universitario en Prevención de Riscos Laborais
+  Título: ✓ Máster Univ. en Prevención de Riscos Laborais
+--------------------------------------------------------------------------------
+  Fila 6: M150101 — Fundamentos Xerais da Prevención
+  Fila 7: M150102 — Xestión da Prevención e outras Técnicas Afíns
+  Fila 8: M150103 — Ámbito Xurídico
+  Fila 9: M150104 — Seguridade no Traballo
+  Fila 10: M150105 — Hixiene Industrial
+  Fila 11: M150106 — Ergonomía e Psicosocioloxía
+  Fila 12: M150201 — Especialización en Seguridade no Traballo
+  Fila 13: M150202 — Especialización en Hixiene Industrial
+  Fila 14: M150203 — Especialización en Ergonomía e Psicosocioloxía
+  Fila 15: M150204 — Auditoría dos Sistemas de Prevención de Riscos Laborais
+  Fila 16: M150205 — Prácticas Externas
+  Fila 17: M150206 — Prácticas en Instalacións Industriais
+  Fila 18: M150207 — Prácticas para a Formación en Prevención de Riscos Laborais
+  Fila 19: M150208 — Traballo de Fin de Máster
+  Fila 20: M150107 — Medicina do Traballo
+
+
+ARQUIVO: 351 DE-02 Cadro de mando 24-25 EU Profesorado Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 352 DE-02 Cadro de mando 24-25 Enfermaria Meixoeiro Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 353 DE-02 Cadro de mando 24-25 Enfermaria Povisa v02 Precuberto.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+
+
+ARQUIVO: 362 DE-02 Cadro de mando 24-25 CPFP.xlsx
+====================================================================================================
+
+⚠ Non se atopou hoja 'Anexos 1'
+

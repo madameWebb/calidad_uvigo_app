@@ -44,8 +44,27 @@ document.addEventListener('DOMContentLoaded', function() {
         tarjetas.forEach(tarjeta => container.appendChild(tarjeta));
     }
     
+    
     // Añadir event listeners a todos los selectores
     [selectSigma, selectDenominacion, selectTipo].forEach(select => {
         if (select) select.addEventListener('change', ordenarTarjetas);
     });
 });
+
+// Al cargar, si hay anchor en la URL, despliega esa tarjeta
+
+const hash = window.location.hash;
+if (hash) {
+    const card = document.querySelector(hash);
+    if (card) {
+        const body = card.querySelector('.card-body');
+        const btn = card.querySelector('.btn-expand');
+        if (body && btn) {
+            body.classList.add('visible');
+            btn.textContent = '▲';
+            card.scrollIntoView({ behavior: 'smooth' });
+            console.log('Body:', body);
+    console.log('Body classes:', body.className);
+        }
+    }
+};

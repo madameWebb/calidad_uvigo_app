@@ -164,7 +164,11 @@ class AvaliacionsPdisAdmin(BaseAdmin):
                 obj.indicador.add(indicador_default)
 
 class MateriasAvaliadasAdmin(BaseAdmin):
-    pass  
+    list_display = ('codigo', 'materia', 'titulo')
+    list_filter = ('titulo__centro',)
+    search_fields = ('codigo', 'materia', 'titulo__denominacion')
+    raw_id_fields = ('titulo',)
+    ordering = ('codigo', 'titulo__denominacion') 
 
 class SeguementoMateriasAdmin(BaseAdmin):
     pass  

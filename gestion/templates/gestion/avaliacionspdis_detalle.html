@@ -1,0 +1,41 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block contido %}
+<p><a href="{% url 'avaliacionspdis' %}">← Volver aos centros</a></p>
+
+<h2>Avaliación PDI — {{ titulo.denominacion }}</h2>
+
+{% if avaliacions %}
+<div style="max-width: 690px; margin: 0 auto;">
+    <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+            <tr style="background: var(--color-primary); color: white;">
+                <th style="padding: 12px;">Orixe dos datos (Curso)</th>
+                <th style="padding: 12px;">Excelentes</th>
+                <th style="padding: 12px;">Notables</th>
+                <th style="padding: 12px;">Favorables</th>
+                <th style="padding: 12px;">Desfavorables</th>
+                <th style="padding: 12px;">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for av in avaliacions %}
+            <tr style="text-align: center; ">
+                <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ av.orixe_datos }}</td>
+                <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ av.excelentes }}</td>
+                <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ av.notables }}</td>
+                <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ av.favorables }}</td>
+                <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ av.desfavorables }}</td>
+                <td style="padding: 12px;">{{ av.totales }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<div style="padding: 40px; text-align: center; background: white; border-radius: 6px; border: 1px dashed var(--color-border);">
+    Non hai datos de avaliación PDI para este título e curso
+</div>
+{% endif %}
+{% endblock %}

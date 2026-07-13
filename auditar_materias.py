@@ -15,17 +15,52 @@ def traducir_a_gallego(nombre):
         'Ingeniería': 'Enxeñaría',
         'Enfermería': 'Enfermaría',
         'Tecnología': 'Tecnoloxía',
-        'Extranjeras': 'Estranxeiras',
+        'Arqueología': 'Arqueoloxía',
+        'Ciudades': 'Cidades',
+        'Inteligencia': 'Intelixencia',
+        'Bachillerato': 'Bacharelato',
+        'Biotecnología': 'Biotecnoloxía',
+        'Biología': 'Bioloxía',
+        'Abordaje': 'Abordaxe',
+        'Genética': 'Xenética',
+        'Energía': 'Enerxía',
+        'Industriales': 'Industriáis',
+        'Industrial': 'Industrial',
+        'Extranjera': 'Extranxeira',
+        'Realidad': 'Realidade',
+        'Geoespacial': 'Xeoespacial',
+        'Gestión': 'Xestión',
+        'Desarrollo': 'Desenvolvemento',
+        'Sostenible': 'Sostible',
+        'Nanotecnología': 'Nanotecnoloxía',
+        'Derecho': 'Dereito',
+        'Diseño': 'Deseño',
+        'Extranjeras': 'Extranxeiras',
         'Lenguas': 'Linguas',
         'Traducción': 'Tradución',
         'Filología': 'Filoloxía',
         'Lingüística': 'Lingüística',
+        'Lenguas': 'Linguas',
+        'Extranjeras': 'Estranxeiras',
+        'Traducción': 'Tradución',
+        'Interpretación': 'Interpretación',
+        'Lingüística': 'Lingüística',
+        'Literatura': 'Literatura',
+        'Dramática': 'Dramática',
+        'Escénicas': 'Escénicas',
         'Enseñanza': 'Ensino',
-        'Grado': 'Grao',
-        'Derecho': 'Dereito',
-        'Diseño': 'Deseño',
+        'Español': 'Español',
+        'Segunda': 'Segunda',
+        'Aplicaciones': 'Aplicacións',
         'Relaciones': 'Relacións',
-        'Internacionales': 'Internacionais'
+        'Internacionales': 'Internacionais',
+        'PCEO': 'PCEO',
+        'Máster': 'Máster',
+        'Grado': 'Grao',
+        'Automática': 'Automática',
+        'Mecánica': 'Mecánica', 
+        'Biomédica': 'Biomédica',
+        'Graduado': 'Grao'
     }
     nombre_traducido = nombre.lower()
     for castellano, gallego in traducciones.items():
@@ -101,7 +136,7 @@ def auditar_arquivo(archivo_path, f):
             if materia:
                 n_ok += 1
             else:
-                f.write(f"✗ Materia non importada: {codigo_asig} — {nome_asig}\n")
+                f.write(f"✗ Materia non importada: {titulo} —  {codigo_asig} — {nome_asig}\n")
                 n_faltantes += 1
 
     return n_ok, n_faltantes

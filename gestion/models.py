@@ -316,31 +316,40 @@ class SeguimentosTitulos(SeguimentoBase):
     def __str__(self):
         return f"{self.indicador} - {self.titulo} - {self.orixe_datos}"
 
-class SeguementoMaterias(SeguimentoBase):
+class SeguementoMaterias(ModeloBase):
     materia = models.ForeignKey(MateriasAvaliadas, on_delete=models.PROTECT, related_name='seguementos')
-    taxa = models.DecimalField(max_digits=5, decimal_places=2, default=0, validators=[MinValueValidator(0)], verbose_name="Taxa (%)")
+    indicador = models.ForeignKey(Indicadores, on_delete=models.PROTECT, related_name='seguementos_materias')
+    orixe_datos = models.CharField(
+        max_length=10,
+        choices=generar_curso_choices,
+        verbose_name="Orixe dos datos (curso)"
+    )
+    meta = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, verbose_name="Meta (%)")
+    taxa = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, verbose_name="Taxa (%)")
+    resultado = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, verbose_name="Resultado (%)")
 
     class Meta:
         verbose_name = "Seguemento de Materia"
         verbose_name_plural = "Seguementos de Materias"
-        unique_together = ('materia', 'orixe_datos')
+        unique_together = ('materia', 'indicador', 'orixe_datos')
 
     def __str__(self):
-        return f"{self.materia} - {self.orixe_datos}"
+        return f"{self.materia} - {self.indicador} - {self.orixe_datos}"
 
     @property
     def valoracion(self):
-        if self.meta == 0:
+        if self.meta is None or self.meta == 0:
             return ('sen_meta', 'Sen meta')
         if self.taxa >= self.meta:
-            return ('conseguida', f'Conseguida ({self.resultado}%)')
+            return ('conseguida', f'Conseguida ({self.taxa}%)')
         if self.taxa >= self.meta / 2:
-            return ('parcial', f'Parcialmente conseguida ({self.resultado}%)')
-        return ('non_conseguida', f'Non conseguida ({self.resultado}%)')
+            return ('parcial', f'Parcialmente conseguida ({self.taxa}%)')
+        return ('non_conseguida', f'Non conseguida ({self.taxa}%)')
 
     def save(self, *args, **kwargs):
-        if self.meta == 0:
+        if self.meta is None or self.meta == 0:
             self.resultado = 0
         else:
             self.resultado = self.taxa
         super().save(*args, **kwargs)
+

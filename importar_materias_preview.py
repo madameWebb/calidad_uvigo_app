@@ -25,6 +25,7 @@ def traducir_a_gallego(nombre):
         'Genética': 'Xenética',
         'Energía': 'Enerxía',
         'Industriales': 'Industriáis',
+        'Industrial': 'Industrial',
         'Extranjera': 'Extranxeira',
         'Realidad': 'Realidade',
         'Geoespacial': 'Xeoespacial',
@@ -54,7 +55,16 @@ def traducir_a_gallego(nombre):
         'Relaciones': 'Relacións',
         'Internacionales': 'Internacionais',
         'PCEO': 'PCEO',
-        'Biomédica/Grao': 'Biomédica/Grao'
+        'Máster': 'Máster',
+        'Grado': 'Grao',
+        'Automática': 'Automática',
+        'Mecánica': 'Mecánica', 
+        'Biomédica': 'Biomédica',
+        'Graduado': 'Grao',
+        'Electrónica': 'Electrónica', 
+        'Mecatrónica': 'Mecatrónica', 
+        'Sustentabilidade': 'Sustentabilidade'
+
     }
 
     nombre_traducido = nombre.lower()
@@ -67,7 +77,7 @@ def buscar_titulo(nombre, codigo_centro):
         return None
     
     nombre_traducido = traducir_a_gallego(nombre)
-    palabras_genericas = {'en', 'de', 'y', 'e', 'grado', 'grao', 'máster', 'universitario', 'para', 'o'}
+    palabras_genericas = {'en', 'de', 'y', 'e', 'universitario', 'para', 'o'}
     palabras_clave = [p for p in nombre_traducido.lower().split()
                       if len(p) > 3 and p not in palabras_genericas]
 
@@ -89,7 +99,7 @@ def buscar_titulo(nombre, codigo_centro):
             mejor_coincidencias = coincidencias
             mejor_match = titulo
 
-    if mejor_coincidencias >= 2:
+    if mejor_coincidencias >= 3:
         return mejor_match
 
     return None
@@ -119,8 +129,15 @@ def procesar_arquivo(archivo_path, f):
 
     for col_inicio in bloques:
         nombre_titulo = ws.cell(row=6, column=col_inicio).value
+        
+        # Saltar PCEO
+        if nombre_titulo and str(nombre_titulo).upper().startswith('PCEO'):
+            print(f'Saltado PCEO: {nombre_titulo}')
+            f.write(f"⚠ Saltado PCEO: {nombre_titulo}\n")
+            continue
+    
         titulo = buscar_titulo(nombre_titulo, codigo_centro) if nombre_titulo else None
-
+        
         f.write(f"BLOQUE col {col_inicio}: {nombre_titulo}\n")
         f.write(f"  Título: {'✓ ' + str(titulo) if titulo else '✗ Non encontrado'}\n")
         f.write("-" * 80 + "\n")
@@ -159,6 +176,7 @@ def main():
             f.write(f"\nARQUIVO: {archivo_path.name}\n")
             f.write("=" * 100 + "\n\n")
             procesar_arquivo(archivo_path, f)
+
 
     print(f"Resultado en: {salida}")
 
