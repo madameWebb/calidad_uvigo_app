@@ -200,12 +200,17 @@ class Indicadores(ModeloBase):
         return self.denominacion
     
 class AvaliacionsPdis(ModeloBase):
-    indicador = models.ManyToManyField(Indicadores, related_name='avaliacions_pdis', blank=True)
+    indicador = models.ManyToManyField(
+        Indicadores, 
+        related_name='avaliacions_pdis',
+        blank=True, 
+        help_text='Cubrir só en caso de que o indicador sexa diferente de <strong>"Resultados do PDI avaliado"</strong>, co procedemento asociado "<strong>PE-02 Xestión de PDI</strong>"'
+        )
     titulo = models.ForeignKey(Titulos, on_delete=models.PROTECT, related_name='avaliacion_pdis')
     orixe_datos = models.CharField(
         max_length=10,
         choices=generar_curso_choices,
-        verbose_name="Orixe dos datos (curso):",
+        verbose_name="Orixe dos datos (curso)",
         help_text="Curso de orixe dos datos (non o curso no que se introducen)"
     )
     data_limite = models.DateField(
@@ -213,7 +218,7 @@ class AvaliacionsPdis(ModeloBase):
         blank=True,
         null=True
     )
-    totales = models.IntegerField(default=0, validators=[MinValueValidator(0)], verbose_name="Total de PDIs avaliados")
+    totales = models.IntegerField(default=0, validators=[MinValueValidator(0)], verbose_name="Total PDIs")
     excelentes = models.IntegerField(default=0, validators=[MinValueValidator(0)], verbose_name="Número de PDIs excelentes")
     notables = models.IntegerField(default=0, validators=[MinValueValidator(0)], verbose_name="Número de PDIs notables")
     favorables = models.IntegerField(default=0, validators=[MinValueValidator(0)], verbose_name="Número de PDIs favorables")
@@ -231,7 +236,13 @@ class AvaliacionsPdis(ModeloBase):
         if not self.data_limite:
             ano_finalizacion = int(self.orixe_datos.split('/')[1])
             self.data_limite = date(2000 + ano_finalizacion + 1, 12, 31)
+        self.totales = self.excelentes + self.notables + self.favorables + self.desfavorables
+        is_new = self.pk is None
         super().save(*args, **kwargs)
+        if is_new and not self.indicador.exists():
+            indicador_default = Indicadores.objects.filter(codigo='I7-3').first()
+            if indicador_default:
+                self.indicador.add(indicador_default)
         
 class SeguimentoBase(ModeloBase):
     """Campos y lógica comunes a los seguimientos de centro y de título."""

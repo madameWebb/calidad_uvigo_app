@@ -119,8 +119,49 @@ class ResponsablesAdmin(BaseAdmin):
     search_fields = ('denominacion',)
     ordering = ('denominacion',)
 
+class AvaliacionsPdisForm(forms.ModelForm):
+    excelentes = forms.IntegerField(min_value=0, initial=0, widget=forms.NumberInput(attrs={'step': 1, 'min': 0}))
+    notables = forms.IntegerField(min_value=0, initial=0, widget=forms.NumberInput(attrs={'step': 1, 'min': 0}))
+    favorables = forms.IntegerField(min_value=0, initial=0, widget=forms.NumberInput(attrs={'step': 1, 'min': 0}))
+    desfavorables = forms.IntegerField(min_value=0, initial=0, widget=forms.NumberInput(attrs={'step': 1, 'min': 0}))
+
+    class Meta:
+        model = AvaliacionsPdis
+        fields = '__all__'
+
 class AvaliacionsPdisAdmin(BaseAdmin):
-    pass 
+    form = AvaliacionsPdisForm
+    raw_id_fields = ('indicador','titulo',)
+    list_display = ('orixe_datos', 'get_indicadores', 'titulo__centro', 'titulo', 'totales')
+    
+    def get_indicadores(self, obj):
+        return ', '.join([str(i.codigo) for i in obj.indicador.all()])
+    
+    get_indicadores.short_description = 'Indicadores'
+
+    list_filter = ('orixe_datos', 'titulo__centro', 'titulo__centro__codigo_localizador')
+    search_fields = ('indicador__codigo', 'titulo__denominacion', 'titulo__id')
+    ordering = ('titulo',)
+
+    @admin.display(description='Centro')
+    def titulo__centro(self, obj):
+        return obj.titulo.centro
+
+    fieldsets = (
+        ('Información das avaliacións', {
+            'fields': ('orixe_datos', 'indicador', 'titulo',)
+        }),
+        ('Avaliacións dos PDIs', {
+            'fields': ('excelentes', 'notables', 'favorables', 'desfavorables')
+        }),
+    )
+    def save_related(self, request, form, formsets, change):
+        super().save_related(request, form, formsets, change)
+        obj = form.instance
+        if not obj.indicador.exists():
+            indicador_default = Indicadores.objects.filter(codigo='I7-3').first()
+            if indicador_default:
+                obj.indicador.add(indicador_default)
 
 class MateriasAvaliadasAdmin(BaseAdmin):
     pass  

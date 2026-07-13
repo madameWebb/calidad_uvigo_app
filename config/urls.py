@@ -16,6 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import settings
+from django.views.static import serve
+import os
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 admin.site.site_header = "Calidade UVIGO"
 admin.site.site_title = "Calidade UVIGO"
@@ -24,4 +30,7 @@ admin.site.index_title = "Área de xestión"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('gestion.urls')),
-]
+    path('admin/gestion/img/<str:filename>', serve, {
+        'document_root': os.path.join(BASE_DIR, 'gestion/static/admin/img')
+    }),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

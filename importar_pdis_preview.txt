@@ -1,0 +1,1806 @@
+PREVIEW PDIs — CARPETA COMPLETA
+====================================================================================================
+
+
+ARQUIVO: 101 DE-02 Cadro de mando 25-26 Ciencias.xlsx
+====================================================================================================
+
+HOJA: Anexos (CA) → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O01G041V01
+    Título: ✓ Grao en Ciencia e Tecnoloxía dos Alimentos
+    Excelentes: 8, Notables: 8, Favorables: 3, Desfavorables: 0, Totais: 19
+
+  Fila 7: O01G261V01
+    Título: ✓ Grao en Ciencias Ambientais
+    Excelentes: 8, Notables: 7, Favorables: 1, Desfavorables: 0, Totais: 16
+
+  Fila 8: O01G281V01
+    Título: ✓ Grao en Enxeñaría Agraria
+    Excelentes: 6, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 11
+
+  Fila 9: O01M139V01
+    Título: ✓ Máster Universitario en Nutrición
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 10: O01M142V01
+    Título: ✓ Máster Universitario en Ciencia e Tecnoloxía Agroalimentaría e Ambiental
+    Excelentes: 5, Notables: 9, Favorables: 2, Desfavorables: 0, Totais: 16
+
+
+HOJA: Anexos (CyTA) → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O01G041V01
+    Título: ✓ Grao en Ciencia e Tecnoloxía dos Alimentos
+    Excelentes: 8, Notables: 8, Favorables: 3, Desfavorables: 0, Totais: 19
+
+  Fila 7: O01G261V01
+    Título: ✓ Grao en Ciencias Ambientais
+    Excelentes: 8, Notables: 7, Favorables: 1, Desfavorables: 0, Totais: 16
+
+  Fila 8: O01G281V01
+    Título: ✓ Grao en Enxeñaría Agraria
+    Excelentes: 6, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 11
+
+  Fila 9: O01M139V01
+    Título: ✓ Máster Universitario en Nutrición
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 10: O01M142V01
+    Título: ✓ Máster Universitario en Ciencia e Tecnoloxía Agroalimentaría e Ambiental
+    Excelentes: 5, Notables: 9, Favorables: 2, Desfavorables: 0, Totais: 16
+
+
+HOJA: Anexos (EA) → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O01G041V01
+    Título: ✓ Grao en Ciencia e Tecnoloxía dos Alimentos
+    Excelentes: 8, Notables: 8, Favorables: 3, Desfavorables: 0, Totais: 19
+
+  Fila 7: O01G261V01
+    Título: ✓ Grao en Ciencias Ambientais
+    Excelentes: 8, Notables: 7, Favorables: 1, Desfavorables: 0, Totais: 16
+
+  Fila 8: O01G281V01
+    Título: ✓ Grao en Enxeñaría Agraria
+    Excelentes: 6, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 11
+
+  Fila 9: O01M139V01
+    Título: ✓ Máster Universitario en Nutrición
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 10: O01M142V01
+    Título: ✓ Máster Universitario en Ciencia e Tecnoloxía Agroalimentaría e Ambiental
+    Excelentes: 5, Notables: 9, Favorables: 2, Desfavorables: 0, Totais: 16
+
+
+
+ARQUIVO: 102 DE-02 Cadro de mando 25-26 Historia Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O02G251V01
+    Título: ✓ Grao en Xeografía e Historia
+    Excelentes: 2, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 7: O02M187V01
+    Título: ✓ Máster Universitario en Arqueoloxía e ciencias da antigüidade
+    Excelentes: 0, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 8: O02M143V03
+    Título: ✓ Máster Universitario en Valoración, xestión e protección do patrimonio cultural
+    Excelentes: 2, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O02G251V01
+    Título: ✓ Grao en Xeografía e Historia
+    Excelentes: 2, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 7: O02M187V01
+    Título: ✓ Máster Universitario en Arqueoloxía e ciencias da antigüidade
+    Excelentes: 0, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 8: O02M143V03
+    Título: ✓ Máster Universitario en Valoración, xestión e protección do patrimonio cultural
+    Excelentes: 2, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O02G251V01
+    Título: ✓ Grao en Xeografía e Historia
+    Excelentes: 2, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 7: O02M187V01
+    Título: ✓ Máster Universitario en Arqueoloxía e ciencias da antigüidade
+    Excelentes: 0, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 8: O02M143V03
+    Título: ✓ Máster Universitario en Valoración, xestión e protección do patrimonio cultural
+    Excelentes: 2, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+
+ARQUIVO: 103 DE-02 Cadro de mando 25-26 Dereito Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O03G081V01
+    Título: ✓ Grao en Dereito
+    Excelentes: 8, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 11
+
+  Fila 7: O03G730V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Grao en Dereito
+    Excelentes: 16, Notables: 10, Favorables: 0, Desfavorables: 0, Totais: 26
+
+  Fila 8: O03M110V11
+    Título: ✓ Máster Universitario en Avogacía e Procuradoría (Ourense)
+    Excelentes: 4, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O03G081V01
+    Título: ✓ Grao en Dereito
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O03G730V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Grao en Dereito
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O03M110V11
+    Título: ✓ Máster Universitario en Avogacía e Procuradoría (Ourense)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O03G081V01
+    Título: ✓ Grao en Dereito
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O03G730V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Grao en Dereito
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O03M110V11
+    Título: ✓ Máster Universitario en Avogacía e Procuradoría (Ourense)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 104 DE-02 Cadro de mando 25-26 Turismo Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O04G020V01
+    Título: ✓ Grao en Administración e Dirección de Empresas
+    Excelentes: 9, Notables: 10, Favorables: 0, Desfavorables: 0, Totais: 19
+
+  Fila 7: O04G240V01
+    Título: ✓ Grao en Turismo
+    Excelentes: 8, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 12
+
+  Fila 8: O04G741V01
+    Título: ✓ PCEO Grao en Turismo/Grao en Xeografía e Historia
+    Excelentes: 9, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 13
+
+  Fila 9: O04M181V01
+    Título: ✓ Máster Universitario en Xestión Empresarial do Deporte
+    Excelentes: 6, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 12
+
+  Fila 10: O04M097V01
+    Título: ✓ Máster Universitario en Dirección e Planificación do Turismo Interior e de Saúde (Presencial)
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O04G020V01
+    Título: ✓ Grao en Administración e Dirección de Empresas
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O04G240V01
+    Título: ✓ Grao en Turismo
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O04G741V01
+    Título: ✓ PCEO Grao en Turismo/Grao en Xeografía e Historia
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: O04M181V01
+    Título: ✓ Máster Universitario en Xestión Empresarial do Deporte
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: O04M097V01
+    Título: ✓ Máster Universitario en Dirección e Planificación do Turismo Interior e de Saúde (Presencial)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O04G020V01
+    Título: ✓ Grao en Administración e Dirección de Empresas
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O04G240V01
+    Título: ✓ Grao en Turismo
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O04G741V01
+    Título: ✓ PCEO Grao en Turismo/Grao en Xeografía e Historia
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: O04M181V01
+    Título: ✓ Máster Universitario en Xestión Empresarial do Deporte
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: O04M097V01
+    Título: ✓ Máster Universitario en Dirección e Planificación do Turismo Interior e de Saúde (Presencial)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 105 DE-02 Cadro de mando 25-26.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O05G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 5, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 7: O05G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 5, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 8: O05G130V01
+    Título: ✓ Grao en Educación Social
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 9: O05G220V01
+    Título: ✓ Grao en Traballo Social
+    Excelentes: 4, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 10: O02M066V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Profesorado en ESO, Bacharelato, FP e Ensino de Idiomas' non encontrado
+    Excelentes: 15, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 19
+
+  Fila 11: O05M053V01
+    Título: ✓ Máster Universitario en Dificultades de Aprendizaxe e Procesos Cognitivos
+    Excelentes: 4, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: O05M190V01
+    Título: ✓ Máster Universitario en Desafíos das Cidades
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 13: O05M138V01
+    Título: ✓ Máster Universitario en Intervención Multidisciplinar na Diversidade en Contextos Educativos
+    Excelentes: 6, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O05G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 5, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 7: O05G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 5, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 8: O05G130V01
+    Título: ✓ Grao en Educación Social
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 9: O05G220V01
+    Título: ✓ Grao en Traballo Social
+    Excelentes: 4, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 10: O02M066V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Profesorado en ESO, Bacharelato, FP e Ensino de Idiomas' non encontrado
+    Excelentes: 15, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 19
+
+  Fila 11: O05M053V01
+    Título: ✓ Máster Universitario en Dificultades de Aprendizaxe e Procesos Cognitivos
+    Excelentes: 4, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: O05M190V01
+    Título: ✓ Máster Universitario en Desafíos das Cidades
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 13: O05M138V01
+    Título: ✓ Máster Universitario en Intervención Multidisciplinar na Diversidade en Contextos Educativos
+    Excelentes: 6, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O05G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 5, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 7: O05G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 5, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 8: O05G130V01
+    Título: ✓ Grao en Educación Social
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 9: O05G220V01
+    Título: ✓ Grao en Traballo Social
+    Excelentes: 4, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 10: O02M066V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Profesorado en ESO, Bacharelato, FP e Ensino de Idiomas' non encontrado
+    Excelentes: 15, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 19
+
+  Fila 11: O05M053V01
+    Título: ✓ Máster Universitario en Dificultades de Aprendizaxe e Procesos Cognitivos
+    Excelentes: 4, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: O05M190V01
+    Título: ✓ Máster Universitario en Desafíos das Cidades
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 13: O05M138V01
+    Título: ✓ Máster Universitario en Intervención Multidisciplinar na Diversidade en Contextos Educativos
+    Excelentes: 6, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+
+ARQUIVO: 106 DE-02 Cadro de mando 25-26 Informatica Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O06G151V01
+    Título: ✓ Grao en Enxeñaría Informática
+    Excelentes: 23, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 34
+
+  Fila 7: O06G460V01
+    Título: ✓ Grao en Intelixencia Artificial
+    Excelentes: 7, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 10
+
+  Fila 8: O06G711V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Enxeñaría Informática
+    Excelentes: 26, Notables: 14, Favorables: 2, Desfavorables: 0, Totais: 42
+
+  Fila 9: O06M132V03
+    Título: ✓ Máster Universitario en Enxeñaría Informática
+    Excelentes: 8, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 9
+
+  Fila 10: O06M193V01
+    Título: ✓ Máster Universitario en Intelixencia Artificial
+    Excelentes: 6, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 7
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O06G151V01
+    Título: ✓ Grao en Enxeñaría Informática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O06G460V01
+    Título: ✓ Grao en Intelixencia Artificial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O06G711V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Enxeñaría Informática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: O06M132V03
+    Título: ✓ Máster Universitario en Enxeñaría Informática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: O06M193V01
+    Título: ✓ Máster Universitario en Intelixencia Artificial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O06G151V01
+    Título: ✓ Grao en Enxeñaría Informática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O06G460V01
+    Título: ✓ Grao en Intelixencia Artificial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O06G711V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Enxeñaría Informática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: O06M132V03
+    Título: ✓ Máster Universitario en Enxeñaría Informática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: O06M193V01
+    Título: ✓ Máster Universitario en Intelixencia Artificial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 107 DE-02 Cadro de mando 25-26 Aeronautica Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O07G410V01
+    Título: ✓ Grao en Enxeñaría Aeroespacial
+    Excelentes: 7, Notables: 5, Favorables: 1, Desfavorables: 1, Totais: 14
+
+  Fila 7: O07M189V01
+    Título: ✓ Máster Universitario en Sistemas Aéreos non Tripulados
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 8: O07M197V01
+    Título: ✓ Máster en Enxeñaría Aeronáutica
+    Excelentes: 6, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 9
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O07G410V01
+    Título: ✓ Grao en Enxeñaría Aeroespacial
+    Excelentes: 5, Notables: 6, Favorables: 2, Desfavorables: 1, Totais: 14
+
+  Fila 7: O07M189V01
+    Título: ✓ Máster Universitario en Sistemas Aéreos non Tripulados
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 8: O07M197V01
+    Título: ✓ Máster en Enxeñaría Aeronáutica
+    Excelentes: 1, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 4
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O07G410V01
+    Título: ✓ Grao en Enxeñaría Aeroespacial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: O07M189V01
+    Título: ✓ Máster Universitario en Sistemas Aéreos non Tripulados
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: O07M197V01
+    Título: ✓ Máster en Enxeñaría Aeronáutica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 108 DE-02 Cadro de mando 25-26 RRII Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O03G440V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Relacións Internacionais
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O03G440V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Relacións Internacionais
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O03G440V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Relacións Internacionais
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+
+
+ARQUIVO: 151 DE-02 Cadro de mando 24-25 Enfermaria OU Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: O51G140V01
+    Título: ✓ Grao en Enfermaría (Ourense)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 201 DE-02 Cadro de mando 24-25 BBAA ModificadoLuz2.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P01G010V01
+    Título: ✓ Grao en Belas Artes
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P01G010V01
+    Título: ✓ Grao en Belas Artes
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 7: 10413 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Creación Artística Contemporánea' non encontrado
+    Excelentes: ---, Notables: ---, Favorables: ---, Desfavorables: ---, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P01G010V01
+    Título: ✓ Grao en Belas Artes
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 7: 10413 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Creación Artística Contemporánea' non encontrado
+    Excelentes: ---, Notables: ---, Favorables: ---, Desfavorables: ---, Totais: 0
+
+
+
+ARQUIVO: 202 DE-02 Cadro de mando 25-26 Educ e Deporte Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P02G050V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Ciencias da Actividade Física e do Deporte
+    Excelentes: 13, Notables: 7, Favorables: 1, Desfavorables: 0, Totais: 21
+
+  Fila 7: P02G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 8: P02G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 2, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 9: P02M066VXX → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Profesorado en ESO, bacharelato, FP e Ensino de Idiomas' non encontrado
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 10: P02M081V02
+    Título: ✓ Máster Universitario en Necesidades Específicas de Apoio Educativo
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 11: P02M178V01
+    Título: ✓ Máster Univ. en Investigación e Innovación en Didácticas Específicas para Ed. Infantil e Primaria
+    Excelentes: 5, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 12: P02M156V01
+    Título: ✓ Máster Universitario en Investigación en Actividade Física, Deporte e Saúde
+    Excelentes: 2, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 13: P02M163V01
+    Título: ✓ Máster Universitario en Dirección Integrada de Proxectos
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 14: 11601 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'Máster Universitario en Ciencia do Exercicio, Preparación Física e Readaptación Deportiva' non encontrado
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P02G050V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Ciencias da Actividade Física e do Deporte
+    Excelentes: 13, Notables: 7, Favorables: 1, Desfavorables: 0, Totais: 21
+
+  Fila 7: P02G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 8: P02G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 2, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 9: P02M066VXX → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Profesorado en ESO, bacharelato, FP e Ensino de Idiomas' non encontrado
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 10: P02M081V02
+    Título: ✓ Máster Universitario en Necesidades Específicas de Apoio Educativo
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 11: P02M178V01
+    Título: ✓ Máster Univ. en Investigación e Innovación en Didácticas Específicas para Ed. Infantil e Primaria
+    Excelentes: 5, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 12: P02M156V01
+    Título: ✓ Máster Universitario en Investigación en Actividade Física, Deporte e Saúde
+    Excelentes: 2, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 13: P02M163V01
+    Título: ✓ Máster Universitario en Dirección Integrada de Proxectos
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 14: 11601 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'Máster Universitario en Ciencia do Exercicio, Preparación Física e Readaptación Deportiva' non encontrado
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P02G050V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Ciencias da Actividade Física e do Deporte
+    Excelentes: 13, Notables: 7, Favorables: 1, Desfavorables: 0, Totais: 21
+
+  Fila 7: P02G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 8: P02G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 2, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 9: P02M066VXX → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Profesorado en ESO, bacharelato, FP e Ensino de Idiomas' non encontrado
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 10: P02M081V02
+    Título: ✓ Máster Universitario en Necesidades Específicas de Apoio Educativo
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 11: P02M178V01
+    Título: ✓ Máster Univ. en Investigación e Innovación en Didácticas Específicas para Ed. Infantil e Primaria
+    Excelentes: 5, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 12: P02M156V01
+    Título: ✓ Máster Universitario en Investigación en Actividade Física, Deporte e Saúde
+    Excelentes: 2, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 13: P02M163V01
+    Título: ✓ Máster Universitario en Dirección Integrada de Proxectos
+    Excelentes: 2, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 14: 11601 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'Máster Universitario en Ciencia do Exercicio, Preparación Física e Readaptación Deportiva' non encontrado
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 203 DE-02 Cadro de mando 25-26 Forestais Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P03G370V01
+    Título: ✓ Grao en Enxeñaría Forestal
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P03G370V01
+    Título: ✓ Grao en Enxeñaría Forestal
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P03G370V01
+    Título: ✓ Grao en Enxeñaría Forestal
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+
+
+ARQUIVO: 204 DE-02 Cadro de mando 25-26 Comunicacion Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P04G071V01
+    Título: ✓ Grao en Comunicación Audiovisual
+    Excelentes: 8, Notables: 8, Favorables: 0, Desfavorables: 0, Totais: 16
+
+  Fila 7: P04G190V01
+    Título: ✓ Grao en Publicidade e Relacións Públicas
+    Excelentes: 5, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 10
+
+  Fila 8: P04M082V11
+    Título: ✓ Máster Universitario en Dirección de Arte en Publicidade
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 9: P04M176V01
+    Título: ✓ Máster Univ. en Comunicación en Medios Sociais e Creación de Contidos Dixitais
+    Excelentes: 5, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 7
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P04G071V01
+    Título: ✓ Grao en Comunicación Audiovisual
+    Excelentes: 8, Notables: 8, Favorables: 0, Desfavorables: 0, Totais: 16
+
+  Fila 7: P04G190V01
+    Título: ✓ Grao en Publicidade e Relacións Públicas
+    Excelentes: 5, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 10
+
+  Fila 8: P04M082V11
+    Título: ✓ Máster Universitario en Dirección de Arte en Publicidade
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 9: P04M176V01
+    Título: ✓ Máster Univ. en Comunicación en Medios Sociais e Creación de Contidos Dixitais
+    Excelentes: 5, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 7
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P04G071V01
+    Título: ✓ Grao en Comunicación Audiovisual
+    Excelentes: 8, Notables: 8, Favorables: 0, Desfavorables: 0, Totais: 16
+
+  Fila 7: P04G190V01
+    Título: ✓ Grao en Publicidade e Relacións Públicas
+    Excelentes: 5, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 10
+
+  Fila 8: P04M082V11
+    Título: ✓ Máster Universitario en Dirección de Arte en Publicidade
+    Excelentes: 2, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 9: P04M176V01
+    Título: ✓ Máster Univ. en Comunicación en Medios Sociais e Creación de Contidos Dixitais
+    Excelentes: 5, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 7
+
+
+
+ARQUIVO: 205 Cadro de mando (4).xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P05G171V01
+    Título: ✓ Grao en Fisioterapia
+    Excelentes: 2, Notables: 0, Favorables: 3, Desfavorables: 0, Totais: 5
+
+  Fila 7: P05M191V01
+    Título: ✓ Máster Universitario en Exercicio terapéutico en fisioterapia
+    Excelentes: 2, Notables: 0, Favorables: 2, Desfavorables: 0, Totais: 4
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P05G171V01
+    Título: ✓ Grao en Fisioterapia
+    Excelentes: 2, Notables: 0, Favorables: 3, Desfavorables: 0, Totais: 5
+
+  Fila 7: P05M191V01
+    Título: ✓ Máster Universitario en Exercicio terapéutico en fisioterapia
+    Excelentes: 2, Notables: 0, Favorables: 2, Desfavorables: 0, Totais: 4
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P05G171V01
+    Título: ✓ Grao en Fisioterapia
+    Excelentes: 2, Notables: 0, Favorables: 3, Desfavorables: 0, Totais: 5
+
+  Fila 7: P05M191V01
+    Título: ✓ Máster Universitario en Exercicio terapéutico en fisioterapia
+    Excelentes: 2, Notables: 0, Favorables: 2, Desfavorables: 0, Totais: 4
+
+
+
+ARQUIVO: 206 DE-02 Cadro de mando 25-26 Deseño Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P06G450V01
+    Título: ✓ Grao en Deseño
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 7: P01M171V01
+    Título: ✓ Máster Universitario en Deseño e Dirección Creativa en Moda
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P06G450V01
+    Título: ✓ Grao en Deseño
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 7: P01M171V01
+    Título: ✓ Máster Universitario en Deseño e Dirección Creativa en Moda
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P06G450V01
+    Título: ✓ Grao en Deseño
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 7: P01M171V01
+    Título: ✓ Máster Universitario en Deseño e Dirección Creativa en Moda
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 207 DE-02 Cadro de mando 25-26 DXP Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P07G092V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Dirección e Xestión Pública
+    Excelentes: 3, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 7: P04M125V11
+    Título: ✓ Máster Universitario en Dirección Publica e Liderado Institucional
+    Excelentes: 1, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 4
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P07G092V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Dirección e Xestión Pública
+    Excelentes: 3, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 7: P04M125V11
+    Título: ✓ Máster Universitario en Dirección Publica e Liderado Institucional
+    Excelentes: 1, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 4
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P07G092V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Dirección e Xestión Pública
+    Excelentes: 3, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 7: P04M125V11
+    Título: ✓ Máster Universitario en Dirección Publica e Liderado Institucional
+    Excelentes: 1, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 4
+
+
+
+ARQUIVO: 251 DE-02 Cadro de mando 24-25 Enfermaria PO Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P51G140V01
+    Título: ✓ Grao en Enfermaría (Pontevedra)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 252 DE-02 Cadro de mando 24-25 CUD Precubierto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: P52G382V01
+    Título: ✓ Grao en Enxeñaría Mecánica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: P52M182V01
+    Título: ✓ Máster Universitario en Dirección TIC para a defensa
+    Excelentes: 1, Notables: 0.041666666666666664, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 301 DE-02 Cadro de mando FFT  Útima versión.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V01G181V01
+    Título: ✓ Grao en Linguas Estranxeiras
+    Excelentes: 3, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 7
+
+  Fila 7: V01G230V01
+    Título: ✓ Grao en Traducción e Interpretación
+    Excelentes: 5, Notables: 7, Favorables: 0, Desfavorables: 0, Totais: 12
+
+  Fila 8: V01G430V01
+    Título: ✓ Grao en Filoloxía Aplicada Galega e Española
+    Excelentes: 3, Notables: 5, Favorables: 1, Desfavorables: 0, Totais: 9
+
+  Fila 9: V01M079V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Traducción Multimedia' non encontrado
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 10: V01M121V01
+    Título: ✓ Máster Universitario en Estudos Ingleses Avanzados e as súas Aplicacións
+    Excelentes: 3, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 11: V01M126V01
+    Título: ✓ Máster en Lingüística Aplicada
+    Excelentes: 1, Notables: 3, Favorables: 1, Desfavorables: 0, Totais: 5
+
+  Fila 12: V01M128V11
+    Título: ✓ Máster Universitario en Traducción para a Comunicación Internacional
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V01G181V01
+    Título: ✓ Grao en Linguas Estranxeiras
+    Excelentes: 1, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 7: V01G230V01
+    Título: ✓ Grao en Traducción e Interpretación
+    Excelentes: 5, Notables: 7, Favorables: 0, Desfavorables: 0, Totais: 12
+
+  Fila 8: V01G430V01
+    Título: ✓ Grao en Filoloxía Aplicada Galega e Española
+    Excelentes: 1, Notables: 5, Favorables: 1, Desfavorables: 0, Totais: 7
+
+  Fila 9: V01M079V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Traducción Multimedia' non encontrado
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 10: V01M121V01
+    Título: ✓ Máster Universitario en Estudos Ingleses Avanzados e as súas Aplicacións
+    Excelentes: 1, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 3
+
+  Fila 11: V01M126V01
+    Título: ✓ Máster en Lingüística Aplicada
+    Excelentes: 0, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 5
+
+  Fila 12: V01M128V11
+    Título: ✓ Máster Universitario en Traducción para a Comunicación Internacional
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V01G181V01
+    Título: ✓ Grao en Linguas Estranxeiras
+    Excelentes: 3, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 7
+
+  Fila 7: V01G230V01
+    Título: ✓ Grao en Traducción e Interpretación
+    Excelentes: 5, Notables: 7, Favorables: 0, Desfavorables: 0, Totais: 12
+
+  Fila 8: V01G430V01
+    Título: ✓ Grao en Filoloxía Aplicada Galega e Española
+    Excelentes: 3, Notables: 5, Favorables: 1, Desfavorables: 0, Totais: 9
+
+  Fila 9: V01M079V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Traducción Multimedia' non encontrado
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 10: V01M121V01
+    Título: ✓ Máster Universitario en Estudos Ingleses Avanzados e as súas Aplicacións
+    Excelentes: 3, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 4
+
+  Fila 11: V01M126V01
+    Título: ✓ Máster en Lingüística Aplicada
+    Excelentes: 1, Notables: 3, Favorables: 1, Desfavorables: 0, Totais: 5
+
+  Fila 12: V01M128V11
+    Título: ✓ Máster Universitario en Traducción para a Comunicación Internacional
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+
+
+ARQUIVO: 302 cadro de mando de traballo 2025-26.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V02G031V01
+    Título: ✓ Grao en Bioloxía
+    Excelentes: 11, Notables: 16, Favorables: 4, Desfavorables: 0, Totais: 31
+
+  Fila 7: V02M074V11
+    Título: ✓ Máster Universitario en Biotecnoloxía Avanzada
+    Excelentes: 9, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 14
+
+  Fila 8: V02M098V01
+    Título: ✓ Máster Universitario en Bioloxía Mariña
+    Excelentes: 2, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 9: V02M099V01
+    Título: ✓ Máster Universitario en Neurociencia
+    Excelentes: 0, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 10: V02M102V03
+    Título: ✓ Máster Universitario en Acuicultura
+    Excelentes: 3, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 11: V02M173V01
+    Título: ✓ Máster Universitario en Xenómica e Xenética
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: V02M179V01
+    Título: ✓ Máster Univesitario en Biodiversidade Terrestre
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V02G031V01
+    Título: ✓ Grao en Bioloxía
+    Excelentes: 11, Notables: 16, Favorables: 4, Desfavorables: 0, Totais: 31
+
+  Fila 7: V02M074V11
+    Título: ✓ Máster Universitario en Biotecnoloxía Avanzada
+    Excelentes: 9, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 14
+
+  Fila 8: V02M098V01
+    Título: ✓ Máster Universitario en Bioloxía Mariña
+    Excelentes: 2, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 9: V02M099V01
+    Título: ✓ Máster Universitario en Neurociencia
+    Excelentes: 0, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 10: V02M102V03
+    Título: ✓ Máster Universitario en Acuicultura
+    Excelentes: 3, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 11: V02M173V01
+    Título: ✓ Máster Universitario en Xenómica e Xenética
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: V02M179V01
+    Título: ✓ Máster Univesitario en Biodiversidade Terrestre
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V02G031V01
+    Título: ✓ Grao en Bioloxía
+    Excelentes: 11, Notables: 16, Favorables: 4, Desfavorables: 0, Totais: 31
+
+  Fila 7: V02M074V11
+    Título: ✓ Máster Universitario en Biotecnoloxía Avanzada
+    Excelentes: 9, Notables: 4, Favorables: 1, Desfavorables: 0, Totais: 14
+
+  Fila 8: V02M098V01
+    Título: ✓ Máster Universitario en Bioloxía Mariña
+    Excelentes: 2, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 9: V02M099V01
+    Título: ✓ Máster Universitario en Neurociencia
+    Excelentes: 0, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 1
+
+  Fila 10: V02M102V03
+    Título: ✓ Máster Universitario en Acuicultura
+    Excelentes: 3, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 11: V02M173V01
+    Título: ✓ Máster Universitario en Xenómica e Xenética
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: V02M179V01
+    Título: ✓ Máster Univesitario en Biodiversidade Terrestre
+    Excelentes: 1, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 1
+
+
+
+ARQUIVO: 303 DE-02 Cadro de mando 25-26 Economicas Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V03G020V01
+    Título: ✓ Grao en Administración e Dirección de Empresas
+    Excelentes: 10, Notables: 14, Favorables: 1, Desfavorables: 0, Totais: 25
+
+  Fila 7: V03G100V01
+    Título: ✓ Grao en Economía
+    Excelentes: 1, Notables: 7, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 8: V03G720V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Grao en Dereito
+    Excelentes: 13, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 24
+
+  Fila 9: V03M184V01
+    Título: ✓ Máster Universitario en Técnicas Estatísticas
+    Excelentes: 0, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 10: V03M134V01
+    Título: ✓ Máster Universitario en Administración Integrada de Empresas e RSC
+    Excelentes: 8, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 14
+
+  Fila 11: V03M168V11
+    Título: ✓ Máster Universitario en Finanzas
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 12: V03M177V01
+    Título: ✓ Máster Universitario en Economía
+    Excelentes: 1, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V03G020V01
+    Título: ✓ Grao en Administración e Dirección de Empresas
+    Excelentes: 10, Notables: 14, Favorables: 1, Desfavorables: 0, Totais: 25
+
+  Fila 7: V03G100V01
+    Título: ✓ Grao en Economía
+    Excelentes: 1, Notables: 7, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 8: V03G720V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Grao en Dereito
+    Excelentes: 13, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 24
+
+  Fila 9: V03M184V01
+    Título: ✓ Máster Universitario en Técnicas Estatísticas
+    Excelentes: 0, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 10: V03M134V01
+    Título: ✓ Máster Universitario en Administración Integrada de Empresas e RSC
+    Excelentes: 8, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 14
+
+  Fila 11: V03M168V11
+    Título: ✓ Máster Universitario en Finanzas
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 12: V03M177V01
+    Título: ✓ Máster Universitario en Economía
+    Excelentes: 1, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V03G020V01
+    Título: ✓ Grao en Administración e Dirección de Empresas
+    Excelentes: 10, Notables: 14, Favorables: 1, Desfavorables: 0, Totais: 25
+
+  Fila 7: V03G100V01
+    Título: ✓ Grao en Economía
+    Excelentes: 1, Notables: 7, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 8: V03G720V01
+    Título: ✓ PCEO Grao en Administración e Dirección de Empresas/Grao en Dereito
+    Excelentes: 13, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 24
+
+  Fila 9: V03M184V01
+    Título: ✓ Máster Universitario en Técnicas Estatísticas
+    Excelentes: 0, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 10: V03M134V01
+    Título: ✓ Máster Universitario en Administración Integrada de Empresas e RSC
+    Excelentes: 8, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 14
+
+  Fila 11: V03M168V11
+    Título: ✓ Máster Universitario en Finanzas
+    Excelentes: 1, Notables: 1, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 12: V03M177V01
+    Título: ✓ Máster Universitario en Economía
+    Excelentes: 1, Notables: 5, Favorables: 0, Desfavorables: 0, Totais: 6
+
+
+
+ARQUIVO: 305 DE-02 Cadro de mando 24-25 Teleco Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V05G301V01
+    Título: ✓ Grao en Enxeñaría de Tecnoloxías de Telecomunicación
+    Excelentes: 16, Notables: 0.13445378151260504, Favorables: 16, Desfavorables: 0.13445378151260504, Totais: 1
+
+  Fila 7: V05M135V01
+    Título: ✓ Máster Universitario en Matemática Industrial
+    Excelentes: 1, Notables: 0.014285714285714285, Favorables: 3, Desfavorables: 0.04285714285714286, Totais: 0
+
+  Fila 8: V05M145V01
+    Título: ✓ Máster Universitario en Enxeñaría de Telecomunicación
+    Excelentes: 14, Notables: 0.1917808219178082, Favorables: 14, Desfavorables: 0.1917808219178082, Totais: 1
+
+  Fila 9: V05M175V11
+    Título: ✓ Máster Universitario en Ciberseguridade
+    Excelentes: 7, Notables: 0.4375, Favorables: 3, Desfavorables: 0.1875, Totais: 0
+
+  Fila 10: V05M185V01
+    Título: ✓ Máster Universitario en Visión por Computador
+    Excelentes: 1, Notables: 0.2, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 11: V05M198V01
+    Título: ✓ Máster Universitario en Ciencia e tecnoloxías de información cuántica
+    Excelentes: 2, Notables: 0.125, Favorables: 1, Desfavorables: 0.0625, Totais: 1
+
+  Fila 12: V05M200V01
+    Título: ✓ Máster Universitario en Internet das Cousas - IoT
+    Excelentes: 6, Notables: 0.3, Favorables: 3, Desfavorables: 0.15, Totais: 1
+
+
+
+ARQUIVO: 306 DE-02 Cadro de mando 25-26 Comercio Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V06G270V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Comercio
+    Excelentes: 5, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 16
+
+  Fila 7: V06M092V01
+    Título: ✓ Máster Universitario en Dirección de PEMES
+    Excelentes: 2, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 8: V06M101V02
+    Título: ✓ Máster Universitario en Comercio Internacional
+    Excelentes: 6, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 10
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V06G270V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Comercio
+    Excelentes: 5, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 16
+
+  Fila 7: V06M092V01
+    Título: ✓ Máster Universitario en Dirección de PEMES
+    Excelentes: 2, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 8: V06M101V02
+    Título: ✓ Máster Universitario en Comercio Internacional
+    Excelentes: 6, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 10
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V06G270V01 → ✗ xescampus non encontrado
+    Título por nome: ✓ Grao en Comercio
+    Excelentes: 5, Notables: 10, Favorables: 1, Desfavorables: 0, Totais: 16
+
+  Fila 7: V06M092V01
+    Título: ✓ Máster Universitario en Dirección de PEMES
+    Excelentes: 2, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 8: V06M101V02
+    Título: ✓ Máster Universitario en Comercio Internacional
+    Excelentes: 6, Notables: 4, Favorables: 0, Desfavorables: 0, Totais: 10
+
+
+
+ARQUIVO: 308 DE-02 Cadro de mando 24-25 Xurídicas Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V08G081V01
+    Título: ✓ Grao en Dereito
+    Excelentes: 4, Notables: 0.06349206349206349, Favorables: 5, Desfavorables: 0.07936507936507936, Totais: 0
+
+  Fila 7: V08G211V01
+    Título: ✓ Grao en Relacións Laborais e Recursos Humanos
+    Excelentes: 7, Notables: 0.12962962962962962, Favorables: 4, Desfavorables: 0.07407407407407407, Totais: 2
+
+  Fila 8: V08M042V01
+    Título: ✓ Máster Universitario en Menores en Situación de Desprotección e Conflito Social
+    Excelentes: 4, Notables: 0.16666666666666666, Favorables: 1, Desfavorables: 0.041666666666666664, Totais: 0
+
+  Fila 9: V08M104V01
+    Título: ✓ Máster Universitario en Xestión e Dirección Laboral
+    Excelentes: 5, Notables: 0.23809523809523808, Favorables: 1, Desfavorables: 0.047619047619047616, Totais: 0
+
+  Fila 10: P04M110V11
+    Título: ✓ Máster Universitario en Avogacía e Procuradoría (Pontevedra)
+    Excelentes: 5, Notables: 0.12195121951219512, Favorables: 2, Desfavorables: 0.04878048780487805, Totais: 0
+
+  Fila 11: V08M110V11
+    Título: ✓ Máster Universitario en Avogacía e Procuradoría (Vigo)
+    Excelentes: 3, Notables: 0.05357142857142857, Favorables: 2, Desfavorables: 0.03571428571428571, Totais: 0
+
+
+
+ARQUIVO: 309 R1_DE-02 Cadro de mando_2425 EEME_GGL modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V09G291V01
+    Título: ✓ Grao en Enxeñaría da Enerxía
+    Excelentes: 15, Notables: 0.16666666666666666, Favorables: 8, Desfavorables: 0.08888888888888889, Totais: 0
+
+  Fila 7: V09G311V01
+    Título: ✓ Grao en Enxeñaría dos Recursos Mineiros e Enerxéticos
+    Excelentes: 19, Notables: 0.18446601941747573, Favorables: 8, Desfavorables: 0.07766990291262135, Totais: 0
+
+  Fila 8: V09M148V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Enxeñaría de Minas' non encontrado
+    Excelentes: 12, Notables: 0.24, Favorables: 2, Desfavorables: 0.04, Totais: 0
+
+  Fila 9: V09M195V01
+    Título: ✓ Máster Universitario en Xestión Sostible da Auga
+    Excelentes: 4, Notables: 0.2857142857142857, Favorables: 2, Desfavorables: 0.14285714285714285, Totais: 0
+
+
+HOJA: Anexos_Anterior1 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V09G291V01
+    Título: ✓ Grao en Enxeñaría da Enerxía
+    Excelentes: 15, Notables: 0.16666666666666666, Favorables: 8, Desfavorables: 0.08888888888888889, Totais: 0
+
+  Fila 7: V09G311V01
+    Título: ✓ Grao en Enxeñaría dos Recursos Mineiros e Enerxéticos
+    Excelentes: 19, Notables: 0.18446601941747573, Favorables: 8, Desfavorables: 0.07766990291262135, Totais: 0
+
+  Fila 8: V09M148V01 → ✗ xescampus non encontrado
+    Título por nome: ✗ 'M. Univ. en Enxeñaría de Minas' non encontrado
+    Excelentes: 12, Notables: 0.24, Favorables: 2, Desfavorables: 0.04, Totais: 0
+
+  Fila 9: V09M195V01
+    Título: ✓ Máster Universitario en Xestión Sostible da Auga
+    Excelentes: 4, Notables: 0.2857142857142857, Favorables: 2, Desfavorables: 0.14285714285714285, Totais: 0
+
+
+
+ARQUIVO: 310 DE-02 Cadro de mando 24-25 CC Mar Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V10G061V01
+    Título: ✓ Grao en Ciencias do Mar
+    Excelentes: 5, Notables: 0.04424778761061947, Favorables: 8, Desfavorables: 0.07079646017699115, Totais: 3
+
+  Fila 7: V10M153V01
+    Título: ✓ Máster Universitario en Oceanografía
+    Excelentes: 1, Notables: 0.027777777777777776, Favorables: 2, Desfavorables: 0.05555555555555555, Totais: 1
+
+
+
+ARQUIVO: 312 DE-02 Cadro de Mando 25-26 Industriais Graos Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V12G320V01
+    Título: ✓ Grao en Enxeñaría Eléctrica
+    Excelentes: 5, Notables: 14, Favorables: 0, Desfavorables: 1, Totais: 20
+
+  Fila 7: V12G330V01
+    Título: ✓ Grao en Enxeñaría en Electrónica Industrial e Automática
+    Excelentes: 5, Notables: 20, Favorables: 0, Desfavorables: 1, Totais: 26
+
+  Fila 8: V12G340V01
+    Título: ✓ Grao en Enxeñaría en Organización Industrial
+    Excelentes: 6, Notables: 19, Favorables: 0, Desfavorables: 1, Totais: 26
+
+  Fila 9: V12G350V01
+    Título: ✓ Grao en Enxeñaría en Química Industrial
+    Excelentes: 8, Notables: 15, Favorables: 0, Desfavorables: 1, Totais: 24
+
+  Fila 10: V12G360V01
+    Título: ✓ Grao en Enxeñaría en Tecnoloxías Industriais
+    Excelentes: 9, Notables: 16, Favorables: 0, Desfavorables: 1, Totais: 26
+
+  Fila 11: V12G380V01
+    Título: ✓ Grao en Enxeñaría Mecánica
+    Excelentes: 7, Notables: 17, Favorables: 0, Desfavorables: 1, Totais: 25
+
+  Fila 12: V12G420V01
+    Título: ✓ Grao en Enxeñaría Biomédica
+    Excelentes: 6, Notables: 16, Favorables: 0, Desfavorables: 1, Totais: 23
+
+  Fila 13: V12G760V01
+    Título: ✓ PCEO Grao en Enx. Biomédica/Grao en Enx. en Electrónica Industrial e Automática
+    Excelentes: 8, Notables: 20, Favorables: 0, Desfavorables: 1, Totais: 29
+
+  Fila 14: V12G750V01
+    Título: ✓ PCEO Grao en Enx. Biomédica/Grao en Enx. Mecánica
+    Excelentes: 6, Notables: 19, Favorables: 0, Desfavorables: 1, Totais: 26
+
+  Fila 15: V12G770V01
+    Título: ✓ PCEO Grao en Enx. Mecánica/Grao en Enx. en Electrónica Industrial e Automática
+    Excelentes: 7, Notables: 22, Favorables: 0, Desfavorables: 1, Totais: 30
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V12G320V01
+    Título: ✓ Grao en Enxeñaría Eléctrica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: V12G330V01
+    Título: ✓ Grao en Enxeñaría en Electrónica Industrial e Automática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: V12G340V01
+    Título: ✓ Grao en Enxeñaría en Organización Industrial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: V12G350V01
+    Título: ✓ Grao en Enxeñaría en Química Industrial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: V12G360V01
+    Título: ✓ Grao en Enxeñaría en Tecnoloxías Industriais
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 11: V12G380V01
+    Título: ✓ Grao en Enxeñaría Mecánica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 12: V12G420V01
+    Título: ✓ Grao en Enxeñaría Biomédica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 13: V12G760V01
+    Título: ✓ PCEO Grao en Enx. Biomédica/Grao en Enx. en Electrónica Industrial e Automática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 14: V12G750V01
+    Título: ✓ PCEO Grao en Enx. Biomédica/Grao en Enx. Mecánica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 15: V12G770V01
+    Título: ✓ PCEO Grao en Enx. Mecánica/Grao en Enx. en Electrónica Industrial e Automática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V12G320V01
+    Título: ✓ Grao en Enxeñaría Eléctrica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: V12G330V01
+    Título: ✓ Grao en Enxeñaría en Electrónica Industrial e Automática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: V12G340V01
+    Título: ✓ Grao en Enxeñaría en Organización Industrial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: V12G350V01
+    Título: ✓ Grao en Enxeñaría en Química Industrial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: V12G360V01
+    Título: ✓ Grao en Enxeñaría en Tecnoloxías Industriais
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 11: V12G380V01
+    Título: ✓ Grao en Enxeñaría Mecánica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 12: V12G420V01
+    Título: ✓ Grao en Enxeñaría Biomédica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 13: V12G760V01
+    Título: ✓ PCEO Grao en Enx. Biomédica/Grao en Enx. en Electrónica Industrial e Automática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 14: V12G750V01
+    Título: ✓ PCEO Grao en Enx. Biomédica/Grao en Enx. Mecánica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 15: V12G770V01
+    Título: ✓ PCEO Grao en Enx. Mecánica/Grao en Enx. en Electrónica Industrial e Automática
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 312 DE-02 Cadro de Mando 25-26 Industriais Másters Modificado.xlsx
+====================================================================================================
+
+HOJA: Anexos 1 → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V04M186V01 
+    Título: ✓ M. Univ. en Dirección e Innovación da cadea de subministración
+    Excelentes: 1, Notables: 2, Favorables: 0, Desfavorables: 3, Totais: 6
+
+  Fila 7: V04M167V01 
+    Título: ✓ M. Univ. en Enerxía e Sustentabilidade
+    Excelentes: 3, Notables: 3, Favorables: 1, Desfavorables: 0, Totais: 7
+
+  Fila 8: V04M192V01 
+    Título: ✓ M. Univ. en Enxeñaría Biomédica
+    Excelentes: 3, Notables: 6, Favorables: 0, Desfavorables: 0, Totais: 9
+
+  Fila 9: V04M120V06
+    Título: ✓ Máster Univ. en Enxeñaría da Automoción
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+  Fila 10: V04M141V01
+    Título: ✓ Máster Univ. en Enxeñaría Industrial
+    Excelentes: 11, Notables: 18, Favorables: 0, Desfavorables: 0, Totais: 29
+
+  Fila 11: V04M196V01
+    Título: ✓ Máster Univ. en Fabricación Aditiva
+    Excelentes: 3, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 5
+
+  Fila 12: V04M183V01
+    Título: ✓ Máster Univ. en Industria 4.0
+    Excelentes: 0, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 2
+
+  Fila 13: V04M093V01
+    Título: ✓ Máster Univ. en Mecatrónica
+    Excelentes: 4, Notables: 2, Favorables: 0, Desfavorables: 0, Totais: 6
+
+  Fila 14: V04M150V01
+    Título: ✓ Máster Univ. en Prevención de Riscos Laborais
+    Excelentes: 5, Notables: 3, Favorables: 0, Desfavorables: 0, Totais: 8
+
+
+HOJA: Anexos 2 → 24/25
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V04M186V01 
+    Título: ✓ M. Univ. en Dirección e Innovación da cadea de subministración
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: V04M167V01 
+    Título: ✓ M. Univ. en Enerxía e Sustentabilidade
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: V04M192V01 
+    Título: ✓ M. Univ. en Enxeñaría Biomédica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: V04M120V06
+    Título: ✓ Máster Univ. en Enxeñaría da Automoción
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: V04M141V01
+    Título: ✓ Máster Univ. en Enxeñaría Industrial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 11: V04M196V01
+    Título: ✓ Máster Univ. en Fabricación Aditiva
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 12: V04M183V01
+    Título: ✓ Máster Univ. en Industria 4.0
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 13: V04M093V01
+    Título: ✓ Máster Univ. en Mecatrónica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 14: V04M150V01
+    Título: ✓ Máster Univ. en Prevención de Riscos Laborais
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+HOJA: Anexos 3 → 25/26
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V04M186V01 
+    Título: ✓ M. Univ. en Dirección e Innovación da cadea de subministración
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: V04M167V01 
+    Título: ✓ M. Univ. en Enerxía e Sustentabilidade
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 8: V04M192V01 
+    Título: ✓ M. Univ. en Enxeñaría Biomédica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 9: V04M120V06
+    Título: ✓ Máster Univ. en Enxeñaría da Automoción
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 10: V04M141V01
+    Título: ✓ Máster Univ. en Enxeñaría Industrial
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 11: V04M196V01
+    Título: ✓ Máster Univ. en Fabricación Aditiva
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 12: V04M183V01
+    Título: ✓ Máster Univ. en Industria 4.0
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 13: V04M093V01
+    Título: ✓ Máster Univ. en Mecatrónica
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 14: V04M150V01
+    Título: ✓ Máster Univ. en Prevención de Riscos Laborais
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 351 DE-02 Cadro de mando 24-25 EU Profesorado Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V51G110V01
+    Título: ✓ Grao en Educación Infantil
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+  Fila 7: V51G120V01
+    Título: ✓ Grao en Educación Primaria
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 352 DE-02 Cadro de mando 24-25 Enfermaria Meixoeiro Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V52G140V01
+    Título: ✓ Grao en Enfermaría (Meixoeiro)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 353 DE-02 Cadro de mando 24-25 Enfermaria Povisa v02 Precuberto.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: V53G140V01
+    Título: ✓ Grao en Enfermaría (Povisa)
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
+
+ARQUIVO: 362 DE-02 Cadro de mando 24-25 CPFP.xlsx
+====================================================================================================
+
+HOJA: Anexos → 23/24
+----------------------------------------------------------------------------------------------------
+Indicador: I7-3 → ✓ Resultados do PDI avaliado
+
+  Fila 6: 10406 → ✗ xescampus non encontrado
+    Título por nome: ✓ Máster Universitario en Biofabricación
+    Excelentes: 0, Notables: 0, Favorables: 0, Desfavorables: 0, Totais: 0
+
+
