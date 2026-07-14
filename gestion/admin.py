@@ -49,22 +49,24 @@ class CentrosAdmin(BaseAdmin):
     )   
 
 class SeguimentosAdmin(BaseAdmin):
+    readonly_fields = ('data_limite',)
     list_filter = ('centro', 'orixe_datos', 'indicador__tipo_indicador', 'valoracion_final')
     search_fields = ('indicador__codigo', 'indicador__denominacion', 'centro__denominacion', 'orixe_datos')
     raw_id_fields = ('indicador', 'centro')
     fieldsets = (
         ('Información dos seguimentos do centro', {
-            'fields': ('centro', 'indicador', 'orixe_datos', 'meta', 'tipo_meta', 'resultado', 'observacions')
+            'fields': ('centro', 'indicador', 'orixe_datos', 'meta', 'tipo_meta', 'resultado', 'observacions', 'data_limite')
         }),    
     )
 
 class SeguimentosTitulosAdmin(BaseAdmin):
+    readonly_fields = ('data_limite',)
     list_filter = ('titulo__centro', 'orixe_datos', 'indicador__tipo_indicador', 'valoracion_final')
     search_fields = ('indicador__codigo', 'indicador__denominacion', 'titulo__denominacion', 'titulo__centro__denominacion', 'orixe_datos')
     raw_id_fields = ('indicador', 'titulo')
     fieldsets = (
         ('Información dos seguimentos do centro', {
-            'fields': ('titulo', 'indicador', 'orixe_datos', 'meta', 'tipo_meta', 'resultado', 'observacions')
+            'fields': ('titulo', 'indicador', 'orixe_datos', 'meta', 'tipo_meta', 'resultado', 'observacions', 'data_limite',)
         }),    
     )
 
@@ -130,6 +132,7 @@ class AvaliacionsPdisForm(forms.ModelForm):
         fields = '__all__'
 
 class AvaliacionsPdisAdmin(BaseAdmin):
+    readonly_fields = ('data_limite',)
     form = AvaliacionsPdisForm
     raw_id_fields = ('indicador','titulo',)
     list_display = ('orixe_datos', 'get_indicadores', 'titulo__centro', 'titulo', 'totales')
@@ -149,7 +152,7 @@ class AvaliacionsPdisAdmin(BaseAdmin):
 
     fieldsets = (
         ('Información das avaliacións', {
-            'fields': ('orixe_datos', 'indicador', 'titulo',)
+            'fields': ('orixe_datos', 'indicador', 'titulo', 'data_limite')
         }),
         ('Avaliacións dos PDIs', {
             'fields': ('excelentes', 'notables', 'favorables', 'desfavorables')
@@ -171,7 +174,22 @@ class MateriasAvaliadasAdmin(BaseAdmin):
     ordering = ('codigo', 'titulo__denominacion') 
 
 class SeguementoMateriasAdmin(BaseAdmin):
-    pass  
+    readonly_fields = ('resultado','data_limite')
+    list_display = ('materia__codigo', 'materia','resultado')
+    list_filter = ( 'orixe_datos', 'materia__titulo__centro', 'resultado',)
+    search_fields = ('materia__codigo','materia__materia', 'orixe_datos')
+    raw_id_fields = ('materia', 'indicador')
+    ordering = ('materia__codigo',) 
+
+    fieldsets = (
+        ('Información das materias', {
+            'fields': ('orixe_datos', 'indicador', 'materia',)
+        }),
+        ('Seguemento das materias', {
+            'fields': ('meta', 'taxa', 'resultado', 'data_limite')
+        }),
+    )
+    
 
 admin.site.register(Indicadores, IndicadoresAdmin)
 admin.site.register(IRPD, IRPDAdmin)

@@ -17,4 +17,6 @@ urlpatterns = [
     path('avaliacionspdis/<int:titulo_id>/', views.avaliacionspdis_detalle, name='avaliacionspdis_detalle'),
     path('materias/<int:titulo_id>/', views.materias_publicas, name='materias'),
     path('todas-materias/', views.todas_materias, name='todas_materias'),
+    path('seguimentos-materias/', views.seguimentos_materias_publicos, name='seguimentos_materias'),
+    path('seguimentos-materias/<int:materia_id>/<str:orixe_datos>/', views.seguimentos_materia_detalle, name='seguimentos_materia_detalle'),
 ]

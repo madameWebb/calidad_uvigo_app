@@ -3,3 +3,7 @@ __pycache__/
 staticfiles/
 .env
 *.sqlite3
+auditoria_*.txt
+importar_*_errores.txt
+importar_*_preview.txt
+seguimentos_*_preview.txt

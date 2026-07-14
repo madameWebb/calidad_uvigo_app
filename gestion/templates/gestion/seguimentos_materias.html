@@ -1,0 +1,87 @@
+{% extends "gestion/base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'gestion/css/filtro.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/centros.css' %}">
+<link rel="stylesheet" href="{% static 'gestion/css/modal.css' %}">
+{% endblock %}
+
+{% block contido %}
+<p><a href="{% url 'index' %}">← Volver ao inicio</a></p>
+
+<h2>Seguimentos das Materias</h2>
+
+<div class="info-box" style="background: var(--color-primary-lighter); border-left: 4px solid var(--color-primary); padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+    <p style="margin: 0;">Selecciona unha materia e o curso para ver os seus seguimentos.</p>
+</div>
+
+<div class="filtro-busqueda">
+    <input type="text" id="filtro-input" placeholder="Busca por código ou materia...">
+</div>
+
+<div class="filtro-ordenamiento">
+    <label>
+        Centro:
+        <select id="filtro-centro">
+            <option value="">Todos</option>
+            {% for centro in centros %}
+                <option value="{{ centro.codigo }}">{{ centro.denominacion }}</option>
+            {% endfor %}
+        </select>
+    </label>
+</div>
+
+<table data-filtrable-table>
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Materia</th>
+            <th>Título</th>
+            <th>Centro</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for materia in materias %}
+        <tr class="table-content" data-filtrable data-centro="{{ materia.titulo.centro.codigo }}">
+            <td>{{ materia.codigo }}</td>
+            <td>
+                <a href="#" class="btn-materia" data-materia-id="{{ materia.id }}" style="color: #fdfeff !important;">
+                    {{ materia.materia }}
+                </a>
+            </td>
+            <td>{{ materia.titulo.denominacion }}</td>
+            <td>{{ materia.titulo.centro.denominacion }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div id="modal-orixe" class="modal-overlay">
+    <div class="modal-content">
+        <h2>Selecciona a orixe dos datos</h2>
+        <label>
+            Ano académico:
+            <select id="select-orixe">
+                <option value="">-- Selecciona --</option>
+                <option value="23-24">23/24</option>
+                <option value="24-25">24/25</option>
+                <option value="25-26">25/26</option>
+            </select>
+        </label>
+        <div class="modal-buttons">
+            <button class="btn-aceptar" id="btn-aceptar">Aceptar</button>
+            <button class="btn-cancelar" id="btn-cancelar">Cancelar</button>
+        </div>
+    </div>
+</div>
+
+<div id="no-resultados" class="no-resultados" style="display: none;">
+    Ningunha coincidencia coa busca
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'gestion/js/filtro.js' %}"></script>
+<script src="{% static 'gestion/js/seguimentos_materias.js' %}"></script>
+{% endblock %}

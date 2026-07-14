@@ -327,7 +327,12 @@ class SeguementoMaterias(ModeloBase):
     meta = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, verbose_name="Meta (%)")
     taxa = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, verbose_name="Taxa (%)")
     resultado = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, verbose_name="Resultado (%)")
-
+    data_limite = models.DateField(
+        verbose_name="Data límite para a introducción dos datos",
+        help_text="Calculada automaticamente: 31 de decembro, ano e medio despóis da finalización do curso",
+        blank=True,
+        null=True
+    )
     class Meta:
         verbose_name = "Seguemento de Materia"
         verbose_name_plural = "Seguementos de Materias"
@@ -347,6 +352,9 @@ class SeguementoMaterias(ModeloBase):
         return ('non_conseguida', f'Non conseguida ({self.taxa}%)')
 
     def save(self, *args, **kwargs):
+        if not self.data_limite:
+            ano_finalizacion = int(self.orixe_datos.split('/')[1])
+            self.data_limite = date(2000 + ano_finalizacion + 1, 12, 31)
         if self.meta is None or self.meta == 0:
             self.resultado = 0
         else:

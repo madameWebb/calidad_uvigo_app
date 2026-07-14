@@ -1,0 +1,46 @@
+{% extends "gestion/base.html" %}
+
+{% block contido %}
+<p><a href="{% url 'seguimentos_materias' %}">← Volver ás materias</a></p>
+
+<h2>{{ materia.materia }} ({{ orixe_datos }})</h2>
+<p><strong>Código:</strong> {{ materia.codigo }} | <strong>Título:</strong> {{ materia.titulo.denominacion }}</p>
+
+{% if seguimentos %}
+<table style="width: 100%; border-collapse: collapse;">
+    <thead>
+        <tr style="background: var(--color-primary); color: white;">
+            <th style="padding: 12px;">Indicador</th>
+            <th style="padding: 12px;">Meta (%)</th>
+            <th style="padding: 12px;">Taxa (%)</th>
+            <th style="padding: 12px;">Resultado (%)</th>
+            <th style="padding: 12px;">Valoración</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for seg in seguimentos %}
+        <tr style="text-align: center;">
+            <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ seg.indicador.denominacion }}</td>
+            <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">
+                {% if seg.meta %}{{ seg.meta }}%{% else %}Sen meta{% endif %}
+            </td>
+            <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ seg.taxa }}%</td>
+            <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">{{ seg.resultado }}%</td>
+            <td style="padding: 12px; border-bottom: 1px solid var(--color-border);">
+                {% with val=seg.valoracion %}
+                    {% if val.0 == 'conseguida' %}<span style="color: green;">✓ {{ val.1 }}</span>
+                    {% elif val.0 == 'parcial' %}<span style="color: orange;">~ {{ val.1 }}</span>
+                    {% elif val.0 == 'non_conseguida' %}<span style="color: red;">✗ {{ val.1 }}</span>
+                    {% else %}Sen meta{% endif %}
+                {% endwith %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div style="padding: 40px; text-align: center; background: white; border-radius: 6px; border: 1px dashed var(--color-border);">
+    Non hai seguimentos para esta materia e curso
+</div>
+{% endif %}
+{% endblock %}

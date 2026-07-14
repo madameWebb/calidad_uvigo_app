@@ -4,7 +4,7 @@ from django.shortcuts import render, get_object_or_404
 
 # Modelos que se muestran en el área pública, y el nombre legible que verá el usuario
 MODELOS_PUBLICOS = {
-    'SeguementoMaterias': "Seguementos por materia", 
+    
 }
 
 
@@ -183,3 +183,23 @@ def todas_materias(request):
     from gestion.models import MateriasAvaliadas
     materias = MateriasAvaliadas.objects.select_related('titulo').all().order_by('materia')
     return render(request, 'gestion/todas_materias.html', {'materias': materias})
+
+def seguimentos_materias_publicos(request):
+    from gestion.models import MateriasAvaliadas, Centros
+    materias = MateriasAvaliadas.objects.select_related('titulo', 'titulo__centro', 'titulo__centro__codigo_localizador').all().order_by('titulo__centro__codigo', 'titulo__denominacion', 'materia')
+    centros = Centros.objects.all().order_by('denominacion')
+    return render(request, 'gestion/seguimentos_materias.html', {
+        'materias': materias,
+        'centros': centros,
+    })
+
+def seguimentos_materia_detalle(request, materia_id, orixe_datos):
+    from gestion.models import MateriasAvaliadas, SeguementoMaterias
+    orixe_datos = orixe_datos.replace('-', '/')
+    materia = get_object_or_404(MateriasAvaliadas, id=materia_id)
+    seguimentos = SeguementoMaterias.objects.filter(materia=materia, orixe_datos=orixe_datos).select_related('indicador')
+    return render(request, 'gestion/seguimentos_materia_detalle.html', {
+        'materia': materia,
+        'orixe_datos': orixe_datos,
+        'seguimentos': seguimentos,
+    })
